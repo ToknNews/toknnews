@@ -1,0 +1,132 @@
+############################################################
+# OS / EDITOR ARTIFACTS
+############################################################
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.lock
+*.bak
+*.old
+
+############################################################
+# PYTHON
+############################################################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+logs/
+.venv/
+venv/
+env/
+backend/.venv/
+audio/scripts/.venv/
+unreal/python/.venv/
+
+############################################################
+# ENVIRONMENT / SECRETS
+############################################################
+.env
+.env.*
+*.key
+*.pem
+*.token
+*.secret
+*_creds.json
+config/*secret*.json
+
+############################################################
+# NODE / PM2
+############################################################
+.pm2/
+pm2.log
+pm2.pid
+backend/pm2/logs/
+
+############################################################
+# UNREAL ENGINE 5
+############################################################
+# Intermediate + Saved
+unreal/project/Intermediate/
+unreal/project/Saved/
+unreal/project/DerivedDataCache/
+
+# User files
+*.sln
+*.opensdf
+*.sdf
+*.suo
+
+# Binary assets tracked by Git LFS (if enabled)
+unreal/project/Content/**/*.uasset
+unreal/project/Content/**/*.umap
+
+# Let ToknStudio content folder remain tracked
+!unreal/project/Content/ToknStudio/**
+
+############################################################
+# BLENDER
+############################################################
+*.blend1
+*.blend2
+*.blend@
+*.blend~
+
+blender/exports/
+blender/cache/
+blender/temp/
+blender/tmp/
+
+############################################################
+# AUDIO (Generated Output)
+############################################################
+audio/dialogue/*.mp3
+audio/dialogue/archive/
+audio/final/*.wav
+audio/tmp/
+audio/cache/
+
+# But keep intentional library assets
+!audio/music/**
+!audio/sfx/**
+!audio/ambience/**
+!audio/ads/**
+
+############################################################
+# SANDBOX (DEVMODULES)
+############################################################
+backend/sandbox/devdata/audio/*.mp3
+backend/sandbox/devdata/raw/*.json
+backend/sandbox/devdata/*.json
+backend/sandbox/devdata/memories.db
+
+############################################################
+# TOKNNEWS DATA / RUNTIME OUTPUT
+############################################################
+backend/data/raw/*.json
+backend/data/feeds/*.json
+backend/data/daily_counts.json
+backend/data/daily_tally.json
+backend/data/latest_scene.json
+backend/data/latest_narrative.json
+backend/data/scenes_snapshot.json
+backend/data/heartbeat.json
+backend/data/toknnews.db
+
+############################################################
+# RENDER OUTPUTS (Unreal / Mixer)
+############################################################
+pipeline/outputs/*.mp4
+pipeline/outputs/*.mov
+pipeline/outputs/*.png
+pipeline/outputs/*.jpg
+
+############################################################
+# MISC
+############################################################
+*.zip
+*.tar.gz
+*.tgz
