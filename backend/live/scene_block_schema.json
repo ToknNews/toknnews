@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "block_structure": {
+    "framing": {
+      "duration": 0.01,
+      "description": "Studio framing: medium-wide shot of Chip behind the ToknNews desk. Camera steady, broadcast lighting."
+    },
+    "dialogue": {
+      "duration": 14.9,
+      "description": "Main scene dialogue lines. 3–5 sentences with dynamic verbs, camera movement only at open."
+    },
+    "segue": {
+      "duration": 10.0,
+      "description": "Scene wrap-up with emotional handoff and gesture, leading into next topic."
+    }
+  }
+}
+
