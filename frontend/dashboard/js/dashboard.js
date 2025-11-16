@@ -5,7 +5,7 @@
 /* === Minimal Summary (stub for legacy calls) === */
 async function loadSummary() {
   try {
-    const res = await fetch("/data/heartbeat.json", { cache: "no-store" });
+    const res = await fetch("http://5.161.45.99:8800/health/", { cache: "no-store" });
     const hb = await res.json();
     const totalEl = document.getElementById("sum-total");
     if (totalEl && hb.total_compiles !== undefined) {
@@ -25,7 +25,7 @@ async function loadSystemSummary() {
     // === STATUS ===
     const statusEl = document.getElementById("status");
     const uptimeEl = document.getElementById("uptime");
-    if (hb.status && hb.status.toLowerCase().includes("success")) {
+    if (hb.status && hb.status.toLowerCase() === "ok") {
       statusEl.textContent = "Online";
       statusEl.style.color = "#75FBB5";
     } else {

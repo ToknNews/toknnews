@@ -280,20 +280,16 @@ def generate_narrative_prompt(scene_dict):
 # === CLI / AUTO ===
 if __name__ == "__main__":
     import argparse, sys
-
     p = argparse.ArgumentParser()
-    p.add_argument("--headline", required=False)
+    p.add_argument("--headline", required=True)
     p.add_argument("--file", help="Path to enriched JSON input file")
     p.add_argument("--source", default="manual")
     p.add_argument("--character", default="chip")
 
-    args = p.parse_args()
-
-    # --- FILE MODE (enriched JSON) ---
+    # If --file is provided, load JSON and compile it
     if args.file:
         with open(args.file, "r") as f:
             enriched = json.load(f)
-
         compile_scene(
             headline=enriched,
             source=enriched.get("source", "manual"),
@@ -301,37 +297,14 @@ if __name__ == "__main__":
         )
         sys.exit(0)
 
-    # --- AUTO MODE (RSS / scheduled cycle) ---
-    if not args.headline and not args.file:
-        print("[Auto-Mode] No CLI args detected — compiling RSS headlines instead.")
-        rss = load_rss_headlines()
-        if not rss:
-            # heartbeat placeholder if nothing to compile
-            hb = {
-                "time": datetime.utcnow().isoformat(),
-                "source": "ToknNews",
-                "character": "Chip",
-                "topic": "[SYSTEM] Scheduled Ingestion Cycle",
-                "script": "System heartbeat placeholder — no new headlines to compile.",
-                "status": "system",
-                "hash": hashlib.md5(b"[SYSTEM] Scheduled Ingestion Cycle").hexdigest()
-            }
-            json.dump(hb, open("/var/www/toknnews/data/latest_scene.json","w"), indent=2)
-            json.dump({"generated_at": hb["time"], "topic": hb["topic"], "narrative": hb["script"]},
-                      open("/var/www/toknnews/data/latest_narrative.json","w"), indent=2)
-            print("[System] 🩺 Wrote placeholder heartbeat scene.")
-            sys.exit(0)
-
         for s in rss:
             try:
-                compile_scene(
-                    headline=s,
-                    source=s.get("source", "RSS"),
-                    character=s.get("character", "Chip")
-                )
+                compile_scene(headline=s,
+                              source=s.get("source","RSS"),
+                              character=s.get("character","Chip"))
             except Exception as e:
                 print(f"[Auto-Mode] Error compiling {s.get('topic','?')}: {e}")
         sys.exit(0)
 
-    # --- MANUAL HEADLINE MODE ---
+    args = p.parse_args()
     compile_scene(args.headline, args.source, args.character)

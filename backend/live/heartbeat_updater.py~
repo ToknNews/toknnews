@@ -6,7 +6,7 @@ Keeps a live record of compiler health and recent status.
 
 import os, json, time
 
-DATA_DIR = "/var/www/toknnews-live/data"
+DATA_DIR = "/var/www/toknnews/data"
 HEARTBEAT_PATH = os.path.join(DATA_DIR, "heartbeat.json")
 
 def update_heartbeat(headline: str, sentiment: str, runtime: float, status: str = "success", error: str = None):

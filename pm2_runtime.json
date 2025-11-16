@@ -1,0 +1,48 @@
+{
+  "apps": [
+    {
+      "name": "toknnews-cycle",
+      "script": "/var/www/toknnews-live/backend/live/run_cycle.py",
+      "interpreter": "/usr/bin/python3",
+      "autorestart": true,
+      "watch": false,
+      "env": {
+        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "ENV": "production"
+      }
+    },
+    {
+      "name": "toknnews-heartbeat",
+      "script": "/var/www/toknnews-live/backend/live/heartbeat_updater.py",
+      "interpreter": "/usr/bin/python3",
+      "autorestart": true,
+      "watch": false,
+      "env": {
+        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "ENV": "production"
+      }
+    },
+    {
+      "name": "toknnews-ingest",
+      "script": "/var/www/toknnews-live/backend/live/hybrid_ingestor.py",
+      "interpreter": "/usr/bin/python3",
+      "autorestart": true,
+      "watch": false,
+      "env": {
+        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "ENV": "production"
+      }
+    },
+    {
+      "name": "toknnews-rss",
+      "script": "/var/www/toknnews-live/backend/live/rss_ingestor.py",
+      "interpreter": "/usr/bin/python3",
+      "autorestart": true,
+      "watch": false,
+      "env": {
+        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "ENV": "production"
+      }
+    }
+  ]
+}
