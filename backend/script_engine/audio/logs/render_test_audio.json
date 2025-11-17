@@ -1,0 +1,20 @@
+[
+  {
+    "index": 1,
+    "speaker": "Chip Blue",
+    "text": "Good evening, let's get into our top story.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Chip_Blue_20251116_075245_9e6934d5.wav"
+  },
+  {
+    "index": 2,
+    "speaker": "Vega Watt",
+    "text": "Setting the vibe, Chip.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Vega_Watt_20251116_075246_7ac9f77f.wav"
+  },
+  {
+    "index": 3,
+    "speaker": "Neura Grey",
+    "text": "AI markets are showing acceleration today.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Neura_Grey_20251116_075247_b21eac1e.wav"
+  }
+]

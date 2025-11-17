@@ -1,0 +1,57 @@
+{
+  "generated_at": "20251116_092019",
+  "segment_count": 10,
+  "segments": [
+    {
+      "block_json": "block_20251116_080133_629424.json",
+      "segment_mix": null,
+      "type": "chip_reset"
+    },
+    {
+      "block_json": "block_20251116_083638_570510.json",
+      "segment_mix": null,
+      "type": "chip_reset"
+    },
+    {
+      "block_json": "block_20251116_085524_707704.json",
+      "segment_mix": null,
+      "type": "chip_reset"
+    },
+    {
+      "block_json": "block_20251116_090821_708353.json",
+      "segment_mix": null,
+      "type": "chip_reset"
+    },
+    {
+      "block_json": "block_20251116_090859_468458.json",
+      "segment_mix": "mix_20251116_090859.wav",
+      "type": "intro_booth"
+    },
+    {
+      "block_json": "block_20251116_090937_420651.json",
+      "segment_mix": "mix_20251116_090937.wav",
+      "type": "intro_booth"
+    },
+    {
+      "block_json": "block_20251116_091330_611556.json",
+      "segment_mix": null,
+      "type": "chip_reset"
+    },
+    {
+      "block_json": "block_20251116_091409_188911.json",
+      "segment_mix": "mix_20251116_091409.wav",
+      "type": "intro_booth"
+    },
+    {
+      "block_json": "block_20251116_091446_436731.json",
+      "segment_mix": "mix_20251116_091446.wav",
+      "type": "intro_booth"
+    },
+    {
+      "block_json": "block_20251116_091523_570442.json",
+      "segment_mix": "mix_20251116_091523.wav",
+      "type": "intro_booth"
+    }
+  ],
+  "episode_master_mix": "episode_master_mix_20251116_092019.wav"
+}

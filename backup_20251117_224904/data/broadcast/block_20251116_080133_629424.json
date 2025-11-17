@@ -1,0 +1,92 @@
+{
+  "script_sequence": [
+    {
+      "type": "chip_reset",
+      "lines": [
+        "Let\u2019s reset the board a bit. Long night ahead.",
+        "Late reset \u2014 keeping it rolling.",
+        "Late reset \u2014 keeping it rolling.",
+        "Here\u2019s what we\u2019re tracking:\n- Liquidity crunch prompts emergency halt"
+      ]
+    },
+    {
+      "type": "reset_montage",
+      "lines": [
+        "\ud83c\udfac Quick montage: charts stabilizing\u2026 markets shifting\u2026 AI signals flashing.",
+        "A moment to breathe as the board realigns."
+      ]
+    },
+    {
+      "speaker": "Vega Watt",
+      "role": "vibe_booth",
+      "type": "reset_vibe",
+      "line": "Late reset \u2014 keeping it rolling."
+    },
+    {
+      "speaker": "Chip Blue",
+      "role": "lead_anchor",
+      "type": "reset_riff_chip",
+      "line": "Vega, that reset took the wind out of my sails \u2014 how\u2019s the vibe on your end?"
+    },
+    {
+      "speaker": "Vega Watt",
+      "role": "vibe_booth",
+      "type": "reset_riff_vega",
+      "line": "Vibe\u2019s solid, Chip. Been a wild week though \u2014 you get into anything good over the weekend?"
+    },
+    {
+      "speaker": "Chip Blue",
+      "role": "lead_anchor",
+      "type": "reset_riff_chip_reply",
+      "line": "Mostly charts and too much coffee. You know how it goes."
+    },
+    {
+      "speaker": "Chip Blue",
+      "role": "lead_anchor",
+      "type": "soft_reentry",
+      "line": "Let\u2019s pick this up from here."
+    },
+    {
+      "speaker": "Chip Blue",
+      "role": "lead_anchor",
+      "type": "chip_toss",
+      "line": "Lawson, help us understand the angle. \"Liquidity crunch prompts emergency halt\".  This is what happens when you stay up watching charts."
+    },
+    {
+      "speaker": "Lawson Black",
+      "role": "primary_anchor",
+      "type": "analysis_primary",
+      "line": "Legally speaking,"
+    },
+    {
+      "speaker": "Reef Gold",
+      "role": "secondary_anchor",
+      "type": "analysis_secondary",
+      "line": ""
+    },
+    {
+      "speaker": "Chip Blue",
+      "role": "lead_anchor",
+      "type": "segment_recap",
+      "line": "Let\u2019s break this down. That said, This feels professionally skeptical."
+    },
+    {
+      "speaker": "Vega Watt",
+      "role": "vibe_booth",
+      "type": "segment_vega_react",
+      "line": "Alright, let's set the vibe. Back to you, Chip."
+    },
+    {
+      "speaker": "Chip Blue",
+      "role": "lead_anchor",
+      "type": "final_outro",
+      "line": "Let\u2019s break this down. Whoa, that one\u2019s above my pay grade, Chip \u2014 but the vibe in here is wild. That said, This feels professionally skeptical."
+    },
+    {
+      "speaker": "Vega Watt",
+      "role": "vibe_booth",
+      "type": "final_outro_booth",
+      "line": "Alright, let's set the vibe. Back to you, Chip."
+    }
+  ]
+}

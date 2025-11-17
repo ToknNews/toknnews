@@ -1,0 +1,214 @@
+{"timestamp": "2025-11-14T00:39:52Z", "event_type": "init", "message": "Programming Director scaffolding created.", "tone": "day", "data": {"mode": "longform"}}
+{"timestamp": "2025-11-14T00:43:45Z", "event_type": "pd_evaluate", "message": "Minimal PD decision: routing to news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T00:47:09Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T00:47:35Z", "event_type": "segment_selected", "message": "Director routed to: banter", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T00:51:30Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed by timing + daypart.", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T00:51:42Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed by timing + daypart.", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T00:51:42Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T00:51:51Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed by timing + daypart.", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:03:59Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:04:09Z", "event_type": "breaking_interrupt", "message": "Breaking news detected \u2014 overriding segment flow", "tone": "breaking", "data": {"headline": "BREAKING TEST EVENT"}}
+{"timestamp": "2025-11-14T01:04:17Z", "event_type": "breaking_interrupt", "message": "Breaking news detected \u2014 overriding segment flow", "tone": "breaking", "data": {"headline": "Urgent"}}
+{"timestamp": "2025-11-14T01:11:23Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:15:43Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:25:02Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:39:02Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-14T01:39:02Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.6", "tone": "late_night", "data": {"probability": 0.6}}
+{"timestamp": "2025-11-14T01:39:02Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:39:14Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-14T01:39:14Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.6", "tone": "late_night", "data": {"probability": 0.6}}
+{"timestamp": "2025-11-14T01:39:14Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:39:38Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-14T01:39:38Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.6", "tone": "late_night", "data": {"probability": 0.6}}
+{"timestamp": "2025-11-14T01:39:38Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:40:02Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-14T01:40:02Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.6", "tone": "late_night", "data": {"probability": 0.6}}
+{"timestamp": "2025-11-14T01:40:02Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T01:40:25Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-14T01:40:25Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.6", "tone": "late_night", "data": {"probability": 0.6}}
+{"timestamp": "2025-11-14T01:40:25Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-14T02:17:41Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:17:41Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:17:41Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\"", "tone": "overnight", "data": {"line": "Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\""}}
+{"timestamp": "2025-11-14T02:17:41Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:17:41Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:17:41Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\"", "tone": "overnight", "data": {"line": "Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\""}}
+{"timestamp": "2025-11-14T02:19:44Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:19:44Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:19:44Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\"", "tone": "overnight", "data": {"line": "Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\""}}
+{"timestamp": "2025-11-14T02:19:44Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:19:44Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:19:44Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\"", "tone": "overnight", "data": {"line": "Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\""}}
+{"timestamp": "2025-11-14T02:26:42Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:26:42Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:26:42Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\"", "tone": "overnight", "data": {"line": "Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\""}}
+{"timestamp": "2025-11-14T02:26:42Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:26:42Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:26:42Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\"", "tone": "overnight", "data": {"line": "Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\""}}
+{"timestamp": "2025-11-14T02:28:38Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:28:38Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:28:38Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\"", "tone": "overnight", "data": {"line": "Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\""}}
+{"timestamp": "2025-11-14T02:28:38Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:28:38Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:28:38Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\"", "tone": "overnight", "data": {"line": "Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\""}}
+{"timestamp": "2025-11-14T02:44:19Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:44:19Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:44:19Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\"", "tone": "overnight", "data": {"line": "Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\""}}
+{"timestamp": "2025-11-14T02:44:19Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T02:44:19Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T02:44:19Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\"", "tone": "overnight", "data": {"line": "Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\""}}
+{"timestamp": "2025-11-14T03:22:15Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T03:22:15Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T03:22:15Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\"", "tone": "overnight", "data": {"line": "Vega: \"You didn\u2019t hear this from me, but somebody rewired the studio lights again.\""}}
+{"timestamp": "2025-11-14T03:40:00Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T03:40:00Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T03:40:00Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Bitsy: \"Test meta moment from Bitsy.\"", "tone": "overnight", "data": {"line": "Bitsy: \"Test meta moment from Bitsy.\""}}
+{"timestamp": "2025-11-14T03:45:09Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-14T03:45:09Z", "event_type": "hijinx_probability", "message": "Hijinx probability=1.0", "tone": "overnight", "data": {"probability": 1.0}}
+{"timestamp": "2025-11-14T03:45:09Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Bitsy: \"Test meta moment from Bitsy.\"", "tone": "overnight", "data": {"line": "Bitsy: \"Test meta moment from Bitsy.\""}}
+{"timestamp": "2025-11-15T20:12:10Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T20:12:10Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.3", "tone": "evening", "data": {"probability": 0.3}}
+{"timestamp": "2025-11-15T20:12:10Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "evening", "data": {"daypart": "evening", "energy": "medium_high"}}
+{"timestamp": "2025-11-15T20:16:04Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T20:16:04Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.3", "tone": "evening", "data": {"probability": 0.3}}
+{"timestamp": "2025-11-15T20:16:04Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "evening", "data": {"daypart": "evening", "energy": "medium_high"}}
+{"timestamp": "2025-11-15T20:37:57Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T20:37:57Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.3", "tone": "evening", "data": {"probability": 0.3}}
+{"timestamp": "2025-11-15T20:37:57Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Bitsy: \"Technically, that\u2019s true \u2014 but let\u2019s not pretend it\u2019s the whole story.\"", "tone": "evening", "data": {"line": "Bitsy: \"Technically, that\u2019s true \u2014 but let\u2019s not pretend it\u2019s the whole story.\""}}
+{"timestamp": "2025-11-15T20:42:08Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T20:42:08Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.3", "tone": "evening", "data": {"probability": 0.3}}
+{"timestamp": "2025-11-15T20:42:08Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "evening", "data": {"daypart": "evening", "energy": "medium_high"}}
+{"timestamp": "2025-11-15T21:17:23Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T21:17:23Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.3", "tone": "evening", "data": {"probability": 0.3}}
+{"timestamp": "2025-11-15T21:17:23Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "evening", "data": {"daypart": "evening", "energy": "medium_high"}}
+{"timestamp": "2025-11-15T21:35:03Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T21:35:03Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.3", "tone": "evening", "data": {"probability": 0.3}}
+{"timestamp": "2025-11-15T21:35:03Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\"", "tone": "evening", "data": {"line": "Vega (off-mic): \"Hey Chip, the vibe is immaculate tonight.\""}}
+{"timestamp": "2025-11-15T21:51:02Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T21:51:02Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "evening", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-15T21:51:02Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "evening", "data": {"daypart": "evening", "energy": "medium_high"}}
+{"timestamp": "2025-11-15T21:54:14Z", "event_type": "behavior_modifiers", "message": "Hijinx=moderate, fatigue={}", "tone": "evening", "data": {"fatigue": {}, "hijinx": "moderate"}}
+{"timestamp": "2025-11-15T21:54:14Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "evening", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-15T21:54:14Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "evening", "data": {"daypart": "evening", "energy": "medium_high"}}
+{"timestamp": "2025-11-15T22:27:23Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-15T22:27:23Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "late_night", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-15T22:27:23Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-15T22:47:06Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-15T22:47:06Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.6", "tone": "late_night", "data": {"probability": 0.6}}
+{"timestamp": "2025-11-15T22:47:06Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-15T22:59:46Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-15T22:59:46Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "late_night", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-15T22:59:46Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-15T23:07:35Z", "event_type": "behavior_modifiers", "message": "Hijinx=strong, fatigue={}", "tone": "late_night", "data": {"fatigue": {}, "hijinx": "strong"}}
+{"timestamp": "2025-11-15T23:07:35Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "late_night", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-15T23:07:35Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "late_night", "data": {"daypart": "late_night", "energy": "high"}}
+{"timestamp": "2025-11-16T02:31:16Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 2, "stories": 1, "segment_history": ["news", "news", "panel", "news"]}}
+{"timestamp": "2025-11-16T03:06:24Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:06:24Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:06:24Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T03:06:34Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:06:34Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:06:34Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Bitsy: \"Just so the viewers know, this part gets complicated.\"", "tone": "overnight", "data": {"line": "Bitsy: \"Just so the viewers know, this part gets complicated.\""}}
+{"timestamp": "2025-11-16T03:11:49Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 2, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T03:22:43Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 2, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T03:23:30Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 2, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T03:26:04Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 2, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T03:26:30Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:26:30Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:26:30Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T03:27:12Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:27:12Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:27:12Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T03:32:44Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 2, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T03:34:51Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:34:51Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:34:51Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Bitsy: \"Just so the viewers know, this part gets complicated.\"", "tone": "overnight", "data": {"line": "Bitsy: \"Just so the viewers know, this part gets complicated.\""}}
+{"timestamp": "2025-11-16T03:35:32Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:35:32Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:35:32Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T03:42:42Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:42:42Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:42:42Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T03:43:24Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 2, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T03:51:33Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:51:33Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:51:33Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T03:53:24Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T03:53:24Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T03:53:24Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T04:00:14Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T04:00:14Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T04:00:14Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T04:15:31Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T04:15:31Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T04:15:31Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T04:40:27Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel", "news"]}}
+{"timestamp": "2025-11-16T05:08:25Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T05:11:21Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T05:29:53Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel", "panel"]}}
+{"timestamp": "2025-11-16T05:29:53Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T05:29:53Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T05:29:53Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T05:29:53Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T05:29:53Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T05:29:53Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T05:35:47Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel", "panel"]}}
+{"timestamp": "2025-11-16T05:35:47Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T05:35:47Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T05:35:47Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T05:35:47Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "overnight", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T05:35:47Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.2", "tone": "overnight", "data": {"probability": 0.2}}
+{"timestamp": "2025-11-16T05:35:47Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "overnight", "data": {"daypart": "overnight", "energy": "low"}}
+{"timestamp": "2025-11-16T05:55:13Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "overnight", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel", "news"]}}
+{"timestamp": "2025-11-16T06:00:28Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:00:28Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "morning", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-16T06:00:28Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T06:00:28Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:00:28Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "morning", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-16T06:00:28Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T06:11:02Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "morning", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T06:11:12Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:11:12Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T06:11:12Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T06:11:23Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:11:23Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T06:11:23Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Bitsy: \"Technically, that\u2019s true \u2014 but let\u2019s not pretend it\u2019s the whole story.\"", "tone": "morning", "data": {"line": "Bitsy: \"Technically, that\u2019s true \u2014 but let\u2019s not pretend it\u2019s the whole story.\""}}
+{"timestamp": "2025-11-16T06:11:33Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:11:33Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T06:11:33Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "morning", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel", "news"]}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "morning", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "morning", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.0", "tone": "morning", "data": {"probability": 0.0}}
+{"timestamp": "2025-11-16T06:14:54Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T08:01:33Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "morning", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T08:36:38Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "morning", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T08:55:24Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "morning", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T08:55:34Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T08:55:34Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T08:55:34Z", "event_type": "hijinx_triggered", "message": "Hijinx executed: Bitsy: \"Technically, that\u2019s true \u2014 but let\u2019s not pretend it\u2019s the whole story.\"", "tone": "morning", "data": {"line": "Bitsy: \"Technically, that\u2019s true \u2014 but let\u2019s not pretend it\u2019s the whole story.\""}}
+{"timestamp": "2025-11-16T09:08:21Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "morning", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T09:08:31Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T09:08:31Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T09:08:31Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T09:09:09Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T09:09:09Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T09:09:09Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T09:13:30Z", "event_type": "chip_reset_triggered", "message": "Chip Reset triggered by PD (timing + escalation + queue).", "tone": "morning", "data": {"escalation": 3, "stories": 1, "segment_history": ["news", "news", "panel"]}}
+{"timestamp": "2025-11-16T09:13:40Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T09:13:40Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T09:13:40Z", "event_type": "ad_opportunity", "message": "Promo/Ad break allowed (timing + daypart)", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T09:14:19Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T09:14:19Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T09:14:19Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T09:14:56Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T09:14:56Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T09:14:56Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}
+{"timestamp": "2025-11-16T09:15:33Z", "event_type": "behavior_modifiers", "message": "Hijinx=subtle, fatigue={}", "tone": "morning", "data": {"fatigue": {}, "hijinx": "subtle"}}
+{"timestamp": "2025-11-16T09:15:33Z", "event_type": "hijinx_probability", "message": "Hijinx probability=0.1", "tone": "morning", "data": {"probability": 0.1}}
+{"timestamp": "2025-11-16T09:15:33Z", "event_type": "segment_selected", "message": "Director routed to: news", "tone": "morning", "data": {"daypart": "morning", "energy": "medium"}}

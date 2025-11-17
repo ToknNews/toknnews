@@ -1,0 +1,68 @@
+[
+  {
+    "index": 1,
+    "speaker": "Vega Watt",
+    "text": "Alright, let's set the vibe. Back to you, Chip.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Vega_Watt_20251116_090831_01be5dc7.wav"
+  },
+  {
+    "index": 2,
+    "speaker": "Chip Blue",
+    "text": "Good early morning. Big development.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Chip_Blue_20251116_090832_68a43063.wav"
+  },
+  {
+    "index": 3,
+    "speaker": "Chip Blue",
+    "text": "We begin with breaking news.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Chip_Blue_20251116_090833_c7a4e722.wav"
+  },
+  {
+    "index": 4,
+    "speaker": "Chip Blue",
+    "text": "Here are the top developments we're following: Liquidity crunch prompts emergency halt.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Chip_Blue_20251116_090834_8d9fd6de.wav"
+  },
+  {
+    "index": 5,
+    "speaker": "Chip Blue",
+    "text": "Lawson, walk us through the policy side. \"Liquidity crunch prompts emergency halt\".  Should\u2019ve gone to bed, but here we are.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Chip_Blue_20251116_090835_ed6b7d29.wav"
+  },
+  {
+    "index": 6,
+    "speaker": "Lawson Black",
+    "text": "Legally speaking, Whoa, that one\u2019s above my pay grade, Chip \u2014 but the vibe in here is wild.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Lawson_Black_20251116_090837_13e8576c.wav"
+  },
+  {
+    "index": 7,
+    "speaker": "Reef Gold",
+    "text": "Whoa, that one\u2019s above my pay grade, Chip \u2014 but the vibe in here is wild.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Reef_Gold_20251116_090838_ef85a7a8.wav"
+  },
+  {
+    "index": 8,
+    "speaker": "Chip Blue",
+    "text": "Let\u2019s break this down. Whoa, that one\u2019s above my pay grade, Chip \u2014 but the vibe in here is wild. That said, This feels professionally skeptical.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Chip_Blue_20251116_090839_2044cd11.wav"
+  },
+  {
+    "index": 9,
+    "speaker": "Vega Watt",
+    "text": "Alright, let's set the vibe. Back to you, Chip.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Vega_Watt_20251116_090841_debc6073.wav"
+  },
+  {
+    "index": 10,
+    "speaker": "Chip Blue",
+    "text": "Let\u2019s break this down. Whoa, that one\u2019s above my pay grade, Chip \u2014 but the vibe in here is wild. That said, This feels professionally skeptical.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Chip_Blue_20251116_090842_2e16109f.wav"
+  },
+  {
+    "index": 11,
+    "speaker": "Vega Watt",
+    "text": "Alright, let's set the vibe. Back to you, Chip.",
+    "audio_file": "/var/www/toknnews-repo/backend/script_engine/audio/raw/Vega_Watt_20251116_090844_d3644073.wav"
+  }
+]
