@@ -2,30 +2,35 @@
 import sys, os
 sys.path.append("/var/www/toknnews-repo")
 
-"""
-TOKNNews — Script Engine V3 (Final PD-Integrated Build)
-"""
+# ------------------------------------------------------------
+# Dual-Mode Imports (Package vs Local)
+# ------------------------------------------------------------
+try:
+    from script_engine.character_brain.persona_loader import get_character_bible
+    from script_engine.persona.timeline_builder import build_timeline
+    from script_engine.synthesis_engine import build_synthesis
+    from script_engine.director.pd_controller import run_pd, select_anchors
+    from script_engine.engine_settings import USE_OPENAI_WRITER
+except ImportError:
+    from character_brain.persona_loader import get_character_bible
+    from persona.timeline_builder import build_timeline
+    from synthesis_engine import build_synthesis
+    from director.pd_controller import run_pd, select_anchors
+    from engine_settings import USE_OPENAI_WRITER
 
 import json
 import time
-
-# === Persona + Tone + Timeline Engines ===
-from script_engine.persona.timeline_builder import build_timeline
-from script_engine.synthesis_engine import build_synthesis
-
-# === PD Orchestrator ===
-from script_engine.director.pd_controller import run_pd
 
 # =====================================================================
 #  MASTER ENTRYPOINT
 # =====================================================================
 
-def generate_script(
-        headline: str,
-        article_context: str = "",
-        cluster_articles: list = None,
-        character: str = "chip"
-    ):
+def generate_script(headline, article_context="", cluster_articles=None):
+    # Local import to ensure correct runtime path
+    try:
+        from script_engine.audio.audio_block_renderer import render_audio_blocks
+    except ImportError:
+        from audio.audio_block_renderer import render_audio_blocks
     """
     Master entrypoint for Script Engine V3 + PD Integration.
 
@@ -53,10 +58,17 @@ def generate_script(
     # 2. PD routing — determines segment type and rules
     # -----------------------------------------------------
 
-    pd_config = run_pd(headline)
+    bible = get_character_bible()
+    pd_config = run_pd(headline, bible)
 
     segment_type = pd_config["segment_type"]
-    anchors = pd_config["anchors"]
+
+    anchors = select_anchors(
+        state=pd_config,
+        headline=headline,
+        personas=bible
+    )
+    primary_domain = pd_config.get("primary_domain")
     allow_bitsy = pd_config["allow_bitsy"]
     allow_vega = pd_config["allow_vega"]
     show_intro = pd_config["show_intro"]
@@ -66,7 +78,6 @@ def generate_script(
     # 3. Build timeline using persona + tone engine
     # -----------------------------------------------------
     package = build_timeline(
-        character=character,
         headline=headline,
         synthesis=synthesis,
         article_context=article_context,
@@ -79,7 +90,6 @@ def generate_script(
     )
 
     # === AUDIO (via tokn-audio service) ===
-    from script_engine.audio.audio_block_renderer import render_audio_blocks
 
     scene_id = package["unreal"].get("scene_id") or f"scene_{int(time.time())}"
 
@@ -88,7 +98,6 @@ def generate_script(
     return {
         "timestamp": time.time(),
         "headline": headline,
-        "character": character,
         "synthesis": synthesis,
         "timeline": package["timeline"],
         "audio_blocks": package["audio_blocks"],

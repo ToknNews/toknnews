@@ -7,19 +7,32 @@ Module C-8
 import random
 import time
 
-# Absolute imports for stability
-from script_engine.persona.line_builder import apply_tone_shift
-from script_engine.persona.line_builder import (
-    build_analysis_line,
-    build_transition_line,
-    build_vega_line,
-    build_bitsy_interrupt,
-    build_reaction_line
-)
-from backend.script_engine.character_brain.persona_loader import (
-    get_voice
-)
+# ------------------------------------------------------------
+# Dual-Mode Imports (Package vs Local)
+# ------------------------------------------------------------
+try:
+    from script_engine.persona.line_builder import (
+        apply_tone_shift,
+        build_analysis_line,
+        build_transition_line,
+        build_vega_line,
+        build_bitsy_interrupt,
+        build_reaction_line,
+        build_anchor_react
+    )
+    from script_engine.character_brain.persona_loader import get_voice
 
+except ImportError:
+    from persona.line_builder import (
+        apply_tone_shift,
+        build_analysis_line,
+        build_transition_line,
+        build_vega_line,
+        build_bitsy_interrupt,
+        build_reaction_line,
+        build_anchor_react
+    )
+    from character_brain.persona_loader import get_voice
 
 # ---------------------------------------------------------
 # Utility blocks
@@ -46,12 +59,81 @@ def _audio_block(text, character, block_type):
     }
 
 
-# ---------------------------------------------------------
-# MAIN — Build timeline based on PD instructions
-# ---------------------------------------------------------
+# ------------------------------------------------------------
+# DUO CROSSTALK ENGINE (Step 3-G)
+# ------------------------------------------------------------
+def _build_duo_crosstalk(primary, duo, headline, synthesis, tone_shift):
 
+    blocks = []
+
+    # 1. Primary reacts
+    p_react = build_reaction_line(primary, headline, tone_shift)
+    blocks.append({
+        "type": "duo_primary_react",
+        "speaker": primary,
+        "text": p_react,
+        "tone_shift": tone_shift
+    })
+
+    # 2. Duo counters / reacts
+    d_react = build_reaction_line(duo, headline, tone_shift)
+    blocks.append({
+        "type": "duo_secondary_react",
+        "speaker": duo,
+        "text": d_react,
+        "tone_shift": tone_shift
+    })
+
+    # 3. Primary analysis
+    p_analysis = build_analysis_line(primary, headline, synthesis, "", tone_shift)
+    blocks.append({
+        "type": "duo_primary_analysis",
+        "speaker": primary,
+        "text": p_analysis,
+        "tone_shift": tone_shift
+    })
+
+    # 4. Duo counter-analysis
+    d_analysis = build_analysis_line(duo, headline, synthesis, "", tone_shift)
+    blocks.append({
+        "type": "duo_secondary_analysis",
+        "speaker": duo,
+        "text": d_analysis,
+        "tone_shift": tone_shift
+    })
+
+    # 5. Transition ping-pong
+    p_trans = build_transition_line(primary, target_group="analysis", tone_shift=tone_shift)
+    d_trans = build_transition_line(duo, target_group="analysis", tone_shift=tone_shift)
+
+    blocks.append({
+        "type": "duo_primary_transition",
+        "speaker": primary,
+        "text": p_trans,
+        "tone_shift": tone_shift
+    })
+    blocks.append({
+        "type": "duo_secondary_transition",
+        "speaker": duo,
+        "text": d_trans,
+        "tone_shift": tone_shift
+    })
+
+    # 6. Quick react closure
+    p_close = build_anchor_react(primary, headline, tone_shift)
+    blocks.append({
+        "type": "duo_primary_close",
+        "speaker": primary,
+        "text": p_close,
+        "tone_shift": tone_shift
+    })
+
+    return blocks
+
+# ------------------------------------------------------------
+# MAIN — Build timeline based on PD instructions (Step 3-G)
+# ------------------------------------------------------------
 def build_timeline(
-    character: str,
     headline: str,
     synthesis: str = "",
     article_context: str = "",
@@ -66,162 +148,119 @@ def build_timeline(
     timeline = []
     audio_blocks = []
 
+    # --------------------------------------------------------
+    # STEP 3-G: Multi-anchor support (primary + duo)
+    # --------------------------------------------------------
     if anchors is None:
-        anchors = ["reef", "lawson", "bond"]
+        anchors = ["reef"]   # safe fallback
 
-    # ---------------------------------------------------------
-    # SHOW INTRO (Vega voiceover + studio splash)
-    # ---------------------------------------------------------
+    primary_anchor = anchors[0]
+    duo_anchor = anchors[1] if len(anchors) > 1 else None
+    speaker = primary_anchor   # used for all lines unless duo logic added later
+
+    # --------------------------------------------------------
+    # SHOW INTRO (Vega voiceover)
+    # --------------------------------------------------------
     if show_intro:
         intro_line = (
-            "You're watching ToknNews — where the signal matters more than the noise."
+            f"Vega sets the stage for today's update on {headline}."
         )
-        timeline.append(_block(intro_line, "vega", "show_intro"))
-        audio_blocks.append(_audio_block(intro_line, "vega", "show_intro"))
+        timeline.append({
+            "type": "intro",
+            "speaker": "vega",
+            "text": intro_line,
+            "tone_shift": None
+        })
 
-        # Chip hard cut-in after intro
-        chip_intro = "Good evening — let's get into the first story."
-        timeline.append(_block(chip_intro, "chip", "chip_open"))
-        audio_blocks.append(_audio_block(chip_intro, "chip", "chip_open"))
+    # --------------------------------------------------------
+    # REACTION LINE (primary anchor)
+    # --------------------------------------------------------
+    reaction_text = build_reaction_line(
+        speaker, headline, tone_shift=tone_shift
+    )
+    timeline.append({
+        "type": "reaction",
+        "speaker": speaker,
+        "text": reaction_text,
+        "tone_shift": tone_shift
+    })
 
-    else:
-        # Regular reaction-based Chip open
-        chip_open = build_reaction_line("chip", headline, tone_shift=tone_shift)
-        timeline.append(_block(chip_open, "chip", "chip_open"))
-        audio_blocks.append(_audio_block(chip_open, "chip", "chip_open"))
+    # --------------------------------------------------------
+    # ANALYSIS LINE (primary anchor)
+    # --------------------------------------------------------
+    analysis_text = build_analysis_line(
+        speaker,
+        headline,
+        synthesis,
+        article_context,
+        tone_shift=tone_shift
+    )
+    timeline.append({
+        "type": "analysis",
+        "speaker": speaker,
+        "text": analysis_text,
+        "tone_shift": tone_shift
+    })
 
-    # ---------------------------------------------------------
-    # CHIP ANALYSIS
-    # ---------------------------------------------------------
-    chip_analysis = build_analysis_line("chip", headline, synthesis, article_context, tone_shift=tone_shift)
-    timeline.append(_block(chip_analysis, "chip", "chip_analysis"))
-    audio_blocks.append(_audio_block(chip_analysis, "chip", "chip_analysis"))
+    # --------------------------------------------------------
+    # TRANSITION (optional)
+    # --------------------------------------------------------
+    transition_text = build_transition_line(
+        speaker,
+        target_group="anchor",
+        tone_shift=tone_shift
+    )
+    timeline.append({
+        "type": "transition",
+        "speaker": speaker,
+        "text": transition_text,
+        "tone_shift": tone_shift
+    })
 
-    # ---------------------------------------------------------
-    # ANCHOR CROSSTALK (PD-selected anchors)
-    # ---------------------------------------------------------
-    for anchor in anchors:
-        toss = build_transition_line("chip", "anchor", tone_shift=tone_shift)
-        timeline.append(_block(toss, "chip", "chip_toss"))
-        audio_blocks.append(_audio_block(toss, "chip", "chip_toss"))
+    # --------------------------------------------------------
+    # QUICK REACT (primary anchor)
+    # --------------------------------------------------------
+    react_text = build_anchor_react(
+        speaker, headline, tone_shift=tone_shift
+    )
+    timeline.append({
+        "type": "quick_react",
+        "speaker": speaker,
+        "text": react_text,
+        "tone_shift": tone_shift
+    })
 
-        # Persona-driven anchor reaction to Chip
-        react = build_reaction_line(anchor, headline, tone_shift=tone_shift)
-        timeline.append(_block(react, anchor, "anchor_react"))
-        audio_blocks.append(_audio_block(react, anchor, "anchor_react"))
+    # --------------------------------------------------------
+    # DUO LOGIC (Step 3-G placeholder)
+    # Optional: add duo_anchor cameo without breaking engine
+    # --------------------------------------------------------
 
-        a_line = build_analysis_line(anchor, headline, synthesis, None, tone_shift=tone_shift)
-        timeline.append(_block(a_line, anchor, "anchor_analysis"))
-        audio_blocks.append(_audio_block(a_line, anchor, "anchor_analysis"))
+    if duo_anchor:
+        duo_blocks = _build_duo_crosstalk(
+            primary_anchor,
+            duo_anchor,
+            headline,
+            synthesis,
+            tone_shift
+        )
+        timeline.extend(duo_blocks)
 
-        # ---------------------------------------------------------
-        # OPTIONAL: Anchor disagreement with previous anchor
-        # Only triggers if:
-        #   • more than one anchor
-        #   • this is NOT the first anchor
-        # ---------------------------------------------------------
-        if len(anchors) > 1 and anchor != anchors[0]:
-            dispute = f"Look, I’ve got to push back on {anchors[0].capitalize()} here — {synthesis or 'these numbers tell a different story.'}"
-            dispute = apply_tone_shift(dispute, tone_shift)
+    # --------------------------------------------------------
+    # Return timeline + empty audio blocks (populated later)
+    # --------------------------------------------------------
 
-            timeline.append(_block(dispute, anchor, "anchor_disagree"))
-            audio_blocks.append(_audio_block(dispute, anchor, "anchor_disagree"))
-
-    # ---------------------------------------------------------
-    # VEGA (PD-controlled)
-    # ---------------------------------------------------------
-    if allow_vega:
-        v_line = build_vega_line(headline, synthesis)
-        timeline.append(_block(v_line, "vega", "vega_block"))
-        audio_blocks.append(_audio_block(v_line, "vega", "vega_block"))
-
-    # ---------------------------------------------------------
-    # BITSY (PD-controlled)
-    # ---------------------------------------------------------
-    if allow_bitsy:
-        bits = build_bitsy_interrupt()
-        timeline.append(_block(bits, "bitsy", "bitsy_interrupt"))
-        audio_blocks.append(_audio_block(bits, "bitsy", "bitsy_interrupt"))
-
-    # ---------------------------------------------------------
-    # CHIP RE-ENTRY (always)
-    # ---------------------------------------------------------
-    chip_re = build_transition_line("chip", "reentry", tone_shift=tone_shift)
-    timeline.append(_block(chip_re, "chip", "chip_reentry"))
-    audio_blocks.append(_audio_block(chip_re, "chip", "chip_reentry"))
-
-    # ---------------------------------------------------------
-    # CHIP OUTRO
-    # ---------------------------------------------------------
-    outro = "That's the latest — we'll continue tracking developments."
-    timeline.append(_block(outro, "chip", "chip_outro"))
-    audio_blocks.append(_audio_block(outro, "chip", "chip_outro"))
-
-    # ---------------------------------------------------------
-    # UNREAL METADATA (Final C-6)
-    # ---------------------------------------------------------
-
-    # Ordered characters
-    character_list = []
-    for b in timeline:
-        if b["character"] not in character_list:
-            character_list.append(b["character"])
-
-    # Shot plan based on anchor count
-    if len(anchors) > 1:
-        camera_plan = "two_shot_chip_anchor"
-        shot_plan = [
-            {"shot": "chip_intro", "camera": "chip_close"},
-            {"shot": "primary_analysis", "camera": "chip_mid"},
-            {"shot": "anchor_1", "camera": "anchor_close"},
-            {"shot": "anchor_2", "camera": "anchor_close"},
-            {"shot": "vega", "camera": "chaos_cut"},
-            {"shot": "bitsy", "camera": "bitsy_pop"},
-            {"shot": "chip_reentry", "camera": "chip_mid"},
-            {"shot": "outro", "camera": "chip_close"}
-        ]
-    else:
-        camera_plan = "chip_single"
-        shot_plan = [
-            {"shot": "chip_intro", "camera": "chip_close"},
-            {"shot": "primary_analysis", "camera": "chip_mid"},
-            {"shot": "anchor_1", "camera": "anchor_close"},
-            {"shot": "vega", "camera": "chaos_cut"},
-            {"shot": "bitsy", "camera": "bitsy_pop"},
-            {"shot": "chip_reentry", "camera": "chip_mid"},
-            {"shot": "outro", "camera": "chip_close"}
-        ]
-
-    duration_seconds = max(5, len(timeline) * 3.2)
-
-    audio_tracks = [
-        {
-            "character": b["character"],
-            "voice_id": b["voice_id"],
-            "text": b["text"],
-            "block_type": b["type"],
-            "timestamp": b["timestamp"]
-        }
-        for b in timeline
-    ]
-
-    unreal = {
-        "scene_id": f"scene_{int(time.time())}",
-        "engine_version": "UE5.3+",
-        "camera_plan": camera_plan,
-        "characters": character_list,
-        "shot_plan": shot_plan,
-        "audio_tracks": audio_tracks,
-        "duration_seconds": duration_seconds
-    }
-
-    # ---------------------------------------------------------
-    # FINAL RETURN
-    # ---------------------------------------------------------
     return {
         "timeline": timeline,
         "audio_blocks": audio_blocks,
-        "unreal": unreal
+        "unreal": {
+            "scene_id": f"scene_{int(time.time())}",
+            "anchors": anchors,
+            "primary_anchor": primary_anchor,
+            "duo_anchor": duo_anchor
+        },
+        "anchors_used": anchors,
+        "primary_anchor": primary_anchor,
+        "duo_anchor": duo_anchor
     }
 
 

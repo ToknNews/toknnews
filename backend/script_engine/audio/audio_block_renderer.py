@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+"""
+TOKNNews — Audio Block Renderer (Local Dev Server)
+Used only for previewing audio via localhost:8999.
+"""
+
 import requests
 
 AUDIO_SERVER = "http://localhost:8999/render_scene"

@@ -1,27 +1,69 @@
 #!/usr/bin/env python3
+
+# ------------------------------------------------------------
+# GLOBAL WRITER TOGGLE IMPORT (Package vs Local)
+# ------------------------------------------------------------
+try:
+    from script_engine.engine_settings import USE_OPENAI_WRITER
+except ImportError:
+    from engine_settings import USE_OPENAI_WRITER
+
+
+# ------------------------------------------------------------
+# OPENAI WRITER STUB FUNCTIONS (unused unless toggle = True)
+# ------------------------------------------------------------
+def generate_openai_reaction(character, headline, tone_shift):
+    return None
+
+def generate_openai_analysis(character, headline, synthesis, article_context, tone_shift):
+    return None
+
+def generate_openai_transition(character, target_group, tone_shift):
+    return None
+
+def generate_openai_anchor_react(character, headline, tone_shift):
+    return None
+
+
 """
 TOKNNews — Persona Line Builder (Final Unified Version)
 Includes:
- - Character Bible awareness
- - Tone routing integration
- - Safe fallbacks
- - Clean reusable utilities
+- Character Bible awareness
+- Tone routing integration
+- Safe fallbacks
+- Clean reusable utilities
 """
 
 import random
 import time
 
-# Persona loader access
-from script_engine.character_brain.persona_loader import (
-    get_bible,
-    get_voice,
-    get_analysis_phrasing,
-    get_analysis_structure,
-    get_transition_phrasing,
-    get_risk_phrasing,
-    get_lexicon,
-    get_rules
-)
+# ------------------------------------------------------------
+# Dual-Mode Imports (Package vs Local)
+# ------------------------------------------------------------
+try:
+    from script_engine.character_brain.persona_loader import (
+        get_bible,
+        get_voice,
+        get_analysis_phrasing,
+        get_analysis_structure,
+        get_transition_phrasing,
+        get_risk_phrasing,
+        get_lexicon,
+        get_rules,
+        get_domain
+    )
+except ImportError:
+    from character_brain.persona_loader import (
+        get_bible,
+        get_voice,
+        get_analysis_phrasing,
+        get_analysis_structure,
+        get_transition_phrasing,
+        get_risk_phrasing,
+        get_lexicon,
+        get_rules,
+        get_domain
+    )
 
 # ============================================================
 # Tone Shift Modifier (PD-integrated)
@@ -102,10 +144,18 @@ def _apply_lexicon(character, text):
 #  LINE BUILDERS
 # =========================================================
 
-# ---------------------------------------------------------
-# CHIP / ANCHOR REACTION
-# ---------------------------------------------------------
+# ------------------------------------------------------------
+# REACTION LINE (toggle-aware)
+# ------------------------------------------------------------
 def build_reaction_line(character, headline, tone_shift=None):
+
+    # --- OpenAI path ---
+    if USE_OPENAI_WRITER:
+        result = generate_openai_reaction(character, headline, tone_shift)
+        if result:
+            return result
+
+    # --- Local fallback path ---
     phrasing = get_analysis_phrasing(character)
     template = _choose_safe(phrasing, f"{character} reacts to the news.")
 
@@ -114,7 +164,6 @@ def build_reaction_line(character, headline, tone_shift=None):
     line = apply_routed_tone(character, tone_shift, line)
 
     return _safe_words(line)
-
 
 # ---------------------------------------------------------
 # MAIN ANALYSIS LINES

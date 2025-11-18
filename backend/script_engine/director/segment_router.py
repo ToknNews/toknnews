@@ -4,7 +4,13 @@ TOKNNews — Segment Router
 Module C-7
 """
 
-from backend.script_engine.director.breaking_logic import is_breaking
+# ------------------------------------------------------------
+# Dual-Mode Imports (Package vs Local)
+# ------------------------------------------------------------
+try:
+    from script_engine.director.breaking_logic import is_breaking
+except ImportError:
+    from director.breaking_logic import is_breaking
 
 def route_segment(state, headline: str):
     # Intro only once per broadcast

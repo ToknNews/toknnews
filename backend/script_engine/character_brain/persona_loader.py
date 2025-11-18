@@ -1,18 +1,7 @@
 #!/usr/bin/env python3
 """
 TOKNNews — Persona Loader (Module C-1)
-Loads longform character personas from character_brain.json
-and exposes deterministic access functions for the Script Engine.
-
-This module provides:
- - load_persona(character)
- - get_voice(character)
- - get_analysis_phrasing(character)
- - get_transition_phrasing(character, target_group)
- - get_risk_phrasing(character)
- - get_lexicon(character)
- - get_cadence(character)
- - safe fallbacks
+Loads personas & Character Bible and exposes deterministic access functions.
 """
 
 import os
@@ -179,6 +168,12 @@ def get_rules(character: str) -> dict:
     Return special rules (Bitsy, Vega).
     """
     return _safe(character).get("rules", {})
+
+def get_character_bible():
+    """
+    Returns the full Character Bible dictionary.
+    """
+    return _BIBLE
 
 
 # ---------------------------------------------------------
