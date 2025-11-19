@@ -38,6 +38,17 @@ import random
 import time
 
 # ------------------------------------------------------------
+# GPT FALLBACK SAFETY — sanitize lines
+# ------------------------------------------------------------
+def _safe_gpt(text: str, fallback: str) -> str:
+    if not text or not isinstance(text, str):
+        return fallback
+    cleaned = text.strip()
+    if len(cleaned) == 0:
+        return fallback
+    return cleaned
+
+# ------------------------------------------------------------
 # Dual-Mode Imports (Package vs Local)
 # ------------------------------------------------------------
 try:
@@ -165,10 +176,38 @@ def build_reaction_line(character, headline, tone_shift=None):
 
     return _safe_words(line)
 
-# ---------------------------------------------------------
-# MAIN ANALYSIS LINES
-# ---------------------------------------------------------
+# ------------------------------------------------------------
+# ANALYSIS LINE (toggle-aware: GPT or Local)
+# ------------------------------------------------------------
 def build_analysis_line(character, headline, synthesis, article_context=None, tone_shift=None):
+
+    # --- GPT writer path ---
+    if USE_OPENAI_WRITER:
+        try:
+            from script_engine.openai_writer import gpt_analysis
+        except ImportError:
+            from openai_writer import gpt_analysis
+
+        domain = get_domain(character)
+
+        fallback_line = _safe_words(
+            apply_routed_tone(
+                character,
+                tone_shift,
+                _apply_lexicon(character, synthesis or "")
+            )
+        )
+
+        result = gpt_analysis(
+            character=character,
+            headline=headline,
+            synthesis=synthesis,
+            domain=domain
+        )
+
+        return _safe_gpt(result, fallback_line)
+
+    # --- Local fallback path ---
     structure = get_analysis_structure(character)
     template = _choose_safe(structure, "{synthesis}")
 
@@ -181,53 +220,184 @@ def build_analysis_line(character, headline, synthesis, article_context=None, to
 
     return _safe_words(line)
 
-
-# ---------------------------------------------------------
-# TRANSITION LINES
-# ---------------------------------------------------------
+# ------------------------------------------------------------
+# TRANSITION LINE (toggle-aware: GPT or Local)
+# ------------------------------------------------------------
 def build_transition_line(character, target_group="anchor", tone_shift=None):
-    phr = _choose_safe(
-        get_transition_phrasing(character, target_group),
+
+    # --- GPT writer path ---
+    if USE_OPENAI_WRITER:
+        try:
+            from script_engine.openai_writer import gpt_transition
+        except ImportError:
+            from openai_writer import gpt_transition
+
+        domain = get_domain(character)
+
+        # fallback if GPT returns bad output
+        fallback_line = _safe_words(
+            apply_routed_tone(
+                character,
+                tone_shift,
+                _apply_lexicon(character, f"{character} transitions to {target_group}.")
+            )
+        )
+
+        # call GPT
+        result = gpt_transition(
+            character=character,
+            next_anchor=target_group,
+            domain=domain
+        )
+
+        return _safe_gpt(result, fallback_line)
+
+    # --- Local fallback path ---
+    phr = get_transition_phrasing(character, target_group)
+    template = _choose_safe(
+        phr,
         f"{character} transitions to {target_group}."
     )
 
-    line = _apply_lexicon(character, phr)
-    line = apply_routed_tone(character, tone_shift, line)
-
-    return _safe_words(line)
-
-
-# ---------------------------------------------------------
-# ANCHOR QUICK REACT
-# ---------------------------------------------------------
-def build_anchor_react(character, headline, tone_shift=None):
-    phr = _choose_safe(
-        get_analysis_phrasing(character),
-        f"{character} gives their perspective."
-    )
-    line = phr.replace("{headline}", headline)
-
+    line = template.replace("{target_group}", target_group)
     line = _apply_lexicon(character, line)
     line = apply_routed_tone(character, tone_shift, line)
 
     return _safe_words(line)
 
+# ------------------------------------------------------------
+# ANCHOR REACT (toggle-aware: GPT or Local)
+# ------------------------------------------------------------
+def build_anchor_react(character, headline, tone_shift=None):
 
-# ---------------------------------------------------------
-# VEGA — chaotic interludes
-# ---------------------------------------------------------
-def build_vega_line(headline, synthesis):
-    return f"{synthesis or headline} — chaos mode engaged."
+    # --- GPT writer path ---
+    if USE_OPENAI_WRITER:
+        try:
+            from script_engine.openai_writer import gpt_anchor_react
+        except ImportError:
+            from openai_writer import gpt_anchor_react
+
+        domain = get_domain(character)
+
+        # Build fallback first
+        fallback_line = _safe_words(
+            apply_routed_tone(
+                character,
+                tone_shift,
+                _apply_lexicon(character, f"{character} gives their perspective.")
+            )
+        )
+
+        # Call GPT
+        result = gpt_anchor_react(
+            character=character,
+            headline=headline,
+            domain=domain
+        )
+
+        # Safe return
+        return _safe_gpt(result, fallback_line)
+
+    # --- Local fallback path ---
+    phr = get_risk_phrasing(character)
+    template = _choose_safe(
+        phr,
+        f"{character} gives their perspective."
+    )
+
+    line = template.replace("{headline}", headline)
+    line = _apply_lexicon(character, line)
+    line = apply_routed_tone(character, tone_shift, line)
+
+    return _safe_words(line)
+
+# ------------------------------------------------------------
+# VEGA LINE (toggle-aware: GPT or Local)
+# ------------------------------------------------------------
+def build_vega_line(character, headline, tone_shift=None):
+
+    # --- GPT writer path ---
+    if USE_OPENAI_WRITER:
+        try:
+            from script_engine.openai_writer import gpt_transition
+        except ImportError:
+            from openai_writer import gpt_transition
+
+        domain = get_domain(character)
+
+        # Vega's fallback tone is high-energy & musical
+        fallback_line = _safe_words(
+            apply_routed_tone(
+                character,
+                tone_shift,
+                _apply_lexicon(character,
+                    f"{character} sets the tone for what's next."
+                )
+            )
+        )
+
+        # Vega is a transition/energy character → use transition model
+        result = gpt_transition(
+            character=character,
+            next_anchor="audience",
+            domain=domain
+        )
+
+        return _safe_gpt(result, fallback_line)
+
+    # --- Local fallback path ---
+    template = f"{character} builds the energy."
+    line = _apply_lexicon(character, template)
+    line = apply_routed_tone(character, tone_shift, line)
+
+    return _safe_words(line)
+
+# ------------------------------------------------------------
+# BITSY INTERRUPT (toggle-aware: GPT or Local)
+# ------------------------------------------------------------
+def build_bitsy_interrupt(character, headline, tone_shift=None):
+
+    # --- GPT writer path ---
+    if USE_OPENAI_WRITER:
+        try:
+            from script_engine.openai_writer import gpt_duo_line
+        except ImportError:
+            from openai_writer import gpt_duo_line
+
+        # Bitsy persona always uses her own domain
+        domain = get_domain(character)
+
+        # Build fallback first
+        fallback_line = _safe_words(
+            apply_routed_tone(
+                character,
+                tone_shift,
+                _apply_lexicon(character,
+                    "Here’s the funny part…"
+                )
+            )
+        )
+
+        # We reuse gpt_duo_line with a special 'bitsy_meta' mode
+        # Bitsy does not require a counterpart, so we pass character twice.
+        result = gpt_duo_line(
+            speaker=character,
+            counter=character,       # Bitsy is self-referential
+            headline=headline,
+            domain=domain,
+            mode="bitsy_meta"
+        )
+
+        return _safe_gpt(result, fallback_line)
 
 
-# ---------------------------------------------------------
-# BITSY — random comedic pop-in
-# ---------------------------------------------------------
-def build_bitsy_interrupt():
-    rules = get_rules("bitsy")
-    lines = rules.get("phrasing", ["Oops! Bitsy presses a button."])
-    return _choose_safe(lines)
+    # --- Local fallback path ---
+    template = "Here’s the funny part…"
 
+    line = _apply_lexicon(character, template)
+    line = apply_routed_tone(character, tone_shift, line)
+
+    return _safe_words(line)
 
 # ---------------------------------------------------------
 # CHIP RE-ENTRY (reset moment)

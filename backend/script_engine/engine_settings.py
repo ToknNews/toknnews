@@ -3,4 +3,4 @@
 # ------------------------------------------------------------
 
 # Global writer toggle (default False)
-USE_OPENAI_WRITER = False
+USE_OPENAI_WRITER = True

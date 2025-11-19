@@ -2,21 +2,15 @@
 import sys, os
 sys.path.append("/var/www/toknnews-repo")
 
-# ------------------------------------------------------------
-# Dual-Mode Imports (Package vs Local)
-# ------------------------------------------------------------
-try:
-    from script_engine.character_brain.persona_loader import get_character_bible
-    from script_engine.persona.timeline_builder import build_timeline
-    from script_engine.synthesis_engine import build_synthesis
-    from script_engine.director.pd_controller import run_pd, select_anchors
-    from script_engine.engine_settings import USE_OPENAI_WRITER
-except ImportError:
-    from character_brain.persona_loader import get_character_bible
-    from persona.timeline_builder import build_timeline
-    from synthesis_engine import build_synthesis
-    from director.pd_controller import run_pd, select_anchors
-    from engine_settings import USE_OPENAI_WRITER
+# ============================================================
+# PACKAGE IMPORTS (Stable for python3 -m execution)
+# ============================================================
+
+from script_engine.character_brain.persona_loader import get_character_bible
+from script_engine.persona.timeline_builder import build_timeline
+from script_engine.synthesis_engine import build_synthesis
+from script_engine.director.pd_controller import run_pd, select_anchors
+from script_engine.engine_settings import USE_OPENAI_WRITER
 
 import json
 import time

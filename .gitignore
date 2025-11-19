@@ -17,3 +17,4 @@ pm2_runtime.json
 # Compiled assets
 *.wav
 *.mp3
+data/heartbeat.json
