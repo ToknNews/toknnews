@@ -4,12 +4,38 @@
 # ------------------------------------------------------------
 
 import os
+import time
+import json
 from openai import OpenAI
 
+# ------------------------------------------------------------
+# Rolling Brain (contextual knowledge)
+# ------------------------------------------------------------
+from script_engine.rolling_brain import (
+    get_brain_snapshot,
+    get_context_for_anchor
+)
+
+# ------------------------------------------------------------
+# Persona Loader (metadata, domains)
+# ------------------------------------------------------------
+from script_engine.character_brain.persona_loader import (
+    get_domain,
+    load_persona
+)
+
+# ------------------------------------------------------------
+# Line builder helpers (tone, phrasing, etc)
+# ------------------------------------------------------------
+from script_engine.persona.line_builder import (
+    apply_tone_shift
+)
+
+# Warn if missing API key
 if not os.getenv("OPENAI_API_KEY"):
     print("[OpenAIWriter] WARNING: OPENAI_API_KEY not set")
 
-# Load OpenAI key
+# Load OpenAI client
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -313,35 +339,119 @@ PERSONA_STYLE = {
     }
 }
 
-# ------------------------------------------------------------
-# PERSONA PROMPT INJECTION — Formal Canon Descriptor
-# ------------------------------------------------------------
-def persona_prompt(character: str) -> str:
-    c = PERSONA_STYLE.get(character.lower())
-    if not c:
-        return ""
+# ============================================================
+# PERSONA PROMPT BUILDER (news mode / latenight mode hybrid)
+# ============================================================
 
-    # Assemble persona fields cleanly
-    domains = ", ".join(c.get("domain", []))
-    lexicon = ", ".join(c.get("lexicon", []))
-    avoid = ", ".join(c.get("avoid", []))
-    agree = ", ".join(c.get("agreement_markers", []))
-    disagree = ", ".join(c.get("disagreement_markers", []))
+def persona_prompt(anchor: str, brain: dict, mode: str = "news",
+                   allow_multi: bool = False,
+                   override_max_sentences: int = None):
+    """
+    Builds a persona-aware prompt wrapper for GPT text generation.
 
-    return f"""
-Character Persona:
-- Name: {c['name']}
-- Role: {c['role']}
-- Expertise Domain(s): {domains}
-- Voice: {c['voice']}
-- Cadence: {c['cadence']}
-- Preferred Lexicon: {lexicon}
-- Avoided Patterns: {avoid}
-- Agreement Tendencies: {agree}
-- Disagreement Tendencies: {disagree}
-- Escalation Style: {c['escalation_style']}
-- Response Pattern: {c['response_pattern']}
-"""
+    mode="news":
+        - 1 sentence MAX for all routines except gpt_analysis
+        - formal, controlled, broadcaster-style
+        - no slang or hyperbole
+        - avoid “I”, emotional commentary, personal jokes
+
+    mode="latenight":
+        - 2–3 sentences allowed
+        - humor OK, light slang OK
+        - more expressive
+        - conversational beats allowed
+
+    allow_multi: overrides news 1-sentence rule (used for analysis)
+    override_max_sentences: hard override (used by specific GPT routines)
+    """
+
+    style = PERSONA_STYLE.get(anchor, {})
+    if not style:
+        return ""  # safe fallback
+
+    # -----------------------------------------------
+    # Determine allowable sentence count
+    # -----------------------------------------------
+    if override_max_sentences is not None:
+        max_sent = override_max_sentences
+    else:
+        if mode == "news":
+            max_sent = 1
+        else:
+            max_sent = 3  # latenight expressive mode
+
+        if allow_multi and mode == "news":
+            max_sent = 3  # analysis exception
+
+    # -----------------------------------------------
+    # Rolling-brain contextual hints (soft, non-binding)
+    # -----------------------------------------------
+    context_lines = []
+    ctx = get_context_for_anchor(anchor)
+    if ctx:
+        for key, val in ctx.items():
+            context_lines.append(f"- {key}: {val}")
+
+    context_str = "\n".join(context_lines) if context_lines else ""
+
+    # -----------------------------------------------
+    # Persona lexicon rules
+    # -----------------------------------------------
+    voice = style.get("voice", "")
+    cadence = style.get("cadence", "")
+    lexicon = ", ".join(style.get("lexicon", []))
+    avoid = ", ".join(style.get("avoid", []))
+    agree = ", ".join(style.get("agreement_markers", []))
+    disagree = ", ".join(style.get("disagreement_markers", []))
+    escalation = style.get("escalation_style", "")
+    pattern = style.get("response_pattern", "")
+
+    # -----------------------------------------------
+    # Produce the persona control block
+    # -----------------------------------------------
+    p = f"""
+You are **{anchor}**.
+
+VOICE:
+- {voice}
+
+CADENCE:
+- {cadence}
+
+LEXICON PREFERENCES:
+- Favor these terms: {lexicon}
+
+AVOID:
+- {avoid}
+
+CONVERSATIONAL MOVES:
+- Agreement phrases: {agree}
+- Disagreement phrases: {disagree}
+- Escalation style: {escalation}
+- Response pattern: {pattern}
+
+MODE RULE:
+- max sentences: {max_sent}
+- mode: "{mode}"
+
+NEWS RULES (if mode == "news"):
+- Keep it factual, clear, and concise.
+- No slang, no hyperbole.
+- No personal jokes or emotional commentary.
+- MUST NOT exceed {max_sent} sentence(s).
+
+LATENIGHT RULES (if mode == "latenight"):
+- Humor OK, light slang OK.
+- Conversational tone allowed.
+- Can use 2–3 sentences.
+
+ROLLING BRAIN CONTEXT:
+{context_str}
+
+Generate output following these constraints EXACTLY.
+""".strip()
+
+    return p
 
 # ============================================================
 # OPENAI WRITING ENGINE — HYBRID MODE w/ RKG + TONE GUARDRAILS
@@ -349,7 +459,6 @@ Character Persona:
 
 import os, time, json
 from openai import OpenAI
-from script_engine.knowledge.rolling_brain import get_context_for_anchor
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -366,111 +475,157 @@ def _gpt(prompt: str) -> str:
             max_tokens=180,
             temperature=0.78,
         )
-        return resp.choices[0].message["content"].strip()
+        return resp.choices[0].message.content.strip()
     except Exception as e:
         print("[OpenAIWriter] ERROR:", e)
         return None
 
-
 # ============================================================
-# HYBRID PERSONA PROMPT (news-safe + late-night-aware)
+# GPT — Chip Daily Preface (Top Headlines Overview)
 # ============================================================
-
-def persona_prompt(anchor: str, brain: dict, mode="news", allow_multi=False) -> str:
+def gpt_chip_preface(top_headlines: list, brain: dict, show_mode: str = "news"):
     """
-    Hybrid persona prompt:
-    - 1 sentence default
-    - Up to 3 sentences for allowed analytical modes
-    - Late-night mode exaggerates personality (bitsy/vega)
+    Chip summarizes the top ~3 headlines of the day.
+    Sets tone, urgency, and narrative framing.
+    2–3 sentences max. News-safe.
     """
 
-    rkg = get_context_for_anchor(anchor)
+    p = persona_prompt("chip", brain, mode=show_mode, allow_multi=True)
 
-    # Late-night persona amplification
-    if mode == "latenight":
-        persona_mod = "Your tone is more expressive, witty, and conversational."
-    else:
-        persona_mod = "Stay newsroom professional."
+    # Build headline list string for GPT
+    hl_text = "\n".join([f"- {h}" for h in top_headlines[:3]])
 
-    # Bitsy tragic-event guardrail
-    tragic_terms = ["death", "dead", "killed", "shooting", "explosion", "terror", "tragedy"]
-    day_is_tragic = any(t in str(brain).lower() for t in tragic_terms)
-
-    if anchor == "bitsy" and day_is_tragic:
-        bitsy_mode = (
-            "Avoid jokes. Speak with empathy and cultural sensitivity. "
-            "Reflect the community mood gently. No comedy in tragic contexts."
-        )
-    else:
-        bitsy_mode = "Use humor lightly if appropriate, but never in serious contexts."
-
-    # Sentence limit rules
-    if allow_multi:
-        sentence_rule = "You may write up to **3 sentences**, concise and well-structured."
-    else:
-        sentence_rule = "Respond with **1 sentence only**."
-
-    return f"""
-You are **{anchor}**, a TOKNNews anchor.
-
-Persona rules:
-- {persona_mod}
-- {bitsy_mode}
-- {sentence_rule}
-- Avoid repeating the other speaker’s nouns.
-- Use one meaningful conversational cue when responding in a duo exchange.
-
-Context Memory (RKG):
-{json.dumps(rkg, indent=2)}
-
-Respond with the raw line only. No narration. No labels.
-"""
-
-
-# ============================================================
-# SOLO GPT ROUTINES (News-safe Hybrid)
-# ============================================================
-
-def gpt_reaction(anchor: str, headline: str, brain: dict):
-    p = persona_prompt(anchor, brain, mode="news", allow_multi=False)
     prompt = f"""
 {p}
 
-Write a **single-sentence** reaction to this headline:
-"{headline}"
+You are opening today's live broadcast.
+Summarize the major headlines below in **2–3 clear sentences**,
+giving viewers the day's market pulse without hype or slang.
+
+HEADLINES:
+{hl_text}
+
+Do NOT toss to an anchor yet.
+Do NOT analyze deeply. This is a high-level morning narrative.
 """
+
     return _gpt(prompt)
 
+# ============================================================
+# GPT — Chip Story Intro (Framing the #1 headline)
+# ============================================================
+def gpt_chip_story_intro(headline: str, synthesis: str, brain: dict, show_mode: str = "news"):
+    """
+    Chip introduces the single main story in ~1–2 sentences.
+    Tone: professional, news-safe, broadcaster style.
+    No slang. No jokes. Sets the stage before tossing to anchor.
+    """
 
-def gpt_analysis(anchor: str, headline: str, synthesis: str, brain: dict):
-    p = persona_prompt(anchor, brain, mode="news", allow_multi=True)
+    p = persona_prompt("chip", brain, mode=show_mode, allow_multi=True)
+
     prompt = f"""
 {p}
 
-Write up to **3 sentences** analyzing the headline:
+You are Chip Blue, opening the FIRST story of today's broadcast.
+Write **1–2 sentences** that professionally frame the importance,
+urgency, or relevance of this headline:
+
+"{headline}"
+
+Use synthesis only for additional context:
+"{synthesis}"
+
+Rules:
+- No slang, no jokes.
+- Do NOT analyze deeply (leave that for Reef/Ledger).
+- Do NOT toss to an anchor (timeline_builder handles that).
+- Do NOT repeat the headline verbatim.
+- Focus on framing WHY this matters today.
+"""
+
+    return _gpt(prompt)
+
+# ============================================================
+# SOLO REACTION LINE (1 sentence, news-safe)
+# ============================================================
+def gpt_reaction(anchor: str, headline: str, brain: dict):
+    """
+    Generates a single-sentence reaction fully controlled by persona_prompt().
+    """
+    p = persona_prompt(anchor, brain, mode="news", allow_multi=False)
+
+    prompt = f"""
+{p}
+
+Write **exactly ONE sentence** giving a neutral, news-safe reaction
+to the following headline. Do NOT add hype, slang, emotion, or claims
+not supported directly by the headline.
+
+Headline: "{headline}"
+"""
+
+    return _gpt(prompt)
+
+def gpt_analysis(
+    character: str,
+    headline: str,
+    synthesis: str,
+    domain: str = "",
+    brain: dict = None,
+    show_mode: str = "news",
+    **kwargs
+):
+
+    # Persona style header
+    p = persona_prompt(character, brain, mode=show_mode)
+
+    prompt = f"""
+{p}
+
+Write up to **3 sentences** analyzing the headline.
+
 Headline: "{headline}"
 Synthesis: "{synthesis}"
 """
     return _gpt(prompt)
 
 
-def gpt_transition(anchor: str, headline: str, brain: dict):
-    p = persona_prompt(anchor, brain, mode="news", allow_multi=False)
+def gpt_transition(
+    anchor: str,
+    headline: str,
+    domain: str = "",
+    brain: dict = None,
+    show_mode: str = "news",
+    **kwargs
+):
+    p = persona_prompt(anchor, brain, mode=show_mode, allow_multi=False)
+
     prompt = f"""
 {p}
 
-Write **one sentence** transitioning to the next topic.
-Avoid repeating nouns in the prior sentence.
+Write a clean transition line that smoothly moves from the current topic to the next.
+Headline: "{headline}"
 """
+
     return _gpt(prompt)
 
 
-def gpt_anchor_react(anchor: str, headline: str, brain: dict):
-    p = persona_prompt(anchor, brain, mode="news", allow_multi=False)
+def gpt_anchor_react(
+    anchor: str,
+    headline: str,
+    domain: str = "",
+    brain: dict = None,
+    show_mode: str = "news",
+    **kwargs
+):
+    p = persona_prompt(anchor, brain, mode=show_mode)
+
     prompt = f"""
 {p}
 
-Write a brief follow-up **single sentence** reacting to the headline’s tension.
+Write a short 1-sentence emotional or reactive punchline by {anchor}.
+It should be consistent with the headline:
+"{headline}"
 """
     return _gpt(prompt)
 
@@ -483,76 +638,68 @@ def gpt_duo_line(
     speaker: str,
     counter: str,
     headline: str,
+    synthesis: str,
     domain: str,
-    mode: str,
-    last_counter_line: str,
+    duo_mode: str,
+    last_counter_line: str = "",
+    show_mode: str = "news",
     brain: dict = None,
-    chip_nudge: str = "",
-    allow_multi=False
+    **kwargs
 ):
-    """
-    Duo line generator with hybrid mode:
-    - Normal duo → 1 sentence
-    - Chip-nudged Round 2 → up to 3 sentences allowed
-    - Fully RKG-informed
-    """
+    p_speaker = persona_prompt(speaker, brain, mode=show_mode)
+    p_counter = persona_prompt(counter, brain, mode=show_mode)
 
-    if brain is None:
-        brain = {}
+    prompt = f"""
+{synthesis}
 
-    persona = persona_prompt(
-        speaker,
-        brain,
-        mode=("latenight" if mode=="latenight" else "news"),
-        allow_multi=allow_multi
-    )
+You are generating a DUO line for a crypto news broadcast.
 
-    context_slice = get_context_for_anchor(speaker)
-
-    return _gpt(f"""
-{persona}
-
-# Duo Mode: {mode}
 Speaker: {speaker}
-Responding to: {counter}
-Domain Context: {domain}
+Counterpart: {counter}
+Duo Mode: {duo_mode}
+Headline: "{headline}"
 
-# Memory:
-{json.dumps(context_slice, indent=2)}
+{speaker}'s Persona:
+{p_speaker}
 
-# Last line spoken:
+{counter}'s Persona:
+{p_counter}
+
+Last line from the counterpart:
 "{last_counter_line}"
 
-# Chip Nudge (optional):
-"{chip_nudge}"
-
-Rules:
-- Directly respond to the last line.
-- If allow_multi=True → up to 3 sentences. Otherwise 1 sentence.
-- Maintain tension or alignment based on conversational cue.
-- Avoid mirroring counterpart nouns.
-- Stay in character.
-- No greetings or filler.
-
-Write the line exactly as {speaker}.
-""")
-
+Instructions:
+- Keep it brief (1–2 sentences).
+- Stay in the persona style of {speaker}.
+- React directly to the counterpart when applicable.
+- Do NOT repeat nouns or phrases that were already used.
+- Keep professional tone in news mode.
+- Get looser, more conversational in latenight mode.
+"""
     return _gpt(prompt)
 
 # ============================================================
 # CHIP FOLLOW-UP REACTION (Patch 8)
 # ============================================================
 def gpt_chip_followup(
-    headline: str,
-    synthesis: str,
     primary: str,
     duo: str,
-    last_line: str,
-    pd_flags: dict,
-    show_mode: str,
-    brain: dict,
-    chip_domain: str
+    headline: str,
+    synthesis: str = "",
+    last_line: str = "",
+    show_mode: str = "news",
+    pd_flags: dict = None,
+    brain: dict = None,
+    chip_domain: str = "",
+    **kwargs
 ):
+    if not chip_domain:
+        chip_domain = "general"
+    if pd_flags is None:
+        pd_flags = {}
+    if brain is None:
+        brain = {}
+
     """
     Chip reacts to the duo with a clarifying question, insight, or nudge.
     Behavior changes based on:
@@ -606,7 +753,7 @@ Return ONLY the sentence.
             max_tokens=80,
             temperature=0.8
         )
-        return resp.choices[0].message["content"].strip()
+        return resp.choices[0].message.content.strip()
 
     except Exception as e:
         print("[OpenAIWriter] ERROR (chip_followup):", e)
@@ -663,7 +810,7 @@ Return ONLY the sentence.
             max_tokens=60,
             temperature=0.8
         )
-        return resp.choices[0].message["content"].strip()
+        return resp.choices[0].message.content.strip()
 
     except Exception as e:
         print("[OpenAIWriter] ERROR (chip_toss):", e)

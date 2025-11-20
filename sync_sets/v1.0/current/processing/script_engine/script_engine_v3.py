@@ -19,26 +19,50 @@ import time
 #  MASTER ENTRYPOINT
 # =====================================================================
 
-def generate_script(headline, article_context="", cluster_articles=None):
+def generate_script(
+    headline: str,
+    article_context: str = "",
+    cluster_articles: list = None,
+    anchors: list = None
+):
     # Local import to ensure correct runtime path
     try:
         from script_engine.audio.audio_block_renderer import render_audio_blocks
     except ImportError:
         from audio.audio_block_renderer import render_audio_blocks
-    """
-    Master entrypoint for Script Engine V3 + PD Integration.
 
-    Returns:
-      {
-        timestamp,
-        headline,
-        character,
-        synthesis,
-        timeline[],
-        audio_blocks[],
-        unreal{}
-      }
-    """
+    # 1. Multi-article synthesis (basic for now)
+    if cluster_articles:
+        synthesis = headline
+    else:
+        synthesis = headline
+
+    # 2. Build timeline using persona + tone engine
+    package = build_timeline(
+        headline=headline,
+        synthesis=synthesis,
+        article_context=article_context,
+        anchors=anchors,
+        allow_bitsy=True,
+        allow_vega=True,
+        show_intro=True,
+        segment_type="headline",
+        tone_shift=None
+    )
+
+    # 3. AUDIO
+    scene_id = package["unreal"].get("scene_id") or f"scene_{int(time.time())}"
+    final_audio = render_audio_blocks(scene_id, package["audio_blocks"])
+
+    return {
+        "timestamp": time.time(),
+        "headline": headline,
+        "synthesis": synthesis,
+        "timeline": package["timeline"],
+        "audio_blocks": package["audio_blocks"],
+        "audio_file": final_audio,
+        "unreal": package["unreal"]
+    }
 
     # -----------------------------------------------------
     # 1. Multi-article synthesis
@@ -68,13 +92,13 @@ def generate_script(headline, article_context="", cluster_articles=None):
     show_intro = pd_config["show_intro"]
     tone_shift = pd_config.get("tone_shift")
 
-    # -----------------------------------------------------
+    # ------------------------------------------------------------
     # 3. Build timeline using persona + tone engine
-    # -----------------------------------------------------
+    # ------------------------------------------------------------
     package = build_timeline(
         headline=headline,
-        synthesis=synthesis,
-        article_context=article_context,
+        synthesis=synth,
+        article_context=context,
         anchors=anchors,
         allow_bitsy=allow_bitsy,
         allow_vega=allow_vega,
@@ -92,7 +116,7 @@ def generate_script(headline, article_context="", cluster_articles=None):
     return {
         "timestamp": time.time(),
         "headline": headline,
-        "synthesis": synthesis,
+        "synthesis": synth,
         "timeline": package["timeline"],
         "audio_blocks": package["audio_blocks"],
         "audio_file": final_audio,

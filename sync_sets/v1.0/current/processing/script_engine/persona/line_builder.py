@@ -5,8 +5,8 @@
 # ------------------------------------------------------------
 try:
     from script_engine.engine_settings import USE_OPENAI_WRITER
-except ImportError:
-    from engine_settings import USE_OPENAI_WRITER
+except:
+    from script_engine.openai_writer import gpt_analysis
 
 
 # ------------------------------------------------------------
@@ -223,7 +223,7 @@ def build_analysis_line(character, headline, synthesis, article_context=None, to
 # ------------------------------------------------------------
 # TRANSITION LINE (toggle-aware: GPT or Local)
 # ------------------------------------------------------------
-def build_transition_line(character, target_group="anchor", tone_shift=None):
+def build_transition_line(character, headline, brain, target_group="anchor", tone_shift=None, show_mode="news"):
 
     # --- GPT writer path ---
     if USE_OPENAI_WRITER:
@@ -244,10 +244,13 @@ def build_transition_line(character, target_group="anchor", tone_shift=None):
         )
 
         # call GPT
+
         result = gpt_transition(
-            character=character,
-            next_anchor=target_group,
-            domain=domain
+            anchor=character,
+            headline=headline,
+            domain=domain,
+            brain=brain,
+            show_mode=show_mode
         )
 
         return _safe_gpt(result, fallback_line)
@@ -268,7 +271,7 @@ def build_transition_line(character, target_group="anchor", tone_shift=None):
 # ------------------------------------------------------------
 # ANCHOR REACT (toggle-aware: GPT or Local)
 # ------------------------------------------------------------
-def build_anchor_react(character, headline, tone_shift=None):
+def build_anchor_react(character, headline, brain, tone_shift=None, show_mode="news"):
 
     # --- GPT writer path ---
     if USE_OPENAI_WRITER:
@@ -290,9 +293,11 @@ def build_anchor_react(character, headline, tone_shift=None):
 
         # Call GPT
         result = gpt_anchor_react(
-            character=character,
+            anchor=character,
             headline=headline,
-            domain=domain
+            domain=domain,
+            brain=brain,
+            show_mode=show_mode
         )
 
         # Safe return
@@ -314,7 +319,7 @@ def build_anchor_react(character, headline, tone_shift=None):
 # ------------------------------------------------------------
 # VEGA LINE (toggle-aware: GPT or Local)
 # ------------------------------------------------------------
-def build_vega_line(character, headline, tone_shift=None):
+def build_vega_line(character, headline, brain, tone_shift=None, show_mode="news"):
 
     # --- GPT writer path ---
     if USE_OPENAI_WRITER:
@@ -338,15 +343,17 @@ def build_vega_line(character, headline, tone_shift=None):
 
         # Vega is a transition/energy character → use transition model
         result = gpt_transition(
-            character=character,
-            next_anchor="audience",
-            domain=domain
+            anchor=character,
+            headline="",      # strip headline reference
+            domain="vibe",
+            brain=brain,
+            show_mode="vibe"  # NEW MODE
         )
 
         return _safe_gpt(result, fallback_line)
 
     # --- Local fallback path ---
-    template = f"{character} builds the energy."
+    template = "Resetting the vibe…"
     line = _apply_lexicon(character, template)
     line = apply_routed_tone(character, tone_shift, line)
 
@@ -355,45 +362,48 @@ def build_vega_line(character, headline, tone_shift=None):
 # ------------------------------------------------------------
 # BITSY INTERRUPT (toggle-aware: GPT or Local)
 # ------------------------------------------------------------
-def build_bitsy_interrupt(character, headline, tone_shift=None):
+def build_bitsy_interrupt(character, headline, brain, tone_shift=None, show_mode="news"):
+    """
+    Bitsy = comedic relief / meta commentary.
+    Uses gpt_transition with a special 'bitsy_meta' mode.
+    Always lightweight. Never analytical.
+    """
 
-    # --- GPT writer path ---
+    # === GPT writer path ===
     if USE_OPENAI_WRITER:
         try:
-            from script_engine.openai_writer import gpt_duo_line
+            from script_engine.openai_writer import gpt_transition
         except ImportError:
-            from openai_writer import gpt_duo_line
+            from openai_writer import gpt_transition
 
-        # Bitsy persona always uses her own domain
-        domain = get_domain(character)
+        # Bitsy uses her own persona domain
+        domain = "sentiment"
 
-        # Build fallback first
+        # Local fallback first (in case GPT fails completely)
         fallback_line = _safe_words(
             apply_routed_tone(
                 character,
                 tone_shift,
-                _apply_lexicon(character,
+                _apply_lexicon(
+                    character,
                     "Here’s the funny part…"
                 )
             )
         )
 
-        # We reuse gpt_duo_line with a special 'bitsy_meta' mode
-        # Bitsy does not require a counterpart, so we pass character twice.
-        result = gpt_duo_line(
-            speaker=character,
-            counter=character,       # Bitsy is self-referential
+        # GPT — use transition engine with Bitsy's special mode
+        result = gpt_transition(
+            anchor=character,
             headline=headline,
             domain=domain,
-            mode="bitsy_meta"
+            brain=brain,
+            show_mode="bitsy_meta"
         )
 
         return _safe_gpt(result, fallback_line)
 
-
-    # --- Local fallback path ---
+    # === Local fallback path ===
     template = "Here’s the funny part…"
-
     line = _apply_lexicon(character, template)
     line = apply_routed_tone(character, tone_shift, line)
 

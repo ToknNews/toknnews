@@ -1,10 +1,6 @@
 {
-  "timestamp": "2025-11-17T23:14:29Z",
+  "timestamp": "2025-11-20T07:12:32.771710Z",
   "status": "success",
-  "last_headline": "Hybrid Ingest",
-  "sentiment": "neutral",
-  "runtime_seconds": 0,
-  "total_compiles": 1,
   "last_error": "",
-  "system_uptime": "up 4 weeks, 20 hours, 12 minutes"
+  "system_uptime": "up 4 weeks, 3 days, 4 hours, 10 minutes"
 }

@@ -41,3 +41,24 @@ def get_brain_snapshot():
             "notes": "Replace with live ingestion later"
         }
     }
+
+# ------------------------------------------------------------
+# Context lookup for a given anchor
+# Later this will use trending topics + memory ingestion.
+# ------------------------------------------------------------
+def get_context_for_anchor(anchor: str):
+    """
+    Returns a minimal context dict for the given anchor.
+    This prevents import errors until full ingestion is built.
+    """
+    brain = get_brain_snapshot()
+
+    # safe fallback
+    if anchor not in brain["anchors"]:
+        return {"topics": [], "recent": [], "sentiment": {}}
+
+    return {
+        "topics": brain.get("trending_topics", []),
+        "recent": brain.get("recent_events", []),
+        "sentiment": brain.get("sentiment", {}),
+    }
