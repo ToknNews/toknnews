@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763743566.758963,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "chip, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763743563.637276
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763743564.6430783
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763743566.360134
+    },
+    {
+      "speaker": "chip",
+      "text": "Let\u2019s shift to the next story.",
+      "tag": "chip_transition",
+      "timestamp": 1763743566.7589574
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "chip, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763743563.637279,
+      "line": "chip, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763743564.6430824,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763743566.360137,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let\u2019s shift to the next story.",
+      "block_type": "chip_transition",
+      "timestamp": 1763743566.7589602,
+      "line": "Let\u2019s shift to the next story.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "timestamp": 1763738034.92071,
+  "headline": "Trump drops 40% tariffs on Brazilian beef, coffee amid rising food prices",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "Let's bring in chip for the breakdown.",
+      "tag": "chip_toss",
+      "timestamp": 1763738033.675927
+    },
+    {
+      "speaker": "chip",
+      "text": "Delivers context before emotion, clarity before opinion. Trump drops 40% tariffs on Brazilian.",
+      "tag": "primary_reaction",
+      "timestamp": 1763738033.6759517
+    },
+    {
+      "speaker": "reef",
+      "text": "Reef jumps in: That's a key angle on trump, let me add something.",
+      "tag": "duo_crosstalk",
+      "timestamp": 1763738033.6759558
+    },
+    {
+      "speaker": "chip",
+      "text": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup",
+      "timestamp": 1763738033.6759574
+    },
+    {
+      "speaker": "chip",
+      "text": "The short version is this: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763738033.6759813
+    },
+    {
+      "speaker": "bitsy",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt",
+      "timestamp": 1763738033.6760046
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international trade, there is a significant update regarding tariffs on Brazilian imports.",
+      "tag": "chip_transition",
+      "timestamp": 1763738034.9207046
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "line": "Let's bring in chip for the breakdown.",
+      "voice_id": "chip",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "line": "Delivers context before emotion, clarity before opinion. Trump drops 40% tariffs on Brazilian.",
+      "voice_id": "chip",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "line": "Reef jumps in: That's a key angle on trump, let me add something.",
+      "voice_id": "reef",
+      "tag": "duo_crosstalk"
+    },
+    {
+      "speaker": "chip",
+      "line": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "voice_id": "chip",
+      "tag": "duo_followup"
+    },
+    {
+      "speaker": "chip",
+      "line": "The short version is this: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "voice_id": "chip",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "bitsy",
+      "line": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "voice_id": "bitsy",
+      "tag": "bitsy_interrupt"
+    },
+    {
+      "speaker": "chip",
+      "line": "Turning now to international trade, there is a significant update regarding tariffs on Brazilian imports.",
+      "voice_id": "chip",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

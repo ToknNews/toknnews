@@ -1,0 +1,15 @@
+VOICE_MAP = {
+    "chip":        "teAyVVX8spybXkITa1A0",
+    "cash":        "b2zP5WtU6zW1RDLwR1VL",
+    "neura":       "U21zT7YnOSlmiJ6Uzs70",
+    "ledger":      "NZN55afVwq1WHQJOwDCz",
+    "lawson":      "Wz0W8ilvy9oYu7DeKWfB",
+    "reef":        "7pLXpsTZ3rOalpNWmYqI",
+    "cap":         "eeFsfJ0uulJx6xKTmsRE",
+    "bond":        "ckPPrwZqzA7Vp7ceNunQ",
+    "ivy":         "Iw2tTyxZnwTODhsmOq00",
+    "bitsy":       "VOkhRocQyiAQg2RF9A5e",
+    "penny":       "7WqwVs6Wqe0yEev6QDxV",
+    "rex":         "5Rbobt83lpNwhTQEhH2F",
+    "vega":        "Ax1HxHll9ku8pGyIt6kK",
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763744653.2400386,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "cash, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763744650.251249
+    },
+    {
+      "speaker": "cash",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763744651.1487513
+    },
+    {
+      "speaker": "cash",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763744652.4051604
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763744653.24003
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "cash, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763744650.251253,
+      "line": "cash, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763744651.1487544,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763744652.4051647,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763744653.240034,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763750271.3605506,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches its historic $1 trillion market cap.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763750266.1602664
+    },
+    {
+      "speaker": "chip",
+      "text": "It seems the stakes have just been raised significantly in this unfolding story.",
+      "tag": "primary_reaction",
+      "timestamp": 1763750267.0967035
+    },
+    {
+      "speaker": "chip",
+      "text": "The surge in Eli Lilly's market capitalization to $1 trillion underscores significant investor confidence in the healthcare sector, particularly among smaller and mid-sized companies. This trend highlights the growing importance of quantitative ratings in guiding investment decisions within this volatile market. As LLY leads the charge, it may encourage further interest and investment in emerging healthcare stocks.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763750268.8317573
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763750271.3605416
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches its historic $1 trillion market cap.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763750266.1602695,
+      "line": "\"Chip, break down the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches its historic $1 trillion market cap.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It seems the stakes have just been raised significantly in this unfolding story.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763750267.0967062,
+      "line": "It seems the stakes have just been raised significantly in this unfolding story.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The surge in Eli Lilly's market capitalization to $1 trillion underscores significant investor confidence in the healthcare sector, particularly among smaller and mid-sized companies. This trend highlights the growing importance of quantitative ratings in guiding investment decisions within this volatile market. As LLY leads the charge, it may encourage further interest and investment in emerging healthcare stocks.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763750268.8317614,
+      "line": "The surge in Eli Lilly's market capitalization to $1 trillion underscores significant investor confidence in the healthcare sector, particularly among smaller and mid-sized companies. This trend highlights the growing importance of quantitative ratings in guiding investment decisions within this volatile market. As LLY leads the charge, it may encourage further interest and investment in emerging healthcare stocks.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763750271.360546,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

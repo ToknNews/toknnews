@@ -1,0 +1,122 @@
+{
+  "timestamp": 1763740711.1887524,
+  "headline": "Japan OKs $135 billion stimulus package to help revive its sluggish economy",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "Let's bring in chip for the breakdown.",
+      "tag": "chip_toss",
+      "timestamp": 1763740710.6549127
+    },
+    {
+      "speaker": "chip",
+      "text": "Chip is the steady, rational core of Token News: concise, analytical, unshakeably calm. Japan OKs $135 billion stimulus package.",
+      "tag": "primary_reaction",
+      "timestamp": 1763740710.6549466
+    },
+    {
+      "speaker": "reef",
+      "text": "Reef jumps in: That's a key angle on japan, let me add something.",
+      "tag": "duo_crosstalk",
+      "timestamp": 1763740710.654952
+    },
+    {
+      "speaker": "chip",
+      "text": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup",
+      "timestamp": 1763740710.6549544
+    },
+    {
+      "speaker": "chip",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763740710.6549852
+    },
+    {
+      "speaker": "bitsy",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt",
+      "timestamp": 1763740710.6550124
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international developments, Japan has approved a significant stimulus package aimed at revitalizing its economy.",
+      "tag": "chip_transition",
+      "timestamp": 1763740711.188747
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Let's bring in chip for the breakdown.",
+      "block_type": "chip_toss",
+      "timestamp": 1763740710.6549149,
+      "line": "Let's bring in chip for the breakdown.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Chip is the steady, rational core of Token News: concise, analytical, unshakeably calm. Japan OKs $135 billion stimulus package.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763740710.6549475,
+      "line": "Chip is the steady, rational core of Token News: concise, analytical, unshakeably calm. Japan OKs $135 billion stimulus package.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "reef",
+      "text": "Reef jumps in: That's a key angle on japan, let me add something.",
+      "block_type": "duo_crosstalk",
+      "timestamp": 1763740710.6549528,
+      "line": "Reef jumps in: That's a key angle on japan, let me add something.",
+      "tag": "duo_crosstalk"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "block_type": "duo_followup",
+      "timestamp": 1763740710.654955,
+      "line": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763740710.6549857,
+      "line": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "bitsy",
+      "voice_id": "bitsy",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "block_type": "bitsy_interrupt",
+      "timestamp": 1763740710.6550126,
+      "line": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Turning now to international developments, Japan has approved a significant stimulus package aimed at revitalizing its economy.",
+      "block_type": "chip_transition",
+      "timestamp": 1763740711.1887486,
+      "line": "Turning now to international developments, Japan has approved a significant stimulus package aimed at revitalizing its economy.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

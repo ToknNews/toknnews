@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763743328.8701026,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "bond",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "reef, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763743325.7660458
+    },
+    {
+      "speaker": "reef",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763743326.4312437
+    },
+    {
+      "speaker": "reef",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763743328.374269
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international efforts on sustainable development.",
+      "tag": "chip_transition",
+      "timestamp": 1763743328.8700962
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "reef, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763743325.7660487,
+      "line": "reef, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763743326.4312825,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763743328.3742723,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international efforts on sustainable development.",
+      "block_type": "chip_transition",
+      "timestamp": 1763743328.8700995,
+      "line": "Turning now to international efforts on sustainable development.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "reef",
+    "duo": "lawson",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

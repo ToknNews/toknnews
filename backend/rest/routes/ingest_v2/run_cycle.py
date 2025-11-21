@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 import requests
 import time
+from .ingestion_aggregator import update_stories
 
 router = APIRouter(prefix="/ingest/v2")
 
@@ -15,10 +16,22 @@ def run_cycle():
         r = requests.post(f"{BASE}/enrich", json=item)
         enriched.append(r.json())
 
+    # DEBUG — always runs
+    print("\n[DEBUG] First enriched item:\n", enriched[0], "\n")
+
+    # ---------------------------------------------------------
+    # UPDATE MULTI–STORY ROLLING MEMORY
+    # ---------------------------------------------------------
+    try:
+        update_stories(enriched)
+    except Exception as exc:
+        print("[run_cycle] ERROR updating rolling stories:", exc)
+
+    # ---------------------------------------------------------
+    # LEGACY SUBMISSION DISABLED
+    # (Episode Builder now handles all script generation)
+    # ---------------------------------------------------------
     submitted = []
-    for e in enriched:
-        r = requests.post(f"{BASE}/submit", json=e)
-        submitted.append(r.json())
 
     return {
         "status": "complete",

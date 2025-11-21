@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763743345.2004602,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "cash, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763743342.6456368
+    },
+    {
+      "speaker": "cash",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763743343.3248484
+    },
+    {
+      "speaker": "cash",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763743344.7517793
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to market developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763743345.2004528
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "cash, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763743342.6456397,
+      "line": "cash, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763743343.324852,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763743344.7517822,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to market developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763743345.2004564,
+      "line": "Turning now to market developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

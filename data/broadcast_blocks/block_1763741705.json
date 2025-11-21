@@ -1,0 +1,122 @@
+{
+  "timestamp": 1763741705.8059535,
+  "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "Let's bring in chip for the breakdown.",
+      "tag": "chip_toss",
+      "timestamp": 1763741705.17807
+    },
+    {
+      "speaker": "chip",
+      "text": "Acts as the 'adult in the room' when markets get chaotic. Crawford & Company names Bruce Swain.",
+      "tag": "primary_reaction",
+      "timestamp": 1763741705.1781094
+    },
+    {
+      "speaker": "neura",
+      "text": "Neura jumps in: That's a key angle on crawford, let me add something.",
+      "tag": "duo_crosstalk",
+      "timestamp": 1763741705.178117
+    },
+    {
+      "speaker": "chip",
+      "text": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup",
+      "timestamp": 1763741705.1781209
+    },
+    {
+      "speaker": "chip",
+      "text": "What changes now: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763741705.1781514
+    },
+    {
+      "speaker": "bitsy",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt",
+      "timestamp": 1763741705.178166
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a leadership update in the corporate sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763741705.8059456
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let's bring in chip for the breakdown.",
+      "block_type": "chip_toss",
+      "timestamp": 1763741705.178074,
+      "line": "Let's bring in chip for the breakdown.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Acts as the 'adult in the room' when markets get chaotic. Crawford & Company names Bruce Swain.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763741705.178111,
+      "line": "Acts as the 'adult in the room' when markets get chaotic. Crawford & Company names Bruce Swain.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "neura",
+      "voice_id": "U21zT7YnOSlmiJ6Uzs70",
+      "text": "Neura jumps in: That's a key angle on crawford, let me add something.",
+      "block_type": "duo_crosstalk",
+      "timestamp": 1763741705.1781185,
+      "line": "Neura jumps in: That's a key angle on crawford, let me add something.",
+      "tag": "duo_crosstalk"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "block_type": "duo_followup",
+      "timestamp": 1763741705.1781218,
+      "line": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "What changes now: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763741705.1781526,
+      "line": "What changes now: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "block_type": "bitsy_interrupt",
+      "timestamp": 1763741705.1781678,
+      "line": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a leadership update in the corporate sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763741705.805949,
+      "line": "Turning now to a leadership update in the corporate sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "neura",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

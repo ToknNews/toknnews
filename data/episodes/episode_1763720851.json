@@ -1,0 +1,219 @@
+{
+  "timestamp": 1763720851.1539893,
+  "episode_id": "episode_1763720851",
+  "rundown_count": 6,
+  "rundown": [
+    {
+      "headline": "Punjab Police gun down ISI-linked suspects in Ludhiana encounter; grenades, pistols recovered",
+      "summary": "Punjab Police fatally shot suspects linked to ISI in a Ludhiana encounter, recovering grenades and pistols from the scene.",
+      "domain": "breaking",
+      "importance": 8,
+      "sentiment": "Negative",
+      "rank_score": 62.16855627804995,
+      "anchors": [
+        "chip"
+      ]
+    },
+    {
+      "headline": "Japan OKs $135 billion stimulus package to help revive its sluggish economy",
+      "summary": "Japan has approved a $135 billion stimulus package aimed at revitalizing its sluggish economy and promoting growth.",
+      "domain": "macro",
+      "importance": 8,
+      "sentiment": "Positive",
+      "rank_score": 56.16855625629425,
+      "anchors": [
+        "bond"
+      ]
+    },
+    {
+      "headline": "Why Are Citi and Morgan Stanley Turning Strongly Positive on M&M?",
+      "summary": "Citi and Morgan Stanley have upgraded their outlook on M&M, indicating a strong positive sentiment towards the company's future performance.",
+      "domain": "markets",
+      "importance": 8,
+      "sentiment": "Positive",
+      "rank_score": 54.16855630218983,
+      "anchors": [
+        "cash",
+        "bond"
+      ]
+    },
+    {
+      "headline": "Procter & Gamble (PG) Dividend Stock Analysis",
+      "summary": "The analysis focuses on Procter & Gamble as a dividend stock, highlighting its attractive dividend yield, strong financials, and consistent dividend growth, making it a favorable investment option for income-focused investors.",
+      "domain": "markets",
+      "importance": 8,
+      "sentiment": "Positive",
+      "rank_score": 54.16855625996987,
+      "anchors": [
+        "cash",
+        "bond"
+      ]
+    },
+    {
+      "headline": "Trump drops 40% tariffs on Brazilian beef, coffee amid rising food prices",
+      "summary": "Trump has removed 40% tariffs on Brazilian beef and coffee to address rising food prices, signaling a shift in trade policy aimed at easing consumer costs.",
+      "domain": "macro",
+      "importance": 7,
+      "sentiment": "Positive",
+      "rank_score": 53.668556296626726,
+      "anchors": [
+        "bond"
+      ]
+    },
+    {
+      "headline": "Ibotta Stock: A Non-Rewarding Experience (NYSE:IBTA)",
+      "summary": "The article discusses the disappointing performance of Ibotta's stock (NYSE: IBTA), highlighting it as a non-rewarding investment experience.",
+      "domain": "markets",
+      "importance": 7,
+      "sentiment": "Negative",
+      "rank_score": 53.66855629314979,
+      "anchors": [
+        "cash",
+        "bond"
+      ]
+    }
+  ],
+  "deep_dive": {
+    "headline": "Punjab Police gun down ISI-linked suspects in Ludhiana encounter; grenades, pistols recovered",
+    "summary": "Punjab Police fatally shot suspects linked to ISI in a Ludhiana encounter, recovering grenades and pistols from the scene.",
+    "domain": "breaking",
+    "sentiment": "Negative",
+    "importance": 8,
+    "rank_score": 62.16855627804995,
+    "anchors": [
+      "chip"
+    ]
+  },
+  "segments": [
+    {
+      "type": "chip_rundown",
+      "stories": [
+        {
+          "headline": "Punjab Police gun down ISI-linked suspects in Ludhiana encounter; grenades, pistols recovered",
+          "summary": "Punjab Police fatally shot suspects linked to ISI in a Ludhiana encounter, recovering grenades and pistols from the scene.",
+          "domain": "breaking",
+          "importance": 8,
+          "sentiment": "Negative",
+          "rank_score": 62.16855627804995,
+          "anchors": [
+            "chip"
+          ]
+        },
+        {
+          "headline": "Japan OKs $135 billion stimulus package to help revive its sluggish economy",
+          "summary": "Japan has approved a $135 billion stimulus package aimed at revitalizing its sluggish economy and promoting growth.",
+          "domain": "macro",
+          "importance": 8,
+          "sentiment": "Positive",
+          "rank_score": 56.16855625629425,
+          "anchors": [
+            "bond"
+          ]
+        },
+        {
+          "headline": "Why Are Citi and Morgan Stanley Turning Strongly Positive on M&M?",
+          "summary": "Citi and Morgan Stanley have upgraded their outlook on M&M, indicating a strong positive sentiment towards the company's future performance.",
+          "domain": "markets",
+          "importance": 8,
+          "sentiment": "Positive",
+          "rank_score": 54.16855630218983,
+          "anchors": [
+            "cash",
+            "bond"
+          ]
+        },
+        {
+          "headline": "Procter & Gamble (PG) Dividend Stock Analysis",
+          "summary": "The analysis focuses on Procter & Gamble as a dividend stock, highlighting its attractive dividend yield, strong financials, and consistent dividend growth, making it a favorable investment option for income-focused investors.",
+          "domain": "markets",
+          "importance": 8,
+          "sentiment": "Positive",
+          "rank_score": 54.16855625996987,
+          "anchors": [
+            "cash",
+            "bond"
+          ]
+        },
+        {
+          "headline": "Trump drops 40% tariffs on Brazilian beef, coffee amid rising food prices",
+          "summary": "Trump has removed 40% tariffs on Brazilian beef and coffee to address rising food prices, signaling a shift in trade policy aimed at easing consumer costs.",
+          "domain": "macro",
+          "importance": 7,
+          "sentiment": "Positive",
+          "rank_score": 53.668556296626726,
+          "anchors": [
+            "bond"
+          ]
+        },
+        {
+          "headline": "Ibotta Stock: A Non-Rewarding Experience (NYSE:IBTA)",
+          "summary": "The article discusses the disappointing performance of Ibotta's stock (NYSE: IBTA), highlighting it as a non-rewarding investment experience.",
+          "domain": "markets",
+          "importance": 7,
+          "sentiment": "Negative",
+          "rank_score": 53.66855629314979,
+          "anchors": [
+            "cash",
+            "bond"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "deep_dive",
+      "story": {
+        "headline": "Punjab Police gun down ISI-linked suspects in Ludhiana encounter; grenades, pistols recovered",
+        "summary": "Punjab Police fatally shot suspects linked to ISI in a Ludhiana encounter, recovering grenades and pistols from the scene.",
+        "domain": "breaking",
+        "sentiment": "Negative",
+        "importance": 8,
+        "rank_score": 62.16855627804995,
+        "anchors": [
+          "chip"
+        ]
+      }
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "Japan OKs $135 billion stimulus package to help revive its sluggish economy",
+      "domain": "macro",
+      "anchors": [
+        "bond"
+      ],
+      "summary": "Japan has approved a $135 billion stimulus package aimed at revitalizing its sluggish economy and promoting growth.",
+      "importance": 8
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "Why Are Citi and Morgan Stanley Turning Strongly Positive on M&M?",
+      "domain": "markets",
+      "anchors": [
+        "cash",
+        "bond"
+      ],
+      "summary": "Citi and Morgan Stanley have upgraded their outlook on M&M, indicating a strong positive sentiment towards the company's future performance.",
+      "importance": 8
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "Procter & Gamble (PG) Dividend Stock Analysis",
+      "domain": "markets",
+      "anchors": [
+        "cash",
+        "bond"
+      ],
+      "summary": "The analysis focuses on Procter & Gamble as a dividend stock, highlighting its attractive dividend yield, strong financials, and consistent dividend growth, making it a favorable investment option for income-focused investors.",
+      "importance": 8
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "Trump drops 40% tariffs on Brazilian beef, coffee amid rising food prices",
+      "domain": "macro",
+      "anchors": [
+        "bond"
+      ],
+      "summary": "Trump has removed 40% tariffs on Brazilian beef and coffee to address rising food prices, signaling a shift in trade policy aimed at easing consumer costs.",
+      "importance": 7
+    }
+  ]
+}
