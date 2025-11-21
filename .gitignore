@@ -18,3 +18,8 @@ pm2_runtime.json
 *.wav
 *.mp3
 data/heartbeat.json
+data/episodes/
+data/rolling_stories.json
+logs/
+__pycache__/
+*.pyc
