@@ -1,0 +1,219 @@
+{
+  "timestamp": 1763742928.9585214,
+  "episode_id": "episode_1763742928",
+  "rundown_count": 6,
+  "rundown": [
+    {
+      "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+      "summary": "Labour unions have announced a 'combative resistance' protest on November 26 in response to the implementation of new Labour Codes, indicating a significant showdown between workers and authorities.",
+      "domain": "breaking",
+      "importance": 8,
+      "sentiment": "Negative",
+      "rank_score": 63.44607297797998,
+      "anchors": [
+        "chip"
+      ]
+    },
+    {
+      "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+      "summary": "The European Union has committed \u20ac7 billion to support renewable energy projects in Africa, aiming to promote sustainable development and clean energy transition across the continent.",
+      "domain": "macro",
+      "importance": 8,
+      "sentiment": "Positive",
+      "rank_score": 57.44607295900583,
+      "anchors": [
+        "bond"
+      ]
+    },
+    {
+      "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+      "summary": "Crawford & Company has appointed Bruce Swain as the Interim President and CEO.",
+      "domain": "breaking",
+      "importance": 7,
+      "sentiment": "Neutral",
+      "rank_score": 56.94607293645541,
+      "anchors": [
+        "chip"
+      ]
+    },
+    {
+      "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+      "summary": "The headline highlights top quant-rated small- and mid-cap healthcare stocks, coinciding with Eli Lilly (LLY) reaching a $1 trillion market capitalization milestone, indicating strong performance and interest in the healthcare sector.",
+      "domain": "markets",
+      "importance": 8,
+      "sentiment": "Positive",
+      "rank_score": 55.44607293436924,
+      "anchors": [
+        "cash",
+        "bond"
+      ]
+    },
+    {
+      "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+      "summary": "Nvidia acknowledges that the market surrounding its stock is experiencing a bubble, indicating potential overvaluation and investor caution.",
+      "domain": "markets",
+      "importance": 7,
+      "sentiment": "Negative",
+      "rank_score": 54.946072942515215,
+      "anchors": [
+        "cash",
+        "bond"
+      ]
+    },
+    {
+      "headline": "Matthews International: Excellent Deal On Warehouse Automation Sale (NASDAQ:MATW)",
+      "summary": "Matthews International (NASDAQ:MATW) is offering an excellent deal on their warehouse automation products, indicating a positive business opportunity or promotion in the automation sector.",
+      "domain": "markets",
+      "importance": 7,
+      "sentiment": "Positive",
+      "rank_score": 52.94607298334439,
+      "anchors": [
+        "cash",
+        "bond"
+      ]
+    }
+  ],
+  "deep_dive": {
+    "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+    "summary": "Labour unions have announced a 'combative resistance' protest on November 26 in response to the implementation of new Labour Codes, indicating a significant showdown between workers and authorities.",
+    "domain": "breaking",
+    "sentiment": "Negative",
+    "importance": 8,
+    "rank_score": 63.44607297797998,
+    "anchors": [
+      "chip"
+    ]
+  },
+  "segments": [
+    {
+      "type": "chip_rundown",
+      "stories": [
+        {
+          "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+          "summary": "Labour unions have announced a 'combative resistance' protest on November 26 in response to the implementation of new Labour Codes, indicating a significant showdown between workers and authorities.",
+          "domain": "breaking",
+          "importance": 8,
+          "sentiment": "Negative",
+          "rank_score": 63.44607297797998,
+          "anchors": [
+            "chip"
+          ]
+        },
+        {
+          "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+          "summary": "The European Union has committed \u20ac7 billion to support renewable energy projects in Africa, aiming to promote sustainable development and clean energy transition across the continent.",
+          "domain": "macro",
+          "importance": 8,
+          "sentiment": "Positive",
+          "rank_score": 57.44607295900583,
+          "anchors": [
+            "bond"
+          ]
+        },
+        {
+          "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+          "summary": "Crawford & Company has appointed Bruce Swain as the Interim President and CEO.",
+          "domain": "breaking",
+          "importance": 7,
+          "sentiment": "Neutral",
+          "rank_score": 56.94607293645541,
+          "anchors": [
+            "chip"
+          ]
+        },
+        {
+          "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+          "summary": "The headline highlights top quant-rated small- and mid-cap healthcare stocks, coinciding with Eli Lilly (LLY) reaching a $1 trillion market capitalization milestone, indicating strong performance and interest in the healthcare sector.",
+          "domain": "markets",
+          "importance": 8,
+          "sentiment": "Positive",
+          "rank_score": 55.44607293436924,
+          "anchors": [
+            "cash",
+            "bond"
+          ]
+        },
+        {
+          "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+          "summary": "Nvidia acknowledges that the market surrounding its stock is experiencing a bubble, indicating potential overvaluation and investor caution.",
+          "domain": "markets",
+          "importance": 7,
+          "sentiment": "Negative",
+          "rank_score": 54.946072942515215,
+          "anchors": [
+            "cash",
+            "bond"
+          ]
+        },
+        {
+          "headline": "Matthews International: Excellent Deal On Warehouse Automation Sale (NASDAQ:MATW)",
+          "summary": "Matthews International (NASDAQ:MATW) is offering an excellent deal on their warehouse automation products, indicating a positive business opportunity or promotion in the automation sector.",
+          "domain": "markets",
+          "importance": 7,
+          "sentiment": "Positive",
+          "rank_score": 52.94607298334439,
+          "anchors": [
+            "cash",
+            "bond"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "deep_dive",
+      "story": {
+        "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+        "summary": "Labour unions have announced a 'combative resistance' protest on November 26 in response to the implementation of new Labour Codes, indicating a significant showdown between workers and authorities.",
+        "domain": "breaking",
+        "sentiment": "Negative",
+        "importance": 8,
+        "rank_score": 63.44607297797998,
+        "anchors": [
+          "chip"
+        ]
+      }
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+      "domain": "macro",
+      "anchors": [
+        "bond"
+      ],
+      "summary": "The European Union has committed \u20ac7 billion to support renewable energy projects in Africa, aiming to promote sustainable development and clean energy transition across the continent.",
+      "importance": 8
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+      "domain": "breaking",
+      "anchors": [
+        "chip"
+      ],
+      "summary": "Crawford & Company has appointed Bruce Swain as the Interim President and CEO.",
+      "importance": 7
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+      "domain": "markets",
+      "anchors": [
+        "cash",
+        "bond"
+      ],
+      "summary": "The headline highlights top quant-rated small- and mid-cap healthcare stocks, coinciding with Eli Lilly (LLY) reaching a $1 trillion market capitalization milestone, indicating strong performance and interest in the healthcare sector.",
+      "importance": 8
+    },
+    {
+      "type": "anchor_analysis",
+      "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+      "domain": "markets",
+      "anchors": [
+        "cash",
+        "bond"
+      ],
+      "summary": "Nvidia acknowledges that the market surrounding its stock is experiencing a bubble, indicating potential overvaluation and investor caution.",
+      "importance": 7
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763735833.4537218,
+  "headline": "Japan OKs $135 billion stimulus package to help revive its sluggish economy",
+  "character": "bond",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763735832.1798348
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The short version is this: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "timestamp": 1763735832.179866
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international developments impacting global markets.",
+      "timestamp": 1763735832.5370023
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, where\u2019s the liquidity pressure here?",
+      "timestamp": 1763735832.537018
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763735832.5370357
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, legally speaking \u2014 what does this mean?",
+      "timestamp": 1763735832.5370452
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735832.5370548
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, how do global flows factor in?",
+      "timestamp": 1763735832.5370593
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735832.5370686
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763735832.5370808
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763735832.5370913
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to economic developments overseas, Japan has approved a significant stimulus package aimed at revitalizing its economy.",
+      "timestamp": 1763735833.4536827
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let\u2019s bring this back to center.",
+      "timestamp": 1763735833.4536965
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "content": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763735832.1798375
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "The short version is this: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "content": "The short version is this: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "timestamp": 1763735832.1798675
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to international developments impacting global markets.",
+      "content": "Turning now to international developments impacting global markets.",
+      "timestamp": 1763735832.5370045
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, where\u2019s the liquidity pressure here?",
+      "content": "Reef, where\u2019s the liquidity pressure here?",
+      "timestamp": 1763735832.5370193
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "content": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763735832.5370371
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, legally speaking \u2014 what does this mean?",
+      "content": "Lawson, legally speaking \u2014 what does this mean?",
+      "timestamp": 1763735832.5370462
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "content": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735832.5370555
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, how do global flows factor in?",
+      "content": "Bond, how do global flows factor in?",
+      "timestamp": 1763735832.53706
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+      "content": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735832.5370696
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763735832.5370817
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763735832.5370922
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to economic developments overseas, Japan has approved a significant stimulus package aimed at revitalizing its economy.",
+      "content": "Turning now to economic developments overseas, Japan has approved a significant stimulus package aimed at revitalizing its economy.",
+      "timestamp": 1763735833.4536853
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Let\u2019s bring this back to center.",
+      "content": "Let\u2019s bring this back to center.",
+      "timestamp": 1763735833.4536977
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763735833",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+        "block_type": "chip_open",
+        "timestamp": 1763735832.1798348
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "The short version is this: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763735832.179866
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to international developments impacting global markets.",
+        "block_type": "chip_transition",
+        "timestamp": 1763735832.5370023
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, where\u2019s the liquidity pressure here?",
+        "block_type": "chip_toss",
+        "timestamp": 1763735832.537018
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763735832.5370357
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, legally speaking \u2014 what does this mean?",
+        "block_type": "chip_toss",
+        "timestamp": 1763735832.5370452
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763735832.5370548
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, how do global flows factor in?",
+        "block_type": "chip_toss",
+        "timestamp": 1763735832.5370593
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763735832.5370686
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763735832.5370808
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763735832.5370913
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to economic developments overseas, Japan has approved a significant stimulus package aimed at revitalizing its economy.",
+        "block_type": "chip_transition",
+        "timestamp": 1763735833.4536827
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Let\u2019s bring this back to center.",
+        "block_type": "chip_reentry",
+        "timestamp": 1763735833.4536965
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

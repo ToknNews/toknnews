@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763723299.317434,
+  "headline": "Procter & Gamble (PG) Dividend Stock Analysis",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763723297.5817394
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "timestamp": 1763723297.5817802
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the latest insights on Procter & Gamble\u2019s dividend performance.",
+      "timestamp": 1763723298.522833
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763723298.5228555
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+      "timestamp": 1763723298.522877
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763723298.5228837
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "Legally, this sets a precedent: This ties into broader market movement and sentiment..",
+      "timestamp": 1763723298.522893
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, give us the macro perspective.",
+      "timestamp": 1763723298.5228982
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "timestamp": 1763723298.5229063
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763723298.5229187
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763723298.5229282
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a key player in the consumer goods sector, we examine the latest analysis on Procter & Gamble\u2019s dividend stock.",
+      "timestamp": 1763723299.3173974
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let\u2019s bring this back to center.",
+      "timestamp": 1763723299.3174117
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "content": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763723297.5817418
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "content": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "timestamp": 1763723297.5817811
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to the latest insights on Procter & Gamble\u2019s dividend performance.",
+      "content": "Turning now to the latest insights on Procter & Gamble\u2019s dividend performance.",
+      "timestamp": 1763723298.5228372
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, help us understand the on-chain angle.",
+      "content": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763723298.522857
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+      "content": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+      "timestamp": 1763723298.5228782
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, I know you watch this sector closely.",
+      "content": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763723298.5228844
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "Legally, this sets a precedent: This ties into broader market movement and sentiment..",
+      "content": "Legally, this sets a precedent: This ties into broader market movement and sentiment..",
+      "timestamp": 1763723298.5228941
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, give us the macro perspective.",
+      "content": "Bond, give us the macro perspective.",
+      "timestamp": 1763723298.522899
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "content": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "timestamp": 1763723298.5229075
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763723298.5229194
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763723298.522929
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to a key player in the consumer goods sector, we examine the latest analysis on Procter & Gamble\u2019s dividend stock.",
+      "content": "Turning now to a key player in the consumer goods sector, we examine the latest analysis on Procter & Gamble\u2019s dividend stock.",
+      "timestamp": 1763723299.3173997
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Let\u2019s bring this back to center.",
+      "content": "Let\u2019s bring this back to center.",
+      "timestamp": 1763723299.3174126
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763723299",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+        "block_type": "chip_open",
+        "timestamp": 1763723297.5817394
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763723297.5817802
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to the latest insights on Procter & Gamble\u2019s dividend performance.",
+        "block_type": "chip_transition",
+        "timestamp": 1763723298.522833
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, help us understand the on-chain angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763723298.5228555
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763723298.522877
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, I know you watch this sector closely.",
+        "block_type": "chip_toss",
+        "timestamp": 1763723298.5228837
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "Legally, this sets a precedent: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763723298.522893
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, give us the macro perspective.",
+        "block_type": "chip_toss",
+        "timestamp": 1763723298.5228982
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763723298.5229063
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763723298.5229187
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763723298.5229282
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to a key player in the consumer goods sector, we examine the latest analysis on Procter & Gamble\u2019s dividend stock.",
+        "block_type": "chip_transition",
+        "timestamp": 1763723299.3173974
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Let\u2019s bring this back to center.",
+        "block_type": "chip_reentry",
+        "timestamp": 1763723299.3174117
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

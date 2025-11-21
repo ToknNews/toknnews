@@ -1,0 +1,391 @@
+{
+  "timestamp": 1763735356.3545027,
+  "headline": "Punjab Police gun down ISI-linked suspects in Ludhiana encounter; grenades, pistols recovered",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763735354.7111764
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "timestamp": 1763735354.7112107
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant security update from Punjab.",
+      "timestamp": 1763735355.595682
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let's bring in another perspective.",
+      "timestamp": 1763735355.5957043
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bigger picture: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763735355.595735
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763735355.5957432
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763735355.5957556
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763735355.5957606
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735355.595771
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, give us the macro perspective.",
+      "timestamp": 1763735355.595777
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735355.5957875
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763735355.5958045
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763735355.5958166
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to security developments in Punjab, where recent events have drawn significant attention.",
+      "timestamp": 1763735356.3544524
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let\u2019s bring this back to center.",
+      "timestamp": 1763735356.3544693
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "content": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763735354.7111783
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "content": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "timestamp": 1763735354.7112117
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to a significant security update from Punjab.",
+      "content": "Turning now to a significant security update from Punjab.",
+      "timestamp": 1763735355.595685
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Let's bring in another perspective.",
+      "content": "Let's bring in another perspective.",
+      "timestamp": 1763735355.5957055
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "anchor_analysis",
+      "text": "Bigger picture: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "content": "Bigger picture: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763735355.5957363
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, help us understand the on-chain angle.",
+      "content": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763735355.5957444
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "content": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763735355.5957565
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, I know you watch this sector closely.",
+      "content": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763735355.5957618
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "content": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735355.5957725
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, give us the macro perspective.",
+      "content": "Bond, give us the macro perspective.",
+      "timestamp": 1763735355.595778
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "content": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "timestamp": 1763735355.5957887
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763735355.5958056
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763735355.595818
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to security developments in Punjab, where recent events have drawn significant attention.",
+      "content": "Turning now to security developments in Punjab, where recent events have drawn significant attention.",
+      "timestamp": 1763735356.3544555
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Let\u2019s bring this back to center.",
+      "content": "Let\u2019s bring this back to center.",
+      "timestamp": 1763735356.354471
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763735356",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+        "block_type": "chip_open",
+        "timestamp": 1763735354.7111764
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763735354.7112107
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to a significant security update from Punjab.",
+        "block_type": "chip_transition",
+        "timestamp": 1763735355.595682
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Let's bring in another perspective.",
+        "block_type": "chip_toss",
+        "timestamp": 1763735355.5957043
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bigger picture: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763735355.595735
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, help us understand the on-chain angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763735355.5957432
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763735355.5957556
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, I know you watch this sector closely.",
+        "block_type": "chip_toss",
+        "timestamp": 1763735355.5957606
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763735355.595771
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, give us the macro perspective.",
+        "block_type": "chip_toss",
+        "timestamp": 1763735355.595777
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763735355.5957875
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763735355.5958045
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763735355.5958166
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to security developments in Punjab, where recent events have drawn significant attention.",
+        "block_type": "chip_transition",
+        "timestamp": 1763735356.3544524
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Let\u2019s bring this back to center.",
+        "block_type": "chip_reentry",
+        "timestamp": 1763735356.3544693
+      }
+    ],
+    "duration_seconds": 48.0
+  }
+}

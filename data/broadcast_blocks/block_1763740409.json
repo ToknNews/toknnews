@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763740409.4405704,
+  "headline": "Why Are Citi and Morgan Stanley Turning Strongly Positive on M&M?",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763740408.4836214
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763740408.4836469
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning to the latest shifts in market sentiment, we examine recent analyst upgrades on a major automotive player.",
+      "timestamp": 1763740408.9292943
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763740408.9293141
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763740408.9293334
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, walk us through the compliance angle.",
+      "timestamp": 1763740408.92934
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "timestamp": 1763740408.9293516
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, how do global flows factor in?",
+      "timestamp": 1763740408.9293568
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "timestamp": 1763740408.9293666
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763740408.9293826
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763740408.929395
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning to the financial sector, recent analyst outlooks are drawing notable attention.",
+      "timestamp": 1763740409.4405346
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let\u2019s bring this back to center.",
+      "timestamp": 1763740409.440549
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "content": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763740408.483624
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "content": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763740408.4836478
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning to the latest shifts in market sentiment, we examine recent analyst upgrades on a major automotive player.",
+      "content": "Turning to the latest shifts in market sentiment, we examine recent analyst upgrades on a major automotive player.",
+      "timestamp": 1763740408.9292977
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, help us understand the on-chain angle.",
+      "content": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763740408.9293153
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "content": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763740408.929335
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, walk us through the compliance angle.",
+      "content": "Lawson, walk us through the compliance angle.",
+      "timestamp": 1763740408.929341
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "content": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+      "timestamp": 1763740408.9293528
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, how do global flows factor in?",
+      "content": "Bond, how do global flows factor in?",
+      "timestamp": 1763740408.929358
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "content": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+      "timestamp": 1763740408.9293678
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763740408.929384
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763740408.9293962
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning to the financial sector, recent analyst outlooks are drawing notable attention.",
+      "content": "Turning to the financial sector, recent analyst outlooks are drawing notable attention.",
+      "timestamp": 1763740409.440537
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Let\u2019s bring this back to center.",
+      "content": "Let\u2019s bring this back to center.",
+      "timestamp": 1763740409.4405496
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763740409",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+        "block_type": "chip_open",
+        "timestamp": 1763740408.4836214
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763740408.4836469
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning to the latest shifts in market sentiment, we examine recent analyst upgrades on a major automotive player.",
+        "block_type": "chip_transition",
+        "timestamp": 1763740408.9292943
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, help us understand the on-chain angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763740408.9293141
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763740408.9293334
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, walk us through the compliance angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763740408.92934
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "This imposes a new threshold of accountability: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763740408.9293516
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, how do global flows factor in?",
+        "block_type": "chip_toss",
+        "timestamp": 1763740408.9293568
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "This pivots on rate expectations: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763740408.9293666
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763740408.9293826
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763740408.929395
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning to the financial sector, recent analyst outlooks are drawing notable attention.",
+        "block_type": "chip_transition",
+        "timestamp": 1763740409.4405346
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Let\u2019s bring this back to center.",
+        "block_type": "chip_reentry",
+        "timestamp": 1763740409.440549
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

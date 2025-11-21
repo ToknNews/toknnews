@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763748847.601453,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of this bubble for investors and the tech sector.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763748844.957191
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation demands urgent attention and careful navigation to avoid further conflict.",
+      "tag": "primary_reaction",
+      "timestamp": 1763748845.4269538
+    },
+    {
+      "speaker": "chip",
+      "text": "The assertion that Nvidia is experiencing a bubble reflects growing concerns about overvaluation in the tech sector. This sentiment may indicate a shift in investor confidence, potentially influencing market dynamics. Observers should monitor how this perception impacts stock performance and overall market trends.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763748847.0852523
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763748847.6014473
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of this bubble for investors and the tech sector.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763748844.9571946,
+      "line": "\"Chip, break down the implications of this bubble for investors and the tech sector.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation demands urgent attention and careful navigation to avoid further conflict.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763748845.4269571,
+      "line": "The escalating situation demands urgent attention and careful navigation to avoid further conflict.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The assertion that Nvidia is experiencing a bubble reflects growing concerns about overvaluation in the tech sector. This sentiment may indicate a shift in investor confidence, potentially influencing market dynamics. Observers should monitor how this perception impacts stock performance and overall market trends.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763748847.0852559,
+      "line": "The assertion that Nvidia is experiencing a bubble reflects growing concerns about overvaluation in the tech sector. This sentiment may indicate a shift in investor confidence, potentially influencing market dynamics. Observers should monitor how this perception impacts stock performance and overall market trends.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763748847.60145,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

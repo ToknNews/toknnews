@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763716947.0641809,
+  "headline": "Ibotta Stock: A Non-Rewarding Experience (NYSE:IBTA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763716945.5485544
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763716945.5485926
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning to corporate performance, we examine recent trends affecting Ibotta\u2019s stock.",
+      "timestamp": 1763716946.231437
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763716946.2314572
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+      "timestamp": 1763716946.231482
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, legally speaking \u2014 what does this mean?",
+      "timestamp": 1763716946.231491
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716946.2315054
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763716946.2315123
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716946.231531
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763716946.2315488
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763716946.231561
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the stock market, we examine the latest performance of Ibotta.",
+      "timestamp": 1763716947.0641434
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Grounding this in data:",
+      "timestamp": 1763716947.0641565
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "content": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763716945.5485563
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "content": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763716945.5485938
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning to corporate performance, we examine recent trends affecting Ibotta\u2019s stock.",
+      "content": "Turning to corporate performance, we examine recent trends affecting Ibotta\u2019s stock.",
+      "timestamp": 1763716946.2314405
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, help us understand the on-chain angle.",
+      "content": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763716946.2314591
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+      "content": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+      "timestamp": 1763716946.231484
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, legally speaking \u2014 what does this mean?",
+      "content": "Lawson, legally speaking \u2014 what does this mean?",
+      "timestamp": 1763716946.2314925
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "content": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716946.2315066
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "content": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763716946.2315135
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+      "content": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716946.231533
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763716946.23155
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763716946.2315621
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to developments in the stock market, we examine the latest performance of Ibotta.",
+      "content": "Turning now to developments in the stock market, we examine the latest performance of Ibotta.",
+      "timestamp": 1763716947.0641463
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Grounding this in data:",
+      "content": "Grounding this in data:",
+      "timestamp": 1763716947.0641575
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763716947",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+        "block_type": "chip_open",
+        "timestamp": 1763716945.5485544
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Here\u2019s the real tension underneath: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763716945.5485926
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning to corporate performance, we examine recent trends affecting Ibotta\u2019s stock.",
+        "block_type": "chip_transition",
+        "timestamp": 1763716946.231437
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, help us understand the on-chain angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763716946.2314572
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "Yield chasers are already circling. This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763716946.231482
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, legally speaking \u2014 what does this mean?",
+        "block_type": "chip_toss",
+        "timestamp": 1763716946.231491
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763716946.2315054
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, you\u2019ve been tracking this; jump in here.",
+        "block_type": "chip_toss",
+        "timestamp": 1763716946.2315123
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763716946.231531
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763716946.2315488
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763716946.231561
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to developments in the stock market, we examine the latest performance of Ibotta.",
+        "block_type": "chip_transition",
+        "timestamp": 1763716947.0641434
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Grounding this in data:",
+        "block_type": "chip_reentry",
+        "timestamp": 1763716947.0641565
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

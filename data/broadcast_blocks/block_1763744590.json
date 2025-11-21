@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763744590.6849616,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "chip, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763744587.9343302
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763744588.528598
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763744590.1341527
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition",
+      "timestamp": 1763744590.6849535
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "chip, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763744587.9343352,
+      "line": "chip, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763744588.5286016,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763744590.134156,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international efforts in sustainable development.",
+      "block_type": "chip_transition",
+      "timestamp": 1763744590.684957,
+      "line": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

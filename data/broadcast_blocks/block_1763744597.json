@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763744597.0276706,
+  "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "chip, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763744593.6524363
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763744595.2119741
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763744596.646236
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to leadership changes in the corporate sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763744597.0276644
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "chip, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763744593.6524394,
+      "line": "chip, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763744595.2119775,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763744596.6462393,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to leadership changes in the corporate sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763744597.027667,
+      "line": "Turning now to leadership changes in the corporate sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "neura",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

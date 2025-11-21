@@ -1,0 +1,152 @@
+{
+  "timestamp": 1763747012.5655723,
+  "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"As we watch this leadership change, what implications might it have for investor confidence and market stability?\"",
+      "tag": "chip_intro",
+      "timestamp": 1763747001.1673026
+    },
+    {
+      "speaker": "chip",
+      "text": "It seems the stakes have never been higher in this unfolding situation.",
+      "tag": "chip_rundown",
+      "timestamp": 1763747005.8453782
+    },
+    {
+      "speaker": "chip",
+      "text": "\"Chip, outline the implications of Bruce Swain stepping in as Interim President & CEO at Crawford & Company.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763747007.2570286
+    },
+    {
+      "speaker": "chip",
+      "text": "That tension certainly highlights the complexities of the situation at hand.",
+      "tag": "primary_reaction",
+      "timestamp": 1763747008.037661
+    },
+    {
+      "speaker": "neura",
+      "text": "Such complexities often lead to unforeseen consequences that can impact many facets of life.",
+      "tag": "duo_crosstalk",
+      "timestamp": 1763747008.631698
+    },
+    {
+      "speaker": "chip",
+      "text": "The appointment of Bruce Swain as Interim President & CEO at Crawford & Company signals a strategic shift within the organization. This change may reflect underlying trends in the market, influencing both investor confidence and operational direction. Stakeholders will be keenly observing how this leadership transition aligns with broader market sentiments.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763747010.527143
+    },
+    {
+      "speaker": "vega",
+      "text": "\"Considering Bruce Swain's appointment, what implications should investors anticipate for Crawford & Company's market positioning?\"",
+      "tag": "vega_block",
+      "timestamp": 1763747011.5024183
+    },
+    {
+      "speaker": "bitsy",
+      "text": "\"What implications might Bruce Swain's leadership have on investor confidence amid the current market dynamics?\"",
+      "tag": "bitsy_interrupt",
+      "timestamp": 1763747012.0190592
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to leadership changes in the corporate sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763747012.565562
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"As we watch this leadership change, what implications might it have for investor confidence and market stability?\"",
+      "block_type": "chip_intro",
+      "timestamp": 1763747001.1673057,
+      "line": "\"As we watch this leadership change, what implications might it have for investor confidence and market stability?\"",
+      "tag": "chip_intro"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It seems the stakes have never been higher in this unfolding situation.",
+      "block_type": "chip_rundown",
+      "timestamp": 1763747005.8453825,
+      "line": "It seems the stakes have never been higher in this unfolding situation.",
+      "tag": "chip_rundown"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, outline the implications of Bruce Swain stepping in as Interim President & CEO at Crawford & Company.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763747007.2570324,
+      "line": "\"Chip, outline the implications of Bruce Swain stepping in as Interim President & CEO at Crawford & Company.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That tension certainly highlights the complexities of the situation at hand.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763747008.0376644,
+      "line": "That tension certainly highlights the complexities of the situation at hand.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "neura",
+      "voice_id": "U21zT7YnOSlmiJ6Uzs70",
+      "text": "Such complexities often lead to unforeseen consequences that can impact many facets of life.",
+      "block_type": "duo_crosstalk",
+      "timestamp": 1763747008.6317022,
+      "line": "Such complexities often lead to unforeseen consequences that can impact many facets of life.",
+      "tag": "duo_crosstalk"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The appointment of Bruce Swain as Interim President & CEO at Crawford & Company signals a strategic shift within the organization. This change may reflect underlying trends in the market, influencing both investor confidence and operational direction. Stakeholders will be keenly observing how this leadership transition aligns with broader market sentiments.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763747010.5271456,
+      "line": "The appointment of Bruce Swain as Interim President & CEO at Crawford & Company signals a strategic shift within the organization. This change may reflect underlying trends in the market, influencing both investor confidence and operational direction. Stakeholders will be keenly observing how this leadership transition aligns with broader market sentiments.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "\"Considering Bruce Swain's appointment, what implications should investors anticipate for Crawford & Company's market positioning?\"",
+      "block_type": "vega_block",
+      "timestamp": 1763747011.502422,
+      "line": "\"Considering Bruce Swain's appointment, what implications should investors anticipate for Crawford & Company's market positioning?\"",
+      "tag": "vega_block"
+    },
+    {
+      "speaker": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "\"What implications might Bruce Swain's leadership have on investor confidence amid the current market dynamics?\"",
+      "block_type": "bitsy_interrupt",
+      "timestamp": 1763747012.0190632,
+      "line": "\"What implications might Bruce Swain's leadership have on investor confidence amid the current market dynamics?\"",
+      "tag": "bitsy_interrupt"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to leadership changes in the corporate sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763747012.5655668,
+      "line": "Turning now to leadership changes in the corporate sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "neura",
+    "daypart": "evening",
+    "segment_type": "headline"
+  }
+}

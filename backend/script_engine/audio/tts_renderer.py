@@ -4,62 +4,20 @@ TOKNNews — ElevenLabs TTS Renderer (Final, Correct Version)
 Produces valid MP3 audio files.
 """
 
-# ------------------------------------------------------------
-# Standard Imports Only (TTS does NOT import persona modules)
-# ------------------------------------------------------------
-import os
-import time
-import requests
+import os, time, requests
 
 AUDIO_DIR = "/var/www/toknnews/data/audio"
 os.makedirs(AUDIO_DIR, exist_ok=True)
 
-ELEVEN_API_KEY = os.getenv("ELEVEN_API_KEY")
+import hvac
 
-# ------------------------------------------------------------
-# TTS FILTER — ACRONYMS (PHONETIC) + EXPANSIONS (SEMANTIC)
-# ------------------------------------------------------------
-
-def apply_tts_filter(text: str) -> str:
-    # --- Spoken expansions (semantic replacements) ---
-    expand = {
-        "TVL": "total value locked",
-        "APR": "annual percentage rate",
-        "APY": "annual percentage yield",
-        "KYC": "know your customer",
-        "AML": "anti money laundering",
-    }
-
-    # --- Phonetic corrections (crypto + finance acronyms) ---
-    phonetic = {
-        "ETH": "EETH",
-        "BTC": "B T C",
-        "USDC": "U S D C",
-        "USDT": "U S D T",
-        "CPI": "C P I",
-        "PPI": "P P I",
-        "FOMC": "F O M C",
-        "GPU": "G P U",
-        "TPU": "T P U",
-        "LLM": "L L M",
-        "API": "A P I",
-        "MEV": "M E V",
-        "AML": "A M L",
-        "KYC": "K Y C",   # fallback if not expanded earlier
-        "L1": "Layer 1",
-        "L2": "Layer 2",
-    }
-
-    # --- Perform expansions first ---
-    for k, v in expand.items():
-        text = text.replace(k, v)
-
-    # --- Then apply phonetic mappings ---
-    for k, v in phonetic.items():
-        text = text.replace(k, v)
-
-    return text
-
+try:
+    client = hvac.Client(url="http://localhost:8200", token="root")  # adjust if needed
+    secret = client.read("secret/elevenlabs")
+    ELEVEN_API_KEY = secret["data"]["api_key"]
+except Exception as e:
+    print("[Audio] Vault lookup failed:", e)
+    ELEVEN_API_KEY = os.getenv("ELEVEN_API_KEY") or None
 
 def render_block(block, scene_id):
     voice_id = block["voice_id"]
@@ -81,11 +39,11 @@ def render_block(block, scene_id):
     }
 
     payload = {
-        "text": apply_phonetic_filter(text),
+        "text": text,
         "model_id": "eleven_monolingual_v1",
-        "voice_settings" = {
-            "stability": 0.25,
-            "similarity_boost": 0.95
+        "voice_settings": {
+            "stability": 0.55,
+            "similarity_boost": 0.65
         }
     }
 

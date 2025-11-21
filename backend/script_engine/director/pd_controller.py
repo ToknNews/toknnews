@@ -1,223 +1,216 @@
 #!/usr/bin/env python3
 """
-TOKNNews — PD Controller (Master Orchestrator)
-Module C-7
+TOKNNews — PD Controller (Clean Integrated Build)
+Controls:
+ - Segment type (headline / breaking / show_intro)
+ - Hybrid anchor selection (EpisodeBuilder suggestion + PD override)
+ - Daypart intelligence
+ - Bitsy/Vega cadence rules
+ - Intro logic
+ - Ad insertion
+ - State persistence
 """
 
 import time
 
-# ------------------------------------------------------------
-# Dual-Mode Imports (Package vs Local)
-# ------------------------------------------------------------
-try:
-    from script_engine.director.director_state import load_state, save_state
-    from script_engine.director.segment_router import route_segment
-    from script_engine.director.ad_logic import should_insert_ad
-except ImportError:
-    from director.director_state import load_state, save_state
-    from director.segment_router import route_segment
-    from director.ad_logic import should_insert_ad
+# State + routing imports
+from script_engine.director.director_state import load_state, save_state
+from script_engine.director.segment_router import route_segment
+from script_engine.director.ad_logic import should_insert_ad
 
-# ============================================================================
-# STEP 3-G — Character-Bible Driven Anchor Logic
-# ============================================================================
 
-def select_anchors(state, headline, personas):
+# =====================================================================
+# Anchor selection helpers
+# =====================================================================
+
+def select_anchors(state, headline):
     """
-    Step-3G Anchor Logic:
-    - Domain scoring
-    - Bible roles
-    - Duo support
+    Basic domain-based anchor selection.
+    PD may override this depending on suggested_anchor or breaking.
     """
-    pd_directive = state.get("pd_directive")
-    tone_shift = state.get("tone_shift")
-    primary_domain = state.get("primary_domain")
+    h = headline.lower()
 
-    # Build candidate pool
-    candidates = []
-    for name, p in personas.items():
+    if "regulat" in h or "sec" in h or "lawsuit" in h:
+        return ["lawson"]
 
-        # Normalize Bible fields
-        roles = p.get("role") or p.get("roles") or []
-        if isinstance(roles, str):
-            roles = [roles]
+    if "solana" in h or "defi" in h or "liquidity" in h:
+        return ["reef"]
 
-        domains = p.get("domain") or p.get("domains") or []
-        if isinstance(domains, str):
-            domains = [domains]
+    if "market" in h or "macro" in h or "inflation" in h:
+        return ["bond"]
 
-        duo_with = p.get("duo_with") or p.get("duo") or []
+    if "on-chain" in h or "blockchain data" in h:
+        return ["ledger"]
 
-        tone_bias = p.get("tone_bias") or []
-        if isinstance(tone_bias, str):
-            tone_bias = [tone_bias]
+    if "ai" in h or "compute" in h or "model" in h:
+        return ["neura"]
 
-        voice_id = p.get("voice_id") or p.get("voice")
+    if "funding" in h or "venture" in h:
+        return ["cap"]
 
-        candidates.append({
-            "name": name,
-            "roles": roles,
-            "domains": domains,
-            "duo_with": duo_with,
-            "tone_bias": tone_bias,
-            "voice_id": voice_id
-        })
+    if "retail" in h or "meme" in h or "community" in h:
+        return ["penny"]
 
-    # PD override
-    if pd_directive and pd_directive in personas:
-        return [pd_directive]
+    # Fallback: rotation pool
+    return ["reef", "lawson", "bond"]
 
-    scores = {}
-    hl = headline.lower()
 
-    # Scoring
-    for c in candidates:
-        score = 0
 
-        # Domain match
-        if primary_domain and primary_domain in c["domains"]:
-            score += 20
+# =====================================================================
+# HYBRID ANCHOR OVERLAY (EpisodeBuilder + PD Override)
+# =====================================================================
 
-        # Headline keywords
-        for d in c["domains"]:
-            if d.lower() in hl:
-                score += 5
+def apply_hybrid_anchor_logic(anchors, suggested_anchor, pd_flags):
+    """
+    Hybrid logic:
+       - EpisodeBuilder suggests primary
+       - PD overrides ONLY when breaking or override mode
+       - Otherwise, suggested anchor becomes primary
+    """
+    if not suggested_anchor:
+        return anchors
 
-        # Role priority
-        if "primary_anchor" in c["roles"]:
-            score += 10
-        if "analyst" in c["roles"]:
-            score += 4
-        if "contrarian" in c["roles"]:
-            score += 2
+    # PD override modes always win
+    if pd_flags.get("is_breaking") or pd_flags.get("allow_override"):
+        return anchors
 
-        # Tone bias
-        if tone_shift and tone_shift in c["tone_bias"]:
-            score += 3
+    # PB suggestion wins in normal segments
+    if suggested_anchor not in anchors:
+        return [suggested_anchor] + anchors
 
-        scores[c["name"]] = score
+    # PB suggestion already primary or present
+    return anchors
 
-    # Top anchor
-    top = max(scores, key=scores.get)
-    primary = [top]
 
-    # --- Domain-based duo selection ---
-    DUO_BY_DOMAIN = {
-        "defi":        ["ledger", "cash"],
-        "onchain":     ["reef", "bond"],
-        "markets":     ["cash", "bond"],
-        "macro":       ["bond", "lawson"],
-        "regulation":  ["lawson", "bond"],
-        "ai":          ["neura", "cap"],
-        "funding":     ["cap", "neura"],
-        "meme":        ["bitsy", "penny"],
-        "retail":      ["penny", "bitsy"],
-        "volatility":  ["rex", "reef", "cash"],
-        "general":     ["chip", "bond", "ivy"]
+
+# =====================================================================
+# DUO-ANCHOR MAPPING (Optional Panels)
+# =====================================================================
+
+DUO_MAP = {
+    "reef": "bond",
+    "lawson": "bond",
+    "penny": "cash",
+    "bond": "lawson",
+    "cash": "penny",
+    "ledger": "reef",
+    "neura": "bond",
+}
+
+
+
+def apply_duo_anchor(anchors):
+    """
+    Enables duo segments when appropriate.
+    """
+    primary = anchors[0]
+
+    if primary in DUO_MAP:
+        secondary = DUO_MAP[primary]
+        if secondary not in anchors:
+            anchors.append(secondary)
+
+    return anchors
+
+
+
+# =====================================================================
+# MAIN PD CONTROLLER
+# =====================================================================
+
+def run_pd(headline, suggested_anchor=None):
+    state = load_state()
+
+    # ------------------------------------------
+    # 1. Determine segment type
+    # ------------------------------------------
+    segment_type = route_segment(headline, state)
+
+    # ------------------------------------------
+    # 2. Build PD flags
+    # ------------------------------------------
+    pd_flags = {
+        "is_breaking": segment_type == "breaking",
+        "allow_override": segment_type == "breaking",  # future expansion
     }
 
-    duo_candidates = DUO_BY_DOMAIN.get(primary_domain, [])
-    duo_partner = None
+    # ------------------------------------------
+    # 3. Select anchors + Hybrid Override
+    # ------------------------------------------
+    anchors = select_anchors(state, headline)
+    anchors = apply_hybrid_anchor_logic(anchors, suggested_anchor, pd_flags)
 
-    # Choose the first valid persona in the duo list that exists
-    for cand in duo_candidates:
-        if cand in personas and cand != top:
-            duo_partner = cand
-            break
+    # ------------------------------------------
+    # 4. Enable duo anchors (optional)
+    # ------------------------------------------
+    anchors = apply_duo_anchor(anchors)
 
-    if duo_partner:
-        primary.append(duo_partner)
+    # ------------------------------------------
+    # 5. Daypart intelligence (tone & pacing)
+    # ------------------------------------------
+    hour = time.localtime().tm_hour
 
-    return primary
-
-
-# ============================================================================
-# PD ENTRY POINT (final Step-3G version — ONLY ONE)
-# ============================================================================
-
-def run_pd(headline: str, personas: dict):
-    state = load_state()
-    print("DEBUG PERSONAS:", personas.keys())
-
-    # ---------------------------
-    # Step-3G Domain Detection
-    # ---------------------------
-    hl = headline.lower()
-
-    if any(x in hl for x in ["defi", "exploit", "liquidity", "amm"]):
-        state["primary_domain"] = "defi"
-    elif any(x in hl for x in ["sec", "cftc", "lawsuit", "regulator"]):
-        state["primary_domain"] = "regulation"
-    elif any(x in hl for x in ["ai", "language model", "gpu"]):
-        state["primary_domain"] = "ai"
-    elif any(x in hl for x in ["on-chain", "onchain", "wallet", "addresses"]):
-        state["primary_domain"] = "onchain"
-    elif any(x in hl for x in ["cpi", "macro", "inflation"]):
-        state["primary_domain"] = "macro"
-    elif any(x in hl for x in ["funding", "venture", "seed round"]):
-        state["primary_domain"] = "funding"
-    elif any(x in hl for x in ["meme", "culture", "community"]):
-        state["primary_domain"] = "meme"
-    elif any(x in hl for x in ["retail", "users", "customer"]):
-        state["primary_domain"] = "retail"
-    elif any(x in hl for x in ["volatility", "liquidations", "night", "chaos"]):
-        state["primary_domain"] = "volatility"
+    if 5 <= hour < 12:
+        daypart = "morning"
+    elif 12 <= hour < 17:
+        daypart = "afternoon"
+    elif 17 <= hour < 22:
+        daypart = "evening"
     else:
-        state["primary_domain"] = "general"
+        daypart = "latenight"
 
-    # ---------------------------
-    # Segment routing
-    # ---------------------------
-    segment_type = route_segment(state, headline)
+    pd_flags["daypart"] = daypart
 
-    # ---------------------------
-    # Anchor selection
-    # ---------------------------
-    anchors = select_anchors(state, headline, personas)
+    # ------------------------------------------
+    # 6. Bitsy / Vega persona gating
+    # ------------------------------------------
+    # Vega: pacing + intros + late-night presence
+    if segment_type == "breaking":
+        allow_vega = False
+    elif segment_type == "show_intro":
+        allow_vega = True
+    elif daypart == "latenight":
+        allow_vega = True
+    else:
+        allow_vega = (state.get("cycle_index", 0) % 4 == 0)
 
-    # ---------------------------
-    # Bitsy / Vega triggers
-    # ---------------------------
-    allow_bitsy = allow_bitsy_pd(state, segment_type)
-    allow_vega = allow_vega_pd(state, segment_type)
-    show_intro = (segment_type == "show_intro")
+    # Bitsy: culture, hype, chaos
+    if segment_type == "breaking":
+        allow_bitsy = False
+    elif daypart == "morning":
+        allow_bitsy = False  # too early for chaos
+    elif daypart == "latenight":
+        allow_bitsy = True   # late-night chaos allowed
+    else:
+        allow_bitsy = (state.get("cycle_index", 0) % 6 == 0)
 
-    # ---------------------------
-    # State update
-    # ---------------------------
-    state["last_segment_type"] = segment_type
-    state["cycle_index"] += 1
-    if show_intro:
+    # ------------------------------------------
+    # 7. Show Intro
+    # ------------------------------------------
+    show_intro = False
+    if not state.get("intro_played", False):
+        show_intro = True
         state["intro_played"] = True
 
+    # ------------------------------------------
+    # 8. Ad Insertion
+    # ------------------------------------------
+    insert_ad = should_insert_ad(state.get("cycle_index", 0))
+
+    # ------------------------------------------
+    # 9. Persist updated PD state
+    # ------------------------------------------
     save_state(state)
 
-    # ---------------------------
-    # Return PD config
-    # ---------------------------
+    # ------------------------------------------
+    # 10. Full PD Configuration Return Bundle
+    # ------------------------------------------
     return {
         "segment_type": segment_type,
-        "primary_domain": state["primary_domain"],
         "anchors": anchors,
         "allow_bitsy": allow_bitsy,
         "allow_vega": allow_vega,
-        "show_intro": show_intro
+        "daypart": daypart,
+        "show_intro": show_intro,
+        "insert_ad": insert_ad,
     }
-
-
-# ============================================================================
-# Bitsy / Vega PD Control
-# ============================================================================
-
-def allow_bitsy_pd(state, segment_type):
-    if segment_type in ["breaking", "show_intro"]:
-        return False
-    return state["cycle_index"] % 10 == 0
-
-
-def allow_vega_pd(state, segment_type):
-    if segment_type == "show_intro":
-        return True
-    if segment_type == "breaking":
-        return False
-    return state["cycle_index"] % 4 == 0

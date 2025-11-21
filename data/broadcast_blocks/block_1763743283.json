@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763743283.474772,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "chip, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763743280.7590656
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763743281.1961086
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763743283.1004865
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to significant developments in the labour sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763743283.4747655
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "chip, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763743280.7590687,
+      "line": "chip, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763743281.1961117,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763743283.10049,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to significant developments in the labour sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763743283.4747686,
+      "line": "Turning now to significant developments in the labour sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

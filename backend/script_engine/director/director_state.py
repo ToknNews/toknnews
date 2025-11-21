@@ -6,7 +6,7 @@ Module C-7
 
 import os, json, time
 
-STATE_PATH = "/var/www/toknnews-repo/backend/script_engine/director/director_state.json"
+STATE_PATH = "/var/www/toknnews-live/backend/script_engine/director/director_state.json"
 
 DEFAULT_STATE = {
     "intro_played": False,

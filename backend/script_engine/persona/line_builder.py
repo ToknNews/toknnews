@@ -1,407 +1,186 @@
 #!/usr/bin/env python3
-
-# ------------------------------------------------------------
-# GLOBAL WRITER TOGGLE IMPORT (Package vs Local)
-# ------------------------------------------------------------
-try:
-    from script_engine.engine_settings import USE_OPENAI_WRITER
-except ImportError:
-    from engine_settings import USE_OPENAI_WRITER
-
-
-# ------------------------------------------------------------
-# OPENAI WRITER STUB FUNCTIONS (unused unless toggle = True)
-# ------------------------------------------------------------
-def generate_openai_reaction(character, headline, tone_shift):
-    return None
-
-def generate_openai_analysis(character, headline, synthesis, article_context, tone_shift):
-    return None
-
-def generate_openai_transition(character, target_group, tone_shift):
-    return None
-
-def generate_openai_anchor_react(character, headline, tone_shift):
-    return None
-
-
 """
-TOKNNews — Persona Line Builder (Final Unified Version)
-Includes:
-- Character Bible awareness
-- Tone routing integration
-- Safe fallbacks
-- Clean reusable utilities
+TOKNNews — Persona Line Builder (Module C-2)
+
+Deterministic persona line builder:
+- persona_loader (phrasing, lexicon, cadence)
+- simple theme extraction (fallback)
+- persona-accurate reactions/dialogue
 """
 
 import random
-import time
 
-# ------------------------------------------------------------
-# GPT FALLBACK SAFETY — sanitize lines
-# ------------------------------------------------------------
-def _safe_gpt(text: str, fallback: str) -> str:
-    if not text or not isinstance(text, str):
-        return fallback
-    cleaned = text.strip()
-    if len(cleaned) == 0:
-        return fallback
-    return cleaned
-
-# ------------------------------------------------------------
-# Dual-Mode Imports (Package vs Local)
-# ------------------------------------------------------------
-try:
-    from script_engine.character_brain.persona_loader import (
-        get_bible,
-        get_voice,
-        get_analysis_phrasing,
-        get_analysis_structure,
-        get_transition_phrasing,
-        get_risk_phrasing,
-        get_lexicon,
-        get_rules,
-        get_domain
-    )
-except ImportError:
-    from character_brain.persona_loader import (
-        get_bible,
-        get_voice,
-        get_analysis_phrasing,
-        get_analysis_structure,
-        get_transition_phrasing,
-        get_risk_phrasing,
-        get_lexicon,
-        get_rules,
-        get_domain
-    )
-
-# ============================================================
-# Tone Shift Modifier (PD-integrated)
-# ============================================================
-def apply_tone_shift(text: str, tone_shift: str):
-    """
-    PD tone shift modifier.
-    tone_shift can be: 'calm', 'urgent', 'hype', 'serious', 'breaking'
-    """
-    if not tone_shift:
-        return text
-
-    mods = {
-        "calm":       f"In a calmer tone, {text}",
-        "urgent":     f"Urgent update — {text}",
-        "hype":       f"Big energy — {text}",
-        "serious":    f"On a serious note — {text}",
-        "breaking":   f"Breaking now — {text}"
-    }
-
-    return mods.get(tone_shift, text)
-
-# ---------------------------------------------------------
-# UNIVERSAL TONE ROUTER
-# ---------------------------------------------------------
-def apply_routed_tone(character, tone_shift, line):
-    """
-    Applies PD tone routing using Character Bible:
-    prefix, suffix, replacements, etc.
-    """
-    if not tone_shift:
-        return line
-
-    tone_profiles = get_bible(character).get("tone_profiles", {})
-    profile = tone_profiles.get(tone_shift, tone_profiles.get("neutral", {}))
-
-    if not profile:
-        return line
-
-    # Prefix
-    if "prefix" in profile:
-        line = profile["prefix"] + " " + line
-
-    # Replacements
-    for src, dst in profile.get("replacements", {}).items():
-        line = line.replace(src, dst)
-
-    # Suffix
-    if "suffix" in profile:
-        line = line + " " + profile["suffix"]
-
-    return line
+from script_engine.character_brain.persona_loader import (
+    load_persona,
+    get_persona_lines,
+    get_analysis_phrasing,
+    get_analysis_structure,
+    get_transition_phrasing,
+    get_risk_phrasing,
+    get_lexicon,
+    get_cadence,
+    get_voice,
+    get_rules,
+)
 
 
 # ---------------------------------------------------------
-# INTERNAL UTILS
+# Utility helpers
 # ---------------------------------------------------------
-def _choose_safe(list_obj, default=""):
-    if list_obj and isinstance(list_obj, list):
-        return random.choice(list_obj)
-    return default
 
-def _safe_words(text):
-    return " ".join(text.split())
-
-def _apply_lexicon(character, text):
-    lex = get_lexicon(character)
-    avoid = lex.get("avoid", [])
-    preferred = lex.get("preferred", [])
-
-    for bad in avoid:
-        if bad in text:
-            text = text.replace(bad, "")
-    return _safe_words(text)
+def _choose(lst):
+    """Safe random choice with fallback."""
+    if not lst:
+        return ""
+    return random.choice(lst)
 
 
-# =========================================================
-#  LINE BUILDERS
-# =========================================================
+def _clean(text):
+    """Collapse whitespace and strip."""
+    return " ".join(text.split()).strip()
 
-# ------------------------------------------------------------
-# REACTION LINE (toggle-aware)
-# ------------------------------------------------------------
-def build_reaction_line(character, headline, tone_shift=None):
 
-    # --- OpenAI path ---
-    if USE_OPENAI_WRITER:
-        result = generate_openai_reaction(character, headline, tone_shift)
-        if result:
-            return result
+# ---------------------------------------------------------
+# Persona-driven analysis line
+# ---------------------------------------------------------
 
-    # --- Local fallback path ---
-    phrasing = get_analysis_phrasing(character)
-    template = _choose_safe(phrasing, f"{character} reacts to the news.")
+def build_analysis_line(character: str,
+                        headline: str,
+                        synthesis: str = "",
+                        article_context: str = "") -> str:
+    """
+    Deterministic persona-driven analysis line.
+    Simplified for Script Engine v3.
 
-    line = template.replace("{headline}", headline)
-    line = _apply_lexicon(character, line)
-    line = apply_routed_tone(character, tone_shift, line)
+    Steps:
+     1. Load persona DNA
+     2. Derive a simple theme from synthesis/headline
+     3. Build a structured sentence from persona phrasing
+     4. Apply lexicon cleaning + cadence rules
+    """
 
-    return _safe_words(line)
+    persona = load_persona(character)
 
-# ------------------------------------------------------------
-# ANALYSIS LINE (toggle-aware: GPT or Local)
-# ------------------------------------------------------------
-def build_analysis_line(character, headline, synthesis, article_context=None, tone_shift=None):
+    analysis_phrases = get_analysis_phrasing(character)
+    structure_phrases = get_analysis_structure(character)
+    risk_phrases = get_risk_phrasing(character)
+    lexicon = get_lexicon(character)
+    cadence = get_cadence(character)
 
-    # --- GPT writer path ---
-    if USE_OPENAI_WRITER:
-        try:
-            from script_engine.openai_writer import gpt_analysis
-        except ImportError:
-            from openai_writer import gpt_analysis
+    # === Step 1: Basic theme extraction (fallback)
+    if isinstance(synthesis, str) and synthesis.strip():
+        theme = synthesis.strip()
+    else:
+        # crude fallback: grab 4–7 significant words from headline
+        theme = " ".join(headline.split()[:7])
 
-        domain = get_domain(character)
+    # === Step 2: Persona structures (very simplified)
+    opener = _choose(analysis_phrases)
+    struct  = _choose(structure_phrases)
+    risk_line = _choose(risk_phrases)
 
-        fallback_line = _safe_words(
-            apply_routed_tone(
-                character,
-                tone_shift,
-                _apply_lexicon(character, synthesis or "")
-            )
-        )
+    # Assemble base analysis
+    base_line = f"{opener} {theme}. {risk_line}"
 
-        result = gpt_analysis(
-            character=character,
-            headline=headline,
-            synthesis=synthesis,
-            domain=domain
-        )
+    # === Step 3: Lexicon cleaning — remove banned words
+    avoid = lexicon.get("avoid", [])
+    for term in avoid:
+        if term.lower() in base_line.lower():
+            base_line = base_line.replace(term, "")
 
-        return _safe_gpt(result, fallback_line)
+    # === Step 4: Cadence rules (simplified)
+    if cadence.get("sentence_style") == "Short → medium, crisp transitions.":
+        base_line = _clean(base_line)
 
-    # --- Local fallback path ---
-    structure = get_analysis_structure(character)
-    template = _choose_safe(structure, "{synthesis}")
+    return _clean(base_line)
 
-    line = template.replace("{headline}", headline)
-    line = line.replace("{synthesis}", synthesis or "")
-    line = line.replace("{context}", article_context or "")
+# ---------------------------------------------------------
+# Persona-driven transition line
+# ---------------------------------------------------------
 
-    line = _apply_lexicon(character, line)
-    line = apply_routed_tone(character, tone_shift, line)
-
-    return _safe_words(line)
-
-# ------------------------------------------------------------
-# TRANSITION LINE (toggle-aware: GPT or Local)
-# ------------------------------------------------------------
-def build_transition_line(character, target_group="anchor", tone_shift=None):
-
-    # --- GPT writer path ---
-    if USE_OPENAI_WRITER:
-        try:
-            from script_engine.openai_writer import gpt_transition
-        except ImportError:
-            from openai_writer import gpt_transition
-
-        domain = get_domain(character)
-
-        # fallback if GPT returns bad output
-        fallback_line = _safe_words(
-            apply_routed_tone(
-                character,
-                tone_shift,
-                _apply_lexicon(character, f"{character} transitions to {target_group}.")
-            )
-        )
-
-        # call GPT
-        result = gpt_transition(
-            character=character,
-            next_anchor=target_group,
-            domain=domain
-        )
-
-        return _safe_gpt(result, fallback_line)
-
-    # --- Local fallback path ---
+def build_transition_line(character: str,
+                          target_group: str = "anchor") -> str:
+    """
+    Returns a transition phrase for Chip or an anchor.
+    target_group: 'anchor' | 'vega' | 'reentry'
+    """
     phr = get_transition_phrasing(character, target_group)
-    template = _choose_safe(
-        phr,
-        f"{character} transitions to {target_group}."
-    )
+    return _choose(phr)
 
-    line = template.replace("{target_group}", target_group)
-    line = _apply_lexicon(character, line)
-    line = apply_routed_tone(character, tone_shift, line)
-
-    return _safe_words(line)
-
-# ------------------------------------------------------------
-# ANCHOR REACT (toggle-aware: GPT or Local)
-# ------------------------------------------------------------
-def build_anchor_react(character, headline, tone_shift=None):
-
-    # --- GPT writer path ---
-    if USE_OPENAI_WRITER:
-        try:
-            from script_engine.openai_writer import gpt_anchor_react
-        except ImportError:
-            from openai_writer import gpt_anchor_react
-
-        domain = get_domain(character)
-
-        # Build fallback first
-        fallback_line = _safe_words(
-            apply_routed_tone(
-                character,
-                tone_shift,
-                _apply_lexicon(character, f"{character} gives their perspective.")
-            )
-        )
-
-        # Call GPT
-        result = gpt_anchor_react(
-            character=character,
-            headline=headline,
-            domain=domain
-        )
-
-        # Safe return
-        return _safe_gpt(result, fallback_line)
-
-    # --- Local fallback path ---
-    phr = get_risk_phrasing(character)
-    template = _choose_safe(
-        phr,
-        f"{character} gives their perspective."
-    )
-
-    line = template.replace("{headline}", headline)
-    line = _apply_lexicon(character, line)
-    line = apply_routed_tone(character, tone_shift, line)
-
-    return _safe_words(line)
-
-# ------------------------------------------------------------
-# VEGA LINE (toggle-aware: GPT or Local)
-# ------------------------------------------------------------
-def build_vega_line(character, headline, tone_shift=None):
-
-    # --- GPT writer path ---
-    if USE_OPENAI_WRITER:
-        try:
-            from script_engine.openai_writer import gpt_transition
-        except ImportError:
-            from openai_writer import gpt_transition
-
-        domain = get_domain(character)
-
-        # Vega's fallback tone is high-energy & musical
-        fallback_line = _safe_words(
-            apply_routed_tone(
-                character,
-                tone_shift,
-                _apply_lexicon(character,
-                    f"{character} sets the tone for what's next."
-                )
-            )
-        )
-
-        # Vega is a transition/energy character → use transition model
-        result = gpt_transition(
-            character=character,
-            next_anchor="audience",
-            domain=domain
-        )
-
-        return _safe_gpt(result, fallback_line)
-
-    # --- Local fallback path ---
-    template = f"{character} builds the energy."
-    line = _apply_lexicon(character, template)
-    line = apply_routed_tone(character, tone_shift, line)
-
-    return _safe_words(line)
-
-# ------------------------------------------------------------
-# BITSY INTERRUPT (toggle-aware: GPT or Local)
-# ------------------------------------------------------------
-def build_bitsy_interrupt(character, headline, tone_shift=None):
-
-    # --- GPT writer path ---
-    if USE_OPENAI_WRITER:
-        try:
-            from script_engine.openai_writer import gpt_duo_line
-        except ImportError:
-            from openai_writer import gpt_duo_line
-
-        # Bitsy persona always uses her own domain
-        domain = get_domain(character)
-
-        # Build fallback first
-        fallback_line = _safe_words(
-            apply_routed_tone(
-                character,
-                tone_shift,
-                _apply_lexicon(character,
-                    "Here’s the funny part…"
-                )
-            )
-        )
-
-        # We reuse gpt_duo_line with a special 'bitsy_meta' mode
-        # Bitsy does not require a counterpart, so we pass character twice.
-        result = gpt_duo_line(
-            speaker=character,
-            counter=character,       # Bitsy is self-referential
-            headline=headline,
-            domain=domain,
-            mode="bitsy_meta"
-        )
-
-        return _safe_gpt(result, fallback_line)
-
-
-    # --- Local fallback path ---
-    template = "Here’s the funny part…"
-
-    line = _apply_lexicon(character, template)
-    line = apply_routed_tone(character, tone_shift, line)
-
-    return _safe_words(line)
 
 # ---------------------------------------------------------
-# CHIP RE-ENTRY (reset moment)
+# Vega block builder (persona-driven chaos)
 # ---------------------------------------------------------
-def build_chip_reentry(character="chip", tone_shift=None):
-    line = "Resetting with clarity:"
-    return apply_routed_tone(character, tone_shift, line)
+
+def build_vega_line(headline: str, synthesis: str = "") -> str:
+    """
+    Vega's high-energy commentary block.
+    Short, sharp, slightly chaotic but useful.
+    """
+    rules = get_rules("vega")
+    max_sec = rules.get("max_duration_seconds", 7)
+
+    # Simple fallback theme: first few words
+    raw_text = synthesis if isinstance(synthesis, str) else headline
+    theme = " ".join(raw_text.split()[:7])
+
+    line = (
+        f"Okay, real talk: {theme}. "
+        f"Everyone's pretending this isn't chaotic, but it absolutely is. "
+        f"And the psychology is bouncing off the walls right now."
+    )
+
+    # Trim for timing
+    words = line.split()
+    # ~2.5 words/sec → allow max ~2.5 * duration seconds
+    limit = int(2.5 * max_sec)
+    if len(words) > limit:
+        words = words[:limit]
+
+    return _clean(" ".join(words))
+
+
+# ---------------------------------------------------------
+# Bitsy meta-interrupt builder
+# ---------------------------------------------------------
+
+def build_bitsy_interrupt() -> str:
+    rules = get_rules("bitsy")
+    max_words = rules.get("max_words", 16)
+
+    line = (
+        "Hi! Sorry! I know the show's serious right now but the soundboard "
+        "button is glowing and it’s distracting me."
+    )
+
+    words = line.split()
+    if len(words) > max_words:
+        words = words[:max_words]
+
+    return _clean(" ".join(words))
+
+
+# ---------------------------------------------------------
+# Persona-driven quick reaction line (optional)
+# ---------------------------------------------------------
+
+def build_reaction_line(character: str, headline: str) -> str:
+    """
+    A short, persona-accurate reaction, useful for tosses or intros.
+    """
+    persona_lines = get_persona_lines(character)
+    lexicon = get_lexicon(character)
+
+    opener = _choose(persona_lines[:3]) if persona_lines else ""
+    # Simple fallback theme: first few words of headline
+    theme = " ".join(headline.split()[:6])
+
+    line = f"{opener} {theme}."
+
+    # Clean lexicon violations
+    avoid = lexicon.get("avoid", [])
+    for term in avoid:
+        if term in line.lower():
+            line = line.replace(term, "")
+
+    return _clean(line)

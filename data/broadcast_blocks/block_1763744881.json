@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763744881.540044,
+  "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, outline the implications of Bruce Swain stepping in as Interim President & CEO at Crawford & Company.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763744878.7256334
+    },
+    {
+      "speaker": "chip",
+      "text": "This situation certainly raises questions about accountability and transparency.",
+      "tag": "primary_reaction",
+      "timestamp": 1763744879.4057858
+    },
+    {
+      "speaker": "chip",
+      "text": "The appointment of Bruce Swain as Interim President and CEO reflects a strategic shift within Crawford & Company. This decision may influence investor confidence and the company's operational direction during a pivotal time. Monitoring market responses will provide insight into how this leadership change aligns with overall industry trends.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763744881.1015716
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to corporate leadership changes in the insurance sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763744881.5400362
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, outline the implications of Bruce Swain stepping in as Interim President & CEO at Crawford & Company.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763744878.725637,
+      "line": "\"Chip, outline the implications of Bruce Swain stepping in as Interim President & CEO at Crawford & Company.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This situation certainly raises questions about accountability and transparency.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763744879.4057894,
+      "line": "This situation certainly raises questions about accountability and transparency.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The appointment of Bruce Swain as Interim President and CEO reflects a strategic shift within Crawford & Company. This decision may influence investor confidence and the company's operational direction during a pivotal time. Monitoring market responses will provide insight into how this leadership change aligns with overall industry trends.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763744881.101575,
+      "line": "The appointment of Bruce Swain as Interim President and CEO reflects a strategic shift within Crawford & Company. This decision may influence investor confidence and the company's operational direction during a pivotal time. Monitoring market responses will provide insight into how this leadership change aligns with overall industry trends.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to corporate leadership changes in the insurance sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763744881.54004,
+      "line": "Turning now to corporate leadership changes in the insurance sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "neura",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

@@ -64,7 +64,7 @@ Return JSON ONLY with:
 """
 
 CHIP_REACTION_PROMPT = """
-Chip Blue is the lead ToknNews anchor.
+Chip Blue is the lead Token News anchor.
 
 Chip’s bias model:
 - moderately bullish crypto

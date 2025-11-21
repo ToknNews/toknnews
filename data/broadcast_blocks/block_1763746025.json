@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763746025.8348496,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, what are the key indicators suggesting a bubble in Nvidia's stock?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763746023.504726
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the stakes in retail are rising faster than a price tag on Black Friday!",
+      "tag": "primary_reaction",
+      "timestamp": 1763746024.1276624
+    },
+    {
+      "speaker": "cash",
+      "text": "Nvidia's acknowledgment of a potential bubble reflects growing investor caution and highlights the volatility within tech stocks. This sentiment aligns with recent trends, indicating that the market may be due for a correction. How will this affect investor confidence moving forward?",
+      "tag": "anchor_analysis",
+      "timestamp": 1763746025.345696
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "tag": "chip_transition",
+      "timestamp": 1763746025.8348432
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, what are the key indicators suggesting a bubble in Nvidia's stock?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763746023.5047297,
+      "line": "\"Cash, what are the key indicators suggesting a bubble in Nvidia's stock?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the stakes in retail are rising faster than a price tag on Black Friday!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763746024.127666,
+      "line": "It seems the stakes in retail are rising faster than a price tag on Black Friday!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Nvidia's acknowledgment of a potential bubble reflects growing investor caution and highlights the volatility within tech stocks. This sentiment aligns with recent trends, indicating that the market may be due for a correction. How will this affect investor confidence moving forward?",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763746025.3457,
+      "line": "Nvidia's acknowledgment of a potential bubble reflects growing investor caution and highlights the volatility within tech stocks. This sentiment aligns with recent trends, indicating that the market may be due for a correction. How will this affect investor confidence moving forward?",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763746025.8348463,
+      "line": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

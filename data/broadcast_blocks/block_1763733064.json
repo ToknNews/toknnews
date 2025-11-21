@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763733064.3771954,
+  "headline": "Trump drops 40% tariffs on Brazilian beef, coffee amid rising food prices",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 let's break down the biggest stories.",
+      "timestamp": 1763733063.5600443
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763733063.5600793
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international trade, there\u2019s a significant update affecting tariffs on key Brazilian imports.",
+      "timestamp": 1763733064.0383048
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763733064.0383308
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763733064.0383606
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, walk us through the compliance angle.",
+      "timestamp": 1763733064.0383675
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "timestamp": 1763733064.0383792
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763733064.0383847
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+      "timestamp": 1763733064.038396
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763733064.0384135
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763733064.0384266
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning to developments in trade policy affecting global markets.",
+      "timestamp": 1763733064.3771563
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Resetting with some clarity:",
+      "timestamp": 1763733064.377173
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 let's break down the biggest stories.",
+      "content": "Good evening \u2014 let's break down the biggest stories.",
+      "timestamp": 1763733063.5600464
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "content": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763733063.560081
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to international trade, there\u2019s a significant update affecting tariffs on key Brazilian imports.",
+      "content": "Turning now to international trade, there\u2019s a significant update affecting tariffs on key Brazilian imports.",
+      "timestamp": 1763733064.0383084
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, help us understand the on-chain angle.",
+      "content": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763733064.0383325
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "content": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+      "timestamp": 1763733064.0383618
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, walk us through the compliance angle.",
+      "content": "Lawson, walk us through the compliance angle.",
+      "timestamp": 1763733064.0383687
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "content": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "timestamp": 1763733064.0383801
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "content": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763733064.0383859
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+      "content": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+      "timestamp": 1763733064.038397
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763733064.038415
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763733064.0384276
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning to developments in trade policy affecting global markets.",
+      "content": "Turning to developments in trade policy affecting global markets.",
+      "timestamp": 1763733064.3771596
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Resetting with some clarity:",
+      "content": "Resetting with some clarity:",
+      "timestamp": 1763733064.377174
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763733064",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 let's break down the biggest stories.",
+        "block_type": "chip_open",
+        "timestamp": 1763733063.5600443
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Zooming out: This ties into broader market movement and sentiment.. Underlying trend remains intact unless key levels break.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763733063.5600793
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to international trade, there\u2019s a significant update affecting tariffs on key Brazilian imports.",
+        "block_type": "chip_transition",
+        "timestamp": 1763733064.0383048
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, help us understand the on-chain angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763733064.0383308
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "This is a pressure cooker for liquidity. This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763733064.0383606
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, walk us through the compliance angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763733064.0383675
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763733064.0383792
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, you\u2019ve been tracking this; jump in here.",
+        "block_type": "chip_toss",
+        "timestamp": 1763733064.0383847
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "Macro pressure is undeniable here: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763733064.038396
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763733064.0384135
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763733064.0384266
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning to developments in trade policy affecting global markets.",
+        "block_type": "chip_transition",
+        "timestamp": 1763733064.3771563
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Resetting with some clarity:",
+        "block_type": "chip_reentry",
+        "timestamp": 1763733064.377173
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

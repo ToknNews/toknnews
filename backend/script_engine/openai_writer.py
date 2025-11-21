@@ -5,6 +5,8 @@
 
 import os
 from openai import OpenAI
+from script_engine.context_router import get_context_for_anchor
+
 
 if not os.getenv("OPENAI_API_KEY"):
     print("[OpenAIWriter] WARNING: OPENAI_API_KEY not set")
@@ -349,7 +351,6 @@ Character Persona:
 
 import os, time, json
 from openai import OpenAI
-from script_engine.knowledge.rolling_brain import get_context_for_anchor
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -366,7 +367,16 @@ def _gpt(prompt: str) -> str:
             max_tokens=180,
             temperature=0.78,
         )
-        return resp.choices[0].message["content"].strip()
+        content = resp.choices[0].message.content
+        if isinstance(content, str):
+            return content.strip()
+
+        # New SDK: content is a list of segments
+        return "".join(
+            seg["text"] if isinstance(seg, dict) and "text" in seg else seg
+            for seg in content
+        ).strip()
+
     except Exception as e:
         print("[OpenAIWriter] ERROR:", e)
         return None
@@ -606,7 +616,16 @@ Return ONLY the sentence.
             max_tokens=80,
             temperature=0.8
         )
-        return resp.choices[0].message["content"].strip()
+
+        content = resp.choices[0].message.content
+        if isinstance(content, str):
+            return content.strip()
+
+        # New SDK: content is a list of segments
+        return "".join(
+            seg["text"] if isinstance(seg, dict) and "text" in seg else seg
+            for seg in content
+        ).strip()
 
     except Exception as e:
         print("[OpenAIWriter] ERROR (chip_followup):", e)
@@ -663,8 +682,71 @@ Return ONLY the sentence.
             max_tokens=60,
             temperature=0.8
         )
-        return resp.choices[0].message["content"].strip()
+        content = resp.choices[0].message.content
+        if isinstance(content, str):
+            return content.strip()
+
+        # New SDK: content is a list of segments
+        return "".join(
+            seg["text"] if isinstance(seg, dict) and "text" in seg else seg
+            for seg in content
+        ).strip()
+
 
     except Exception as e:
         print("[OpenAIWriter] ERROR (chip_toss):", e)
         return f"{next_anchor}, take it from here."
+
+# ============================================================
+# CHIP STORY TRANSITION ENGINE (Smooth Anchor-to-Next-Story)
+# ============================================================
+
+def gpt_story_transition(headline: str, brain: dict, tone: str = "neutral"):
+    """
+    Generate a clean Chip-style transition into the next story.
+    Used between headlines — NOT a toss and NOT analysis.
+    """
+
+    try:
+        prompt = f"""
+Chip is the lead anchor of Token News.
+Write a ONE sentence transition into the next story.
+
+Tone: {tone}
+Next Headline: {headline}
+
+Brain snapshot (context only):
+{brain.get('summary','')}
+
+RULES:
+- Chip is calm, measured, professional.
+- No slang, no hype, no memes, no jokes.
+- Do NOT summarize the previous story.
+- Do NOT summarize the next story.
+- Pure transition only.
+- Examples of style (do NOT repeat):
+  "Let’s move to the next development now."
+  "Here’s what else is unfolding this cycle."
+  "Next up — a shift worth tracking."
+        """
+
+        resp = client.chat.completions.create(
+            model="gpt-4.1-mini",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=40,
+            temperature=0.7
+        )
+
+        content = resp.choices[0].message.content
+        if isinstance(content, str):
+            return content.strip()
+
+        # New SDK: content is a list of segments
+        return "".join(
+            seg["text"] if isinstance(seg, dict) and "text" in seg else seg
+            for seg in content
+        ).strip()
+
+    except Exception as e:
+        print(f"[OpenAIWriter] ERROR (transition):", e)
+        return "Let’s shift to the next story."

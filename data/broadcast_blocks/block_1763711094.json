@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763711094.3264878,
+  "headline": "BitMine sits on $3.7B loss as DAT \u2018Hotel California\u2019 meets BlackRock\u2019s staked ETH ETF",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This relates to ongoing activity around eth, etf.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763711093.2562594
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bigger picture: This relates to ongoing activity around eth, etf.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763711093.2562988
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to recent financial movements impacting major players in the cryptocurrency sector.",
+      "timestamp": 1763711093.857069
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, what\u2019s your read on this?",
+      "timestamp": 1763711093.8570855
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "Here\u2019s where the cracks form: This relates to ongoing activity around eth, etf..",
+      "timestamp": 1763711093.8571055
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763711093.8571107
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "Legally, this sets a precedent: This relates to ongoing activity around eth, etf..",
+      "timestamp": 1763711093.8571205
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763711093.8571248
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "This pivots on rate expectations: This relates to ongoing activity around eth, etf..",
+      "timestamp": 1763711093.857133
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This relates to ongoing activity around eth,. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763711093.8571446
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763711093.857153
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments impacting major players in the cryptocurrency and ETF space.",
+      "timestamp": 1763711094.3264515
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Grounding this in data:",
+      "timestamp": 1763711094.326466
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "content": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+      "timestamp": 1763711093.2562623
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "Bigger picture: This relates to ongoing activity around eth, etf.. Underlying trend remains intact unless key levels break.",
+      "content": "Bigger picture: This relates to ongoing activity around eth, etf.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763711093.2563004
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to recent financial movements impacting major players in the cryptocurrency sector.",
+      "content": "Turning now to recent financial movements impacting major players in the cryptocurrency sector.",
+      "timestamp": 1763711093.857072
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, what\u2019s your read on this?",
+      "content": "Reef, what\u2019s your read on this?",
+      "timestamp": 1763711093.8570864
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "Here\u2019s where the cracks form: This relates to ongoing activity around eth, etf..",
+      "content": "Here\u2019s where the cracks form: This relates to ongoing activity around eth, etf..",
+      "timestamp": 1763711093.8571064
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, I know you watch this sector closely.",
+      "content": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763711093.8571115
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "Legally, this sets a precedent: This relates to ongoing activity around eth, etf..",
+      "content": "Legally, this sets a precedent: This relates to ongoing activity around eth, etf..",
+      "timestamp": 1763711093.8571212
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "content": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763711093.8571255
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "This pivots on rate expectations: This relates to ongoing activity around eth, etf..",
+      "content": "This pivots on rate expectations: This relates to ongoing activity around eth, etf..",
+      "timestamp": 1763711093.8571336
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This relates to ongoing activity around eth,. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This relates to ongoing activity around eth,. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763711093.857145
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763711093.857154
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to developments impacting major players in the cryptocurrency and ETF space.",
+      "content": "Turning now to developments impacting major players in the cryptocurrency and ETF space.",
+      "timestamp": 1763711094.326454
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Grounding this in data:",
+      "content": "Grounding this in data:",
+      "timestamp": 1763711094.326467
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763711094",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 here\u2019s what\u2019s moving markets.",
+        "block_type": "chip_open",
+        "timestamp": 1763711093.2562594
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bigger picture: This relates to ongoing activity around eth, etf.. Underlying trend remains intact unless key levels break.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763711093.2562988
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to recent financial movements impacting major players in the cryptocurrency sector.",
+        "block_type": "chip_transition",
+        "timestamp": 1763711093.857069
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, what\u2019s your read on this?",
+        "block_type": "chip_toss",
+        "timestamp": 1763711093.8570855
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "Here\u2019s where the cracks form: This relates to ongoing activity around eth, etf..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763711093.8571055
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, I know you watch this sector closely.",
+        "block_type": "chip_toss",
+        "timestamp": 1763711093.8571107
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "Legally, this sets a precedent: This relates to ongoing activity around eth, etf..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763711093.8571205
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, you\u2019ve been tracking this; jump in here.",
+        "block_type": "chip_toss",
+        "timestamp": 1763711093.8571248
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "This pivots on rate expectations: This relates to ongoing activity around eth, etf..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763711093.857133
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This relates to ongoing activity around eth,. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763711093.8571446
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763711093.857153
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to developments impacting major players in the cryptocurrency and ETF space.",
+        "block_type": "chip_transition",
+        "timestamp": 1763711094.3264515
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Grounding this in data:",
+        "block_type": "chip_reentry",
+        "timestamp": 1763711094.326466
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

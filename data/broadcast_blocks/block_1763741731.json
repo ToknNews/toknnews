@@ -1,0 +1,122 @@
+{
+  "timestamp": 1763741731.7608747,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "Let's bring in cash for the breakdown.",
+      "tag": "chip_toss",
+      "timestamp": 1763741730.766669
+    },
+    {
+      "speaker": "cash",
+      "text": "Says what retail is secretly thinking. Nvidia: Everyone Knows There's A Bubble.",
+      "tag": "primary_reaction",
+      "timestamp": 1763741730.766699
+    },
+    {
+      "speaker": "reef",
+      "text": "Reef jumps in: That's a key angle on nvidia:, let me add something.",
+      "tag": "duo_crosstalk",
+      "timestamp": 1763741730.766706
+    },
+    {
+      "speaker": "cash",
+      "text": "Cash responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup",
+      "timestamp": 1763741730.7667096
+    },
+    {
+      "speaker": "cash",
+      "text": "This ties into broader market movement and sentiment..",
+      "tag": "anchor_analysis",
+      "timestamp": 1763741730.7667253
+    },
+    {
+      "speaker": "bitsy",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt",
+      "timestamp": 1763741730.766738
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia\u2019s market valuation.",
+      "tag": "chip_transition",
+      "timestamp": 1763741731.7608654
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Let's bring in cash for the breakdown.",
+      "block_type": "chip_toss",
+      "timestamp": 1763741730.7666724,
+      "line": "Let's bring in cash for the breakdown.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Says what retail is secretly thinking. Nvidia: Everyone Knows There's A Bubble.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763741730.7667005,
+      "line": "Says what retail is secretly thinking. Nvidia: Everyone Knows There's A Bubble.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "Reef jumps in: That's a key angle on nvidia:, let me add something.",
+      "block_type": "duo_crosstalk",
+      "timestamp": 1763741730.766707,
+      "line": "Reef jumps in: That's a key angle on nvidia:, let me add something.",
+      "tag": "duo_crosstalk"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Cash responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "block_type": "duo_followup",
+      "timestamp": 1763741730.7667103,
+      "line": "Cash responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "This ties into broader market movement and sentiment..",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763741730.7667263,
+      "line": "This ties into broader market movement and sentiment..",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "block_type": "bitsy_interrupt",
+      "timestamp": 1763741730.766739,
+      "line": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia\u2019s market valuation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763741731.7608693,
+      "line": "Turning now to the technology sector, where recent discussions have centered on Nvidia\u2019s market valuation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

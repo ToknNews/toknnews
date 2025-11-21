@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763711102.741809,
+  "headline": "Bitcoin hits \u2018most bearish\u2019 levels: Is the bull cycle ending?",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This relates to ongoing activity around bitcoin.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+      "timestamp": 1763711101.9821532
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "What changes now: This relates to ongoing activity around bitcoin.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763711101.982224
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the cryptocurrency market.",
+      "timestamp": 1763711102.2748466
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, what\u2019s your read on this?",
+      "timestamp": 1763711102.2748616
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "This is when protocols get exposed: This relates to ongoing activity around bitcoin..",
+      "timestamp": 1763711102.274879
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763711102.2748847
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "This imposes a new threshold of accountability: This relates to ongoing activity around bitcoin..",
+      "timestamp": 1763711102.2748935
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763711102.2748973
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "This pivots on rate expectations: This relates to ongoing activity around bitcoin..",
+      "timestamp": 1763711102.2749052
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This relates to ongoing activity around bitcoin.. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763711102.2749164
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763711102.2749264
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the cryptocurrency market.",
+      "timestamp": 1763711102.7417564
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Grounding this in data:",
+      "timestamp": 1763711102.7417762
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+      "content": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+      "timestamp": 1763711101.9821563
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "What changes now: This relates to ongoing activity around bitcoin.. Underlying trend remains intact unless key levels break.",
+      "content": "What changes now: This relates to ongoing activity around bitcoin.. Underlying trend remains intact unless key levels break.",
+      "timestamp": 1763711101.9822266
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to developments in the cryptocurrency market.",
+      "content": "Turning now to developments in the cryptocurrency market.",
+      "timestamp": 1763711102.2748485
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, what\u2019s your read on this?",
+      "content": "Reef, what\u2019s your read on this?",
+      "timestamp": 1763711102.2748625
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "This is when protocols get exposed: This relates to ongoing activity around bitcoin..",
+      "content": "This is when protocols get exposed: This relates to ongoing activity around bitcoin..",
+      "timestamp": 1763711102.27488
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, I know you watch this sector closely.",
+      "content": "Lawson, I know you watch this sector closely.",
+      "timestamp": 1763711102.2748854
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "This imposes a new threshold of accountability: This relates to ongoing activity around bitcoin..",
+      "content": "This imposes a new threshold of accountability: This relates to ongoing activity around bitcoin..",
+      "timestamp": 1763711102.2748942
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, you\u2019ve been tracking this; jump in here.",
+      "content": "Bond, you\u2019ve been tracking this; jump in here.",
+      "timestamp": 1763711102.2748985
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "This pivots on rate expectations: This relates to ongoing activity around bitcoin..",
+      "content": "This pivots on rate expectations: This relates to ongoing activity around bitcoin..",
+      "timestamp": 1763711102.2749062
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This relates to ongoing activity around bitcoin.. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This relates to ongoing activity around bitcoin.. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763711102.2749171
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763711102.2749271
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to developments in the cryptocurrency market.",
+      "content": "Turning now to developments in the cryptocurrency market.",
+      "timestamp": 1763711102.7417598
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Grounding this in data:",
+      "content": "Grounding this in data:",
+      "timestamp": 1763711102.7417777
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763711102",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+        "block_type": "chip_open",
+        "timestamp": 1763711101.9821532
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "What changes now: This relates to ongoing activity around bitcoin.. Underlying trend remains intact unless key levels break.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763711101.982224
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to developments in the cryptocurrency market.",
+        "block_type": "chip_transition",
+        "timestamp": 1763711102.2748466
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, what\u2019s your read on this?",
+        "block_type": "chip_toss",
+        "timestamp": 1763711102.2748616
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "This is when protocols get exposed: This relates to ongoing activity around bitcoin..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763711102.274879
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, I know you watch this sector closely.",
+        "block_type": "chip_toss",
+        "timestamp": 1763711102.2748847
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "This imposes a new threshold of accountability: This relates to ongoing activity around bitcoin..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763711102.2748935
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, you\u2019ve been tracking this; jump in here.",
+        "block_type": "chip_toss",
+        "timestamp": 1763711102.2748973
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "This pivots on rate expectations: This relates to ongoing activity around bitcoin..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763711102.2749052
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This relates to ongoing activity around bitcoin.. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763711102.2749164
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763711102.2749264
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to developments in the cryptocurrency market.",
+        "block_type": "chip_transition",
+        "timestamp": 1763711102.7417564
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Grounding this in data:",
+        "block_type": "chip_reentry",
+        "timestamp": 1763711102.7417762
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

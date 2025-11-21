@@ -1,0 +1,122 @@
+{
+  "timestamp": 1763740713.4471948,
+  "headline": "Why Are Citi and Morgan Stanley Turning Strongly Positive on M&M?",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "Let's bring in chip for the breakdown.",
+      "tag": "chip_toss",
+      "timestamp": 1763740713.0107212
+    },
+    {
+      "speaker": "chip",
+      "text": "Acts as the 'adult in the room' when markets get chaotic. Why Are Citi and Morgan Stanley.",
+      "tag": "primary_reaction",
+      "timestamp": 1763740713.0107493
+    },
+    {
+      "speaker": "reef",
+      "text": "Reef jumps in: That's a key angle on why, let me add something.",
+      "tag": "duo_crosstalk",
+      "timestamp": 1763740713.0107539
+    },
+    {
+      "speaker": "chip",
+      "text": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup",
+      "timestamp": 1763740713.0107558
+    },
+    {
+      "speaker": "chip",
+      "text": "What changes now: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763740713.0107763
+    },
+    {
+      "speaker": "bitsy",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt",
+      "timestamp": 1763740713.0107858
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the latest market sentiment, we examine recent analyst upgrades in the automotive sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763740713.4471862
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Let's bring in chip for the breakdown.",
+      "block_type": "chip_toss",
+      "timestamp": 1763740713.0107236,
+      "line": "Let's bring in chip for the breakdown.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Acts as the 'adult in the room' when markets get chaotic. Why Are Citi and Morgan Stanley.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763740713.01075,
+      "line": "Acts as the 'adult in the room' when markets get chaotic. Why Are Citi and Morgan Stanley.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "reef",
+      "text": "Reef jumps in: That's a key angle on why, let me add something.",
+      "block_type": "duo_crosstalk",
+      "timestamp": 1763740713.010754,
+      "line": "Reef jumps in: That's a key angle on why, let me add something.",
+      "tag": "duo_crosstalk"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "block_type": "duo_followup",
+      "timestamp": 1763740713.0107563,
+      "line": "Chip responds: Exactly \u2014 and this ties into the broader context we're tracking.",
+      "tag": "duo_followup"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "What changes now: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763740713.010777,
+      "line": "What changes now: This ties into broader market movement and sentiment.. Risk profile here is shifting but not extreme.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "bitsy",
+      "voice_id": "bitsy",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "block_type": "bitsy_interrupt",
+      "timestamp": 1763740713.010786,
+      "line": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "tag": "bitsy_interrupt"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "chip",
+      "text": "Turning now to the latest market sentiment, we examine recent analyst upgrades in the automotive sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763740713.4471889,
+      "line": "Turning now to the latest market sentiment, we examine recent analyst upgrades in the automotive sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763750312.3973246,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, dive into the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches a milestone.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763750307.4720228
+    },
+    {
+      "speaker": "cash",
+      "text": "It's a classic case of \"when the customer is wrong, but the return policy says otherwise!\"",
+      "tag": "primary_reaction",
+      "timestamp": 1763750308.4188097
+    },
+    {
+      "speaker": "cash",
+      "text": "The surge of LLY to a $1 trillion market cap highlights a significant milestone in healthcare, suggesting strong investor confidence in the sector. As small and mid-cap stocks receive Quant ratings, this could indicate a shift in focus towards potentially undervalued opportunities amidst larger market players. Overall, it reflects an evolving landscape where nimble investments may yield promising returns.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763750311.437784
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763750312.3973186
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, dive into the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches a milestone.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763750307.472026,
+      "line": "\"Cash, dive into the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches a milestone.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It's a classic case of \"when the customer is wrong, but the return policy says otherwise!\"",
+      "block_type": "primary_reaction",
+      "timestamp": 1763750308.418827,
+      "line": "It's a classic case of \"when the customer is wrong, but the return policy says otherwise!\"",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The surge of LLY to a $1 trillion market cap highlights a significant milestone in healthcare, suggesting strong investor confidence in the sector. As small and mid-cap stocks receive Quant ratings, this could indicate a shift in focus towards potentially undervalued opportunities amidst larger market players. Overall, it reflects an evolving landscape where nimble investments may yield promising returns.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763750311.437787,
+      "line": "The surge of LLY to a $1 trillion market cap highlights a significant milestone in healthcare, suggesting strong investor confidence in the sector. As small and mid-cap stocks receive Quant ratings, this could indicate a shift in focus towards potentially undervalued opportunities amidst larger market players. Overall, it reflects an evolving landscape where nimble investments may yield promising returns.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763750312.3973212,
+      "line": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

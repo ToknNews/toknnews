@@ -1,0 +1,347 @@
+{
+  "timestamp": 1763716945.547393,
+  "headline": "Trump drops 40% tariffs on Brazilian beef, coffee amid rising food prices",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "type": "chip_open",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+      "timestamp": 1763716944.2078688
+    },
+    {
+      "type": "chip_analysis",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bigger picture: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "timestamp": 1763716944.2078955
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning to international trade, recent adjustments in tariff policies are drawing attention.",
+      "timestamp": 1763716944.8033292
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763716944.803364
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "This is when protocols get exposed: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716944.8033838
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Lawson, legally speaking \u2014 what does this mean?",
+      "timestamp": 1763716944.8033907
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716944.8034
+    },
+    {
+      "type": "chip_toss",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Bond, how do global flows factor in?",
+      "timestamp": 1763716944.803404
+    },
+    {
+      "type": "anchor_analysis",
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "text": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716944.803412
+    },
+    {
+      "type": "vega_block",
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763716944.8034265
+    },
+    {
+      "type": "bitsy_interrupt",
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763716944.8034399
+    },
+    {
+      "type": "chip_transition",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to recent changes in trade policy affecting key agricultural imports.",
+      "timestamp": 1763716945.5473342
+    },
+    {
+      "type": "chip_reentry",
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Resetting with some clarity:",
+      "timestamp": 1763716945.5473702
+    }
+  ],
+  "audio_blocks": [
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_open",
+      "text": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+      "content": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+      "timestamp": 1763716944.207871
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_analysis",
+      "text": "Bigger picture: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "content": "Bigger picture: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+      "timestamp": 1763716944.2078965
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning to international trade, recent adjustments in tariff policies are drawing attention.",
+      "content": "Turning to international trade, recent adjustments in tariff policies are drawing attention.",
+      "timestamp": 1763716944.8033319
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Reef, help us understand the on-chain angle.",
+      "content": "Reef, help us understand the on-chain angle.",
+      "timestamp": 1763716944.8033652
+    },
+    {
+      "character": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "block_type": "anchor_analysis",
+      "text": "This is when protocols get exposed: This ties into broader market movement and sentiment..",
+      "content": "This is when protocols get exposed: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716944.803385
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Lawson, legally speaking \u2014 what does this mean?",
+      "content": "Lawson, legally speaking \u2014 what does this mean?",
+      "timestamp": 1763716944.8033915
+    },
+    {
+      "character": "lawson",
+      "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+      "block_type": "anchor_analysis",
+      "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "content": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716944.803401
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_toss",
+      "text": "Bond, how do global flows factor in?",
+      "content": "Bond, how do global flows factor in?",
+      "timestamp": 1763716944.803405
+    },
+    {
+      "character": "bond",
+      "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+      "block_type": "anchor_analysis",
+      "text": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+      "content": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+      "timestamp": 1763716944.8034132
+    },
+    {
+      "character": "vega",
+      "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+      "block_type": "vega_block",
+      "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "content": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+      "timestamp": 1763716944.8034282
+    },
+    {
+      "character": "bitsy",
+      "voice_id": "VOkhRocQyiAQg2RF9A5e",
+      "block_type": "bitsy_interrupt",
+      "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "content": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+      "timestamp": 1763716944.8034418
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_transition",
+      "text": "Turning now to recent changes in trade policy affecting key agricultural imports.",
+      "content": "Turning now to recent changes in trade policy affecting key agricultural imports.",
+      "timestamp": 1763716945.5473363
+    },
+    {
+      "character": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "block_type": "chip_reentry",
+      "text": "Resetting with some clarity:",
+      "content": "Resetting with some clarity:",
+      "timestamp": 1763716945.5473716
+    }
+  ],
+  "unreal": {
+    "scene_id": "scene_1763716945",
+    "engine_version": "UE5.3+",
+    "camera_plan": "two_shot_chip_anchor",
+    "characters": [
+      "chip",
+      "reef",
+      "lawson",
+      "bond",
+      "vega",
+      "bitsy"
+    ],
+    "shot_plan": [
+      {
+        "shot": "chip_intro",
+        "camera": "chip_close"
+      },
+      {
+        "shot": "primary_analysis",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "anchor_1",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "anchor_2",
+        "camera": "anchor_close"
+      },
+      {
+        "shot": "vega",
+        "camera": "chaos_cut"
+      },
+      {
+        "shot": "bitsy",
+        "camera": "bitsy_pop"
+      },
+      {
+        "shot": "chip_reentry",
+        "camera": "chip_mid"
+      },
+      {
+        "shot": "outro",
+        "camera": "chip_close"
+      }
+    ],
+    "audio_tracks": [
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Good evening \u2014 there\u2019s plenty to unpack tonight.",
+        "block_type": "chip_open",
+        "timestamp": 1763716944.2078688
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bigger picture: This ties into broader market movement and sentiment.. Volatility signal is rising, but not at inflection yet.",
+        "block_type": "chip_analysis",
+        "timestamp": 1763716944.2078955
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning to international trade, recent adjustments in tariff policies are drawing attention.",
+        "block_type": "chip_transition",
+        "timestamp": 1763716944.8033292
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Reef, help us understand the on-chain angle.",
+        "block_type": "chip_toss",
+        "timestamp": 1763716944.803364
+      },
+      {
+        "character": "reef",
+        "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+        "text": "This is when protocols get exposed: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763716944.8033838
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Lawson, legally speaking \u2014 what does this mean?",
+        "block_type": "chip_toss",
+        "timestamp": 1763716944.8033907
+      },
+      {
+        "character": "lawson",
+        "voice_id": "Wz0W8ilvy9oYu7DeKWfB",
+        "text": "From a regulatory standpoint: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763716944.8034
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Bond, how do global flows factor in?",
+        "block_type": "chip_toss",
+        "timestamp": 1763716944.803404
+      },
+      {
+        "character": "bond",
+        "voice_id": "ckPPrwZqzA7Vp7ceNunQ",
+        "text": "Liquidity is at an inflection: This ties into broader market movement and sentiment..",
+        "block_type": "anchor_analysis",
+        "timestamp": 1763716944.803412
+      },
+      {
+        "character": "vega",
+        "voice_id": "Ax1HxHll9ku8pGyIt6kK",
+        "text": "Okay, real talk: This ties into broader market movement and. Everyone's pretending this isn't chaotic, but it",
+        "block_type": "vega_block",
+        "timestamp": 1763716944.8034265
+      },
+      {
+        "character": "bitsy",
+        "voice_id": "VOkhRocQyiAQg2RF9A5e",
+        "text": "Hi! Sorry! I know the show's serious right now but the soundboard button is glowing and",
+        "block_type": "bitsy_interrupt",
+        "timestamp": 1763716944.8034399
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Turning now to recent changes in trade policy affecting key agricultural imports.",
+        "block_type": "chip_transition",
+        "timestamp": 1763716945.5473342
+      },
+      {
+        "character": "chip",
+        "voice_id": "teAyVVX8spybXkITa1A0",
+        "text": "Resetting with some clarity:",
+        "block_type": "chip_reentry",
+        "timestamp": 1763716945.5473702
+      }
+    ],
+    "duration_seconds": 41.6
+  }
+}

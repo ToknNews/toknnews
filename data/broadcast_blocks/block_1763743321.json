@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763743321.5631175,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "chip, take it from here.",
+      "tag": "chip_toss",
+      "timestamp": 1763743318.1212492
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "primary_reaction",
+      "timestamp": 1763743318.831288
+    },
+    {
+      "speaker": "chip",
+      "text": null,
+      "tag": "anchor_analysis",
+      "timestamp": 1763743321.062167
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in labour relations ahead of the November 26 protest.",
+      "tag": "chip_transition",
+      "timestamp": 1763743321.5631096
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "chip, take it from here.",
+      "block_type": "chip_toss",
+      "timestamp": 1763743318.1212535,
+      "line": "chip, take it from here.",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "primary_reaction",
+      "timestamp": 1763743318.831292,
+      "line": null,
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": null,
+      "block_type": "anchor_analysis",
+      "timestamp": 1763743321.0621712,
+      "line": null,
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in labour relations ahead of the November 26 protest.",
+      "block_type": "chip_transition",
+      "timestamp": 1763743321.563113,
+      "line": "Turning now to developments in labour relations ahead of the November 26 protest.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "afternoon"
+  }
+}

@@ -1,7 +1,18 @@
 #!/usr/bin/env python3
 """
 TOKNNews — Persona Loader (Module C-1)
-Loads personas & Character Bible and exposes deterministic access functions.
+Loads longform character personas from character_brain.json
+and exposes deterministic access functions for the Script Engine.
+
+This module provides:
+ - load_persona(character)
+ - get_voice(character)
+ - get_analysis_phrasing(character)
+ - get_transition_phrasing(character, target_group)
+ - get_risk_phrasing(character)
+ - get_lexicon(character)
+ - get_cadence(character)
+ - safe fallbacks
 """
 
 import os
@@ -22,18 +33,6 @@ except Exception as e:
     print(f"[PersonaLoader] ERROR loading brain: {e}")
     _BRAIN = {}
 
-# ---------------------------------------------------------
-# Load Character Bible (roles, domains, ensemble behavior)
-# ---------------------------------------------------------
-
-BIBLE_PATH = os.path.join(BASE_DIR, "character_bible.json")
-
-try:
-    with open(BIBLE_PATH, "r", encoding="utf-8") as f:
-        _BIBLE = json.load(f)
-except Exception as e:
-    print(f"[PersonaLoader] ERROR loading character_bible: {e}")
-    _BIBLE = {}
 
 # ---------------------------------------------------------
 # Helpers
@@ -45,43 +44,6 @@ def _safe(character: str) -> dict:
     return _BRAIN.get(c, _BRAIN.get("chip", {}))
 
 
-# =========================================================
-# Character Bible Accessors
-# =========================================================
-
-def get_bible(character: str):
-    return _BIBLE.get(character, {})
-
-def get_role(character: str):
-    return _BIBLE.get(character, {}).get("role")
-
-def get_domain(character: str):
-    return _BIBLE.get(character, {}).get("domain", [])
-
-def get_ensemble_behavior(character: str):
-    return _BIBLE.get(character, {}).get("ensemble_behavior", {})
-
-def get_relationships(character: str):
-    return _BIBLE.get(character, {}).get("relationships", {})
-
-def get_segment_modes(character: str):
-    return _BIBLE.get(character, {}).get("segment_modes", [])
-
-def get_cadence(character: str):
-    return _BIBLE.get(character, {}).get("cadence")
-
-def get_style(character: str):
-    return _BIBLE.get(character, {}).get("style")
-
-# Bible overrides voice — if present, Bible wins
-def get_voice(character: str):
-    # Check the Bible first
-    if character in _BIBLE and "voice" in _BIBLE[character]:
-        return _BIBLE[character]["voice"]
-    # Fallback to character_brain.json
-    return _BRAIN.get(character, {}).get("voice", "Chip_Blue")
-
-
 # ---------------------------------------------------------
 # Public API
 # ---------------------------------------------------------
@@ -91,6 +53,14 @@ def load_persona(character: str) -> dict:
     Return full persona dictionary for given character.
     """
     return _safe(character)
+
+
+def get_voice(character: str) -> str:
+    """
+    Returns ElevenLabs voice_id for the character.
+    """
+    p = _safe(character)
+    return p.get("voice_id", "")
 
 
 def get_persona_lines(character: str) -> list:
@@ -168,12 +138,6 @@ def get_rules(character: str) -> dict:
     Return special rules (Bitsy, Vega).
     """
     return _safe(character).get("rules", {})
-
-def get_character_bible():
-    """
-    Returns the full Character Bible dictionary.
-    """
-    return _BIBLE
 
 
 # ---------------------------------------------------------

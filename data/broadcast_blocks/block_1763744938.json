@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763744938.0828416,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, outline the implications of the Labour Codes as unions prepare for their combative resistance on November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763744934.7506785
+    },
+    {
+      "speaker": "chip",
+      "text": "Tension is palpable as stakeholders brace for the potential fallout from this developing story.",
+      "tag": "primary_reaction",
+      "timestamp": 1763744935.863578
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming labor showdown on November 26 highlights the growing tensions between unions and the government regarding new labor codes. This resistance could reflect broader market sentiments, as workers increasingly demand fair treatment and better conditions. Observers will be keen to see how this conflict influences economic stability and labor relations moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763744937.6048064
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant labour dispute set to unfold later this month.",
+      "tag": "chip_transition",
+      "timestamp": 1763744938.082834
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, outline the implications of the Labour Codes as unions prepare for their combative resistance on November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763744934.7506826,
+      "line": "\"Chip, outline the implications of the Labour Codes as unions prepare for their combative resistance on November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Tension is palpable as stakeholders brace for the potential fallout from this developing story.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763744935.863582,
+      "line": "Tension is palpable as stakeholders brace for the potential fallout from this developing story.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming labor showdown on November 26 highlights the growing tensions between unions and the government regarding new labor codes. This resistance could reflect broader market sentiments, as workers increasingly demand fair treatment and better conditions. Observers will be keen to see how this conflict influences economic stability and labor relations moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763744937.6048093,
+      "line": "The upcoming labor showdown on November 26 highlights the growing tensions between unions and the government regarding new labor codes. This resistance could reflect broader market sentiments, as workers increasingly demand fair treatment and better conditions. Observers will be keen to see how this conflict influences economic stability and labor relations moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant labour dispute set to unfold later this month.",
+      "block_type": "chip_transition",
+      "timestamp": 1763744938.0828378,
+      "line": "Turning now to a significant labour dispute set to unfold later this month.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

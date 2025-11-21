@@ -1,10 +1,25 @@
-# backend/script_engine/director/director_brain.py
+#!/usr/bin/env python3
+"""
+TOKNNews — Programming Director Brain (PD Core)
+Module C-7
+"""
 
-from .director_logger import log_event
-from .director_state import DirectorState
-from .daypart_rules import get_daypart
-from .pacing_model import compute_energy_level
+import time
+from datetime import datetime
 
+# === Absolute imports (correct live-engine paths) ===
+from script_engine.director.director_logger import log_event
+from script_engine.director.director_state import DirectorState
+from script_engine.director.daypart_rules import get_daypart
+from script_engine.director.pacing_model import compute_energy_level
+from script_engine.director.segment_router import route_next_segment
+from script_engine.director.ad_logic import should_run_ad
+from script_engine.director.breaking_logic import (
+    check_breaking_interrupt,
+    compute_escalation_level,
+    should_reset_show,
+    reset_allowed
+)
 
 class ProgrammingDirector:
     """

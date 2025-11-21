@@ -21,3 +21,12 @@ def compute_cast_fatigue(cast_usage: dict[str, int]) -> dict[str, str]:
             fatigue[cast] = "low"
 
     return fatigue
+
+def should_rotate_cast(cast_usage: dict) -> bool:
+    """
+    Simple stub for PD compatibility.
+    Returns True if any cast member shows 'high' fatigue.
+    PD v2.0 will replace this.
+    """
+    fatigue = compute_cast_fatigue(cast_usage)
+    return any(level == "high" for level in fatigue.values())

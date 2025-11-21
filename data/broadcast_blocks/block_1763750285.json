@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763750285.6559224,
+  "headline": "Matthews International: Excellent Deal On Warehouse Automation Sale (NASDAQ:MATW)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of Matthews International's warehouse automation sale for investors.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763750282.3119664
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation certainly calls for immediate attention and careful consideration.",
+      "tag": "primary_reaction",
+      "timestamp": 1763750282.9500651
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights a significant development for Matthews International, indicating a favorable transaction in warehouse automation that could boost investor confidence. This aligns with current trends in the market that favor technological advancements and operational efficiency. Overall, such moves might reflect an optimistic outlook for the company's future performance.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763750285.232601
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to corporate developments, Matthews International has announced an important transaction in warehouse automation.",
+      "tag": "chip_transition",
+      "timestamp": 1763750285.655914
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of Matthews International's warehouse automation sale for investors.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763750282.3119698,
+      "line": "\"Chip, break down the implications of Matthews International's warehouse automation sale for investors.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation certainly calls for immediate attention and careful consideration.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763750282.950069,
+      "line": "The escalating situation certainly calls for immediate attention and careful consideration.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights a significant development for Matthews International, indicating a favorable transaction in warehouse automation that could boost investor confidence. This aligns with current trends in the market that favor technological advancements and operational efficiency. Overall, such moves might reflect an optimistic outlook for the company's future performance.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763750285.2326057,
+      "line": "The headline highlights a significant development for Matthews International, indicating a favorable transaction in warehouse automation that could boost investor confidence. This aligns with current trends in the market that favor technological advancements and operational efficiency. Overall, such moves might reflect an optimistic outlook for the company's future performance.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to corporate developments, Matthews International has announced an important transaction in warehouse automation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763750285.6559181,
+      "line": "Turning now to corporate developments, Matthews International has announced an important transaction in warehouse automation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}
