@@ -32,3 +32,5 @@ ENV/
 # Old ai_export (not used in live system)
 ai_export/
 script_engine/director/director_state.json
+*~
+script_engine/director/director_state.json
