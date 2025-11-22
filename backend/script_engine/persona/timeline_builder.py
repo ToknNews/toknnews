@@ -1,148 +1,132 @@
 #!/usr/bin/env python3
 """
-timeline_builder.py – builds the exact order and timing of anchors for an episode
-Fully updated for November 2025 architecture – no dead imports, no legacy functions
+TOKNNews — Timeline Builder (Clean GPT-Driven, Rebuild Stack Edition)
+
+Sequence:
+  - Vega booth intro
+  - Chip greeting (daypart + awareness)
+  - Chip rundown (GPT-refined)
+  - Anchor reaction → duo exchange → analysis
+  - Bitsy / Vega inserts (per PD)
+  - Transitions
+
+All lines GPT-authored where applicable.
 """
 
-import random
-from datetime import datetime
-from script_engine.persona.line_builder import (
-    build_line,
-    escalate_confidence,
-    apply_style_constraints,
-    enforce_phonetics,
-    enforce_lexicon
+import time
+from script_engine.persona.voice_map import VOICE_MAP
+from script_engine.openai_writer import (
+    gpt_analysis,
+    gpt_transition,
+    gpt_duo_line,
+    gpt_chip_followup,
+    gpt_chip_toss,
+    gpt_story_transition,
+    gpt_reaction,
 )
+from script_engine.persona.chip_open_engine import chip_open_line
 
-# These were moved to hybrid_line_writer months ago
-from script_engine.persona.hybrid_line_writer import (
-    apply_tone_shift,
-    build_anchor_react
-)
-# ------------------------------------------------------------------
-# PERSONA SYSTEM – FINAL CANON FALLBACK (22 Nov 2025)
-# persona_loader is broken → we hard-code the real 13 anchors forever
-# ------------------------------------------------------------------
+# === Helpers ===
 
-CANON_ANCHORS = {
-    "Chip Blue":     {"voice_id": "teAyVVX8spybXkITa1A0"},
-    "Cash Green":    {"voice_id": "b2zP5WtU6zW1RDLwR1VL"},
-    "Neura Grey":    {"voice_id": "U21zT7YnOSlmiJ6Uzs70"},
-    "Ledger Stone":  {"voice_id": "NZN55afVwq1WHQJOwDCz"},
-    "Lawson Black":  {"voice_id": "Wz0W8ilvy9oYu7DeKWfB"},
-    "Reef Gold":     {"voice_id": "7pLXpsTZ3rOalpNWmYqI"},
-    "Cap Silver":    {"voice_id": "eeFsfJ0uulJx6xKTmsRE"},
-    "Bond Crimson":  {"voice_id": "ckPPrwZqzA7Vp7ceNunQ"},
-    "Ivy Quinn":     {"voice_id": "Iw2tTyxZnwTODhsmOq00"},
-    "Bitsy Gold":    {"voice_id": "VOkhRocQyiAQg2RF9A5e"},
-    "Penny Lane":    {"voice_id": "7WqwVs6Wqe0yEev6QDxV"},
-    "Rex Vol":       {"voice_id": "5Rbobt83lpNwhTQEhH2F"},
-    "Vega Watt":     {"voice_id": "Ax1HxHll9ku8pGyIt6kK"},
-}
+def _block(text: str, speaker: str, tag: str):
+    return {
+        "speaker": speaker,
+        "text": text,
+        "tag": tag,
+        "timestamp": time.time(),
+    }
 
-def get_active_personas():
-    return CANON_ANCHORS
+def _audio_block(text: str, speaker: str, tag: str):
+    return {
+        "speaker": speaker,
+        "voice_id": VOICE_MAP.get(speaker, "chip"),
+        "text": text,
+        "block_type": tag,
+        "timestamp": time.time(),
+        "line": text,
+        "tag": tag,
+    }
 
-def get_voice_id(anchor: str):
-    name = anchor.split()[0] + " " + anchor.split()[1] if " " in anchor else anchor
-    return CANON_ANCHORS.get(name, CANON_ANCHORS["Chip Blue"])["voice_id"]
+# === Main ===
 
-def get_escalation_style(anchor: str):
-    return "confident"
-
-def get_lexicon(anchor: str):
-    return {"preferred": [], "avoid": ["um", "uh", "like", "you know"]}
-
-def get_avoid_list(anchor: str):
-    return ["um", "uh", "like", "you know"])
-
-from script_engine.director.pd_controller import get_pd_directive
-from script_engine.utils import log
-
-
-def build_timeline(block_data: dict, previous_cast: list = None) -> list:
-    """
-    Returns a list of dicts: [{'anchor': 'Chip', 'line': '...', 'duration': 4.2, ...}, ...]
-    """
-    if previous_cast is None:
-        previous_cast = []
-
-    active_personas = get_active_personas()
-    pd = get_pd_directive(block_data.get("sentiment", "neutral"))
-
-    # PD decides lead anchor
-    lead_anchor = pd.get("lead", random.choice(list(active_personas.keys())))
-    supporting = [a for a in active_personas if a != lead_anchor]
-    random.shuffle(supporting)
-
-    # Basic 12-anchor rotation with PD overrides
+def build_timeline(character, headline, synthesis, article_context, anchors,
+                   allow_bitsy, allow_vega, show_intro, segment_type, pd_config=None):
+    
     timeline = []
-    anchors_used = set()
+    audio_blocks = []
 
-    # 1. Opening (always lead)
-    line = f"Good evening, I'm {lead_anchor} with Token News."
-    timeline.append({
-        "anchor": lead_anchor,
-        "line": line,
-        "raw_line": line,
-        "role": "open",
-        "duration_estimate": 4.0
-    })
-    anchors_used.add(lead_anchor)
+    pd_flags = pd_config if pd_config else {}
+    show_mode = "LATENIGHT" if pd_flags.get("daypart") == "latenight" else "NEWS"
+    brain = {"headline": headline, "synthesis": synthesis}
 
-    # 2–11. Body – rotate with PD escalation
-    for i, segment in enumerate(block_data["segments"][:10]):
-        if pd.get("escalate") and i % 3 == 0:
-            anchor = pd.get("escalate_anchor", lead_anchor)
-        else:
-            # rotate fairly
-            available = [a for a in supporting if a not in anchors_used]
-            if not available:
-                available = supporting
-            anchor = random.choice(available)
+    primary = anchors[0] if anchors else "chip"
+    duo = anchors[1] if len(anchors) > 1 else None
 
-        raw_line = segment["headline"]
-        line = build_line(anchor, raw_line, timeline[-1] if timeline else None)
+    # === 1. VEGA BOOTH INTRO ===
+    vega_line = "You're watching Token News — where clarity meets crypto chaos."
+    timeline.append(_block(vega_line, "vega", "vega_intro"))
+    audio_blocks.append(_audio_block(vega_line, "vega", "vega_intro"))
 
-        # Apply PD tone shift if needed
-        if pd.get("tone_shift"):
-            line = apply_tone_shift(line, pd["tone_shift"])
+    # === 2. CHIP INTRO (time-aware) ===
+    if show_intro:
+        intro_line = chip_open_line(time_of_day=pd_flags.get("daypart", "evening"))
+        chip_greet = gpt_chip_followup(
+            headline, synthesis, primary, duo, intro_line,
+            pd_flags, show_mode, brain, "general"
+        )
+        timeline.append(_block(chip_greet, "chip", "chip_intro"))
+        audio_blocks.append(_audio_block(chip_greet, "chip", "chip_intro"))
 
-        # Anchor reaction (banter)
-        if random.random() < 0.4:
-            react_anchor = random.choice([a for a in active_personas if a != anchor])
-            reaction = build_anchor_react(react_anchor, line)
-            timeline.append({
-                "anchor": react_anchor,
-                "line": reaction,
-                "raw_line": reaction,
-                "role": "react",
-                "duration_estimate": len(reaction.split()) * 0.35
-            })
+    # === 3. CHIP RUNDOWN REACTION ===
+    chip_react = gpt_reaction("chip", headline, brain)
+    timeline.append(_block(chip_react, "chip", "chip_rundown"))
+    audio_blocks.append(_audio_block(chip_react, "chip", "chip_rundown"))
 
-        timeline.append({
-            "anchor": anchor,
-            "line": line,
-            "raw_line": raw_line,
-            "role": "deliver",
-            "duration_estimate": len(line.split()) * 0.38
-        })
-        anchors_used.add(anchor)
+    # === 4. CHIP → PRIMARY TOSS ===
+    chip_toss = gpt_chip_toss(primary, headline, brain, show_mode, pd_flags)
+    timeline.append(_block(chip_toss, "chip", "chip_toss"))
+    audio_blocks.append(_audio_block(chip_toss, "chip", "chip_toss"))
 
-    # Final sign-off – always lead + co-anchor
-    co_anchor = random.choice([a for a in active_personas if a != lead_anchor])
-    timeline.append({
-        "anchor": lead_anchor,
-        "line": "That's tonight's Token News.",
-        "raw_line": "That's tonight's Token News.",
-        "role": "close"
-    })
-    timeline.append({
-        "anchor": co_anchor,
-        "line": f"I'm {co_anchor}. Good night.",
-        "raw_line": f"I'm {co_anchor}. Good night.",
-        "role": "close"
-    })
+    # === 5. ANCHOR REACT ===
+    anchor_react = gpt_reaction(primary, headline, brain)
+    timeline.append(_block(anchor_react, primary, "primary_reaction"))
+    audio_blocks.append(_audio_block(anchor_react, primary, "primary_reaction"))
 
-    log(f"Timeline built – {len(timeline)} lines, lead: {lead_anchor}")
-    return timeline
+    # === 6. DUO CROSSTALK (Optional) ===
+    if duo:
+        try:
+            l1 = gpt_duo_line(duo, primary, headline, "", show_mode, anchor_react, brain)
+            l2 = gpt_duo_line(primary, duo, headline, "", show_mode, l1, brain)
+            timeline.append(_block(l1, duo, "duo_crosstalk"))
+            timeline.append(_block(l2, primary, "duo_followup"))
+            audio_blocks.append(_audio_block(l1, duo, "duo_crosstalk"))
+            audio_blocks.append(_audio_block(l2, primary, "duo_followup"))
+        except Exception as e:
+            print("[TimelineBuilder] Duo crosstalk error:", e)
+
+    # === 7. ANCHOR ANALYSIS ===
+    analysis = gpt_analysis(primary, headline, synthesis, brain)
+    timeline.append(_block(analysis, primary, "anchor_analysis"))
+    audio_blocks.append(_audio_block(analysis, primary, "anchor_analysis"))
+
+    # === 8. OPTIONAL INSERTS ===
+    if allow_vega:
+        vega_color = "With volatility rising, let’s keep the signal clean."  # or GPT-driven in future
+        timeline.append(_block(vega_color, "vega", "vega_block"))
+        audio_blocks.append(_audio_block(vega_color, "vega", "vega_block"))
+
+    if allow_bitsy:
+        bitsy = "Wait what? I was not ready for that headline."  # Replace with gpt_bitsy_interrupt() if desired
+        timeline.append(_block(bitsy, "bitsy", "bitsy_interrupt"))
+        audio_blocks.append(_audio_block(bitsy, "bitsy", "bitsy_interrupt"))
+
+    # === 9. CHIP OUTRO TRANSITION ===
+    if segment_type != "closing":
+        chip_next = gpt_story_transition(headline, brain)
+        timeline.append(_block(chip_next, "chip", "chip_transition"))
+        audio_blocks.append(_audio_block(chip_next, "chip", "chip_transition"))
+
+    return {
+        "timeline": timeline,
+        "audio_blocks": audio_blocks
+    }
