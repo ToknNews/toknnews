@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763751538.1625006,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of the unions' upcoming resistance on November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763751534.6751027
+    },
+    {
+      "speaker": "chip",
+      "text": "That story certainly raises some eyebrows about the current state of affairs.",
+      "tag": "primary_reaction",
+      "timestamp": 1763751535.5827239
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending confrontation between labor unions and the government reflects escalating tensions surrounding recent labor reforms. With the unions mobilizing for a significant protest, the outcome could influence not only labor relations but also market dynamics moving forward. Observers will keenly watch how this showdown impacts public sentiment and economic conditions.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763751537.7167995
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the labour sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763751538.1624935
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of the unions' upcoming resistance on November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763751534.6751065,
+      "line": "\"Chip, break down the implications of the unions' upcoming resistance on November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That story certainly raises some eyebrows about the current state of affairs.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763751535.5827267,
+      "line": "That story certainly raises some eyebrows about the current state of affairs.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending confrontation between labor unions and the government reflects escalating tensions surrounding recent labor reforms. With the unions mobilizing for a significant protest, the outcome could influence not only labor relations but also market dynamics moving forward. Observers will keenly watch how this showdown impacts public sentiment and economic conditions.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763751537.716803,
+      "line": "The impending confrontation between labor unions and the government reflects escalating tensions surrounding recent labor reforms. With the unions mobilizing for a significant protest, the outcome could influence not only labor relations but also market dynamics moving forward. Observers will keenly watch how this showdown impacts public sentiment and economic conditions.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the labour sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763751538.1624963,
+      "line": "Turning now to developments in the labour sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

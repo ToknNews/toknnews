@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763777109.0712857,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the reasons everyone believes there's a bubble brewing with Nvidia.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763777106.9340277
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises eyebrows and invites deeper scrutiny into the underlying issues at play.",
+      "tag": "primary_reaction",
+      "timestamp": 1763777107.5901783
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock. This acknowledgment could reflect broader market concerns about sustainability in tech valuations. As sentiment shifts, it may impact trading strategies and investor confidence in related sectors.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763777108.7413828
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763777109.071277
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the reasons everyone believes there's a bubble brewing with Nvidia.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763777106.9340324,
+      "line": "\"Chip, break down the reasons everyone believes there's a bubble brewing with Nvidia.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises eyebrows and invites deeper scrutiny into the underlying issues at play.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763777107.5901818,
+      "line": "That headline certainly raises eyebrows and invites deeper scrutiny into the underlying issues at play.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock. This acknowledgment could reflect broader market concerns about sustainability in tech valuations. As sentiment shifts, it may impact trading strategies and investor confidence in related sectors.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763777108.7413874,
+      "line": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock. This acknowledgment could reflect broader market concerns about sustainability in tech valuations. As sentiment shifts, it may impact trading strategies and investor confidence in related sectors.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763777109.0712805,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

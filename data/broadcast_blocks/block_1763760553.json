@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763760553.4592469,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, highlight the top quant-rated small- and mid-cap healthcare stocks in light of LLY's milestone.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763760550.478524
+    },
+    {
+      "speaker": "cash",
+      "text": "It looks like the stakes are higher than a shopping cart on Black Friday!",
+      "tag": "primary_reaction",
+      "timestamp": 1763760551.3820405
+    },
+    {
+      "speaker": "cash",
+      "text": "As LLY reaches a significant milestone with its $1 trillion market cap, it\u2019s a testament to the growing confidence in the healthcare sector. The focus on small- and mid-cap stocks suggests investors are seeking potential hidden gems amidst the giants. This trend could indicate a shift in market dynamics, reflecting an appetite for growth in niche companies.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763760552.5113719
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the latest trends in healthcare equities.",
+      "tag": "chip_transition",
+      "timestamp": 1763760553.459239
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, highlight the top quant-rated small- and mid-cap healthcare stocks in light of LLY's milestone.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763760550.478527,
+      "line": "\"Cash, highlight the top quant-rated small- and mid-cap healthcare stocks in light of LLY's milestone.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It looks like the stakes are higher than a shopping cart on Black Friday!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763760551.3820443,
+      "line": "It looks like the stakes are higher than a shopping cart on Black Friday!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "As LLY reaches a significant milestone with its $1 trillion market cap, it\u2019s a testament to the growing confidence in the healthcare sector. The focus on small- and mid-cap stocks suggests investors are seeking potential hidden gems amidst the giants. This trend could indicate a shift in market dynamics, reflecting an appetite for growth in niche companies.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763760552.5113754,
+      "line": "As LLY reaches a significant milestone with its $1 trillion market cap, it\u2019s a testament to the growing confidence in the healthcare sector. The focus on small- and mid-cap stocks suggests investors are seeking potential hidden gems amidst the giants. This trend could indicate a shift in market dynamics, reflecting an appetite for growth in niche companies.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the latest trends in healthcare equities.",
+      "block_type": "chip_transition",
+      "timestamp": 1763760553.4592426,
+      "line": "Turning now to the latest trends in healthcare equities.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

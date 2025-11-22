@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763766913.8020737,
+  "headline": "Matthews International: Excellent Deal On Warehouse Automation Sale (NASDAQ:MATW)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down how Matthews International is shaking up the warehouse automation market.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763766911.1683586
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation raises significant concerns for both local communities and national security.",
+      "tag": "primary_reaction",
+      "timestamp": 1763766911.715507
+    },
+    {
+      "speaker": "chip",
+      "text": "The announcement regarding Matthews International's warehouse automation sale highlights a strategic move that aligns well with current market trends favoring automation solutions. This could signal increased investor confidence in the company's growth potential amidst a shifting economic landscape. Overall, the deal may reinforce Matthews' position in a competitive sector, reflecting a positive sentiment toward innovative operational efficiencies.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763766913.3208883
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to corporate developments, Matthews International has announced a significant transaction in warehouse automation.",
+      "tag": "chip_transition",
+      "timestamp": 1763766913.8020682
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down how Matthews International is shaking up the warehouse automation market.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763766911.1683617,
+      "line": "\"Chip, break down how Matthews International is shaking up the warehouse automation market.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation raises significant concerns for both local communities and national security.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763766911.7155104,
+      "line": "The escalating situation raises significant concerns for both local communities and national security.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The announcement regarding Matthews International's warehouse automation sale highlights a strategic move that aligns well with current market trends favoring automation solutions. This could signal increased investor confidence in the company's growth potential amidst a shifting economic landscape. Overall, the deal may reinforce Matthews' position in a competitive sector, reflecting a positive sentiment toward innovative operational efficiencies.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763766913.3208919,
+      "line": "The announcement regarding Matthews International's warehouse automation sale highlights a strategic move that aligns well with current market trends favoring automation solutions. This could signal increased investor confidence in the company's growth potential amidst a shifting economic landscape. Overall, the deal may reinforce Matthews' position in a competitive sector, reflecting a positive sentiment toward innovative operational efficiencies.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to corporate developments, Matthews International has announced a significant transaction in warehouse automation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763766913.8020709,
+      "line": "Turning now to corporate developments, Matthews International has announced a significant transaction in warehouse automation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

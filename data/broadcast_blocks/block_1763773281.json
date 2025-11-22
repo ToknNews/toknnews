@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763773281.94208,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, can you break down why everyone's buzzing about this Nvidia bubble?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763773279.3908544
+    },
+    {
+      "speaker": "chip",
+      "text": "That escalating situation certainly raises concerns about safety and stability in the region.",
+      "tag": "primary_reaction",
+      "timestamp": 1763773279.9110043
+    },
+    {
+      "speaker": "chip",
+      "text": "The statement from Nvidia suggests a growing awareness of speculative trends within the tech sector. This acknowledgment could indicate potential volatility, affecting investor confidence and stock performance. The broader implications for the market may lead to increased scrutiny on technology stocks and their valuations.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763773281.4506886
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "tag": "chip_transition",
+      "timestamp": 1763773281.9420722
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, can you break down why everyone's buzzing about this Nvidia bubble?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763773279.3908582,
+      "line": "\"Chip, can you break down why everyone's buzzing about this Nvidia bubble?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That escalating situation certainly raises concerns about safety and stability in the region.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763773279.911007,
+      "line": "That escalating situation certainly raises concerns about safety and stability in the region.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The statement from Nvidia suggests a growing awareness of speculative trends within the tech sector. This acknowledgment could indicate potential volatility, affecting investor confidence and stock performance. The broader implications for the market may lead to increased scrutiny on technology stocks and their valuations.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763773281.4506924,
+      "line": "The statement from Nvidia suggests a growing awareness of speculative trends within the tech sector. This acknowledgment could indicate potential volatility, affecting investor confidence and stock performance. The broader implications for the market may lead to increased scrutiny on technology stocks and their valuations.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763773281.9420755,
+      "line": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

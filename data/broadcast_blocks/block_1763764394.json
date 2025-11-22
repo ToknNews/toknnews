@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763764394.1894846,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down why everyone is buzzing about the Nvidia bubble.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763764390.4171524
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems like the retail landscape is about to see some serious shake-ups that could leave consumers reeling.",
+      "tag": "primary_reaction",
+      "timestamp": 1763764392.009411
+    },
+    {
+      "speaker": "cash",
+      "text": "Nvidia's acknowledgment of a bubble suggests that even industry giants are wary of inflated valuations, which could signal upcoming volatility. This sentiment reflects a growing concern among investors about the sustainability of recent tech stock gains. As the market fluctuates, it will be interesting to see if caution prevails over exuberance.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763764393.445931
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia\u2019s market valuation.",
+      "tag": "chip_transition",
+      "timestamp": 1763764394.1894608
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down why everyone is buzzing about the Nvidia bubble.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763764390.4171553,
+      "line": "\"Cash, break down why everyone is buzzing about the Nvidia bubble.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems like the retail landscape is about to see some serious shake-ups that could leave consumers reeling.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763764392.0094144,
+      "line": "It seems like the retail landscape is about to see some serious shake-ups that could leave consumers reeling.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Nvidia's acknowledgment of a bubble suggests that even industry giants are wary of inflated valuations, which could signal upcoming volatility. This sentiment reflects a growing concern among investors about the sustainability of recent tech stock gains. As the market fluctuates, it will be interesting to see if caution prevails over exuberance.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763764393.4459345,
+      "line": "Nvidia's acknowledgment of a bubble suggests that even industry giants are wary of inflated valuations, which could signal upcoming volatility. This sentiment reflects a growing concern among investors about the sustainability of recent tech stock gains. As the market fluctuates, it will be interesting to see if caution prevails over exuberance.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia\u2019s market valuation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763764394.1894786,
+      "line": "Turning now to the technology sector, where recent discussions have centered on Nvidia\u2019s market valuation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763766909.2596562,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, let's dive into why many are calling this Nvidia bubble a ticking clock.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763766906.896109
+    },
+    {
+      "speaker": "chip",
+      "text": "It's a delicate situation that underscores the need for careful dialogue and understanding.",
+      "tag": "primary_reaction",
+      "timestamp": 1763766907.445811
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline suggests a recognition of inflated valuations within Nvidia, reflecting concerns among investors about sustainability. By acknowledging a bubble, it highlights the potential for volatility in the tech sector and its implications on market dynamics. This awareness could influence trading strategies and investor confidence moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763766908.740221
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763766909.2596495
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, let's dive into why many are calling this Nvidia bubble a ticking clock.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763766906.8961134,
+      "line": "\"Chip, let's dive into why many are calling this Nvidia bubble a ticking clock.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It's a delicate situation that underscores the need for careful dialogue and understanding.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763766907.4458137,
+      "line": "It's a delicate situation that underscores the need for careful dialogue and understanding.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline suggests a recognition of inflated valuations within Nvidia, reflecting concerns among investors about sustainability. By acknowledging a bubble, it highlights the potential for volatility in the tech sector and its implications on market dynamics. This awareness could influence trading strategies and investor confidence moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763766908.7402248,
+      "line": "The headline suggests a recognition of inflated valuations within Nvidia, reflecting concerns among investors about sustainability. By acknowledging a bubble, it highlights the potential for volatility in the tech sector and its implications on market dynamics. This awareness could influence trading strategies and investor confidence moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763766909.2596524,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

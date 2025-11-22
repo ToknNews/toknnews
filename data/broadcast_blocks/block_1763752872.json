@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763752872.4451902,
+  "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down what this leadership change means for Crawford & Company moving forward.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763752868.366403
+    },
+    {
+      "speaker": "chip",
+      "text": "That situation certainly raises questions about accountability and the future implications for all involved.",
+      "tag": "primary_reaction",
+      "timestamp": 1763752869.6706445
+    },
+    {
+      "speaker": "chip",
+      "text": "The appointment of Bruce Swain as Interim President and CEO at Crawford & Company signals a strategic shift within the organization, potentially aimed at stabilizing leadership during a transitional period. This decision may reflect broader trends in corporate governance, where interim positions are becoming more common as companies navigate uncertain market conditions. Stakeholders will likely be keen to see how this leadership change influences company performance and investor confidence.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763752871.643538
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to corporate leadership changes, Crawford & Company has appointed Bruce Swain as Interim President and CEO.",
+      "tag": "chip_transition",
+      "timestamp": 1763752872.4451814
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down what this leadership change means for Crawford & Company moving forward.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763752868.3664067,
+      "line": "\"Chip, break down what this leadership change means for Crawford & Company moving forward.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That situation certainly raises questions about accountability and the future implications for all involved.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763752869.6706479,
+      "line": "That situation certainly raises questions about accountability and the future implications for all involved.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The appointment of Bruce Swain as Interim President and CEO at Crawford & Company signals a strategic shift within the organization, potentially aimed at stabilizing leadership during a transitional period. This decision may reflect broader trends in corporate governance, where interim positions are becoming more common as companies navigate uncertain market conditions. Stakeholders will likely be keen to see how this leadership change influences company performance and investor confidence.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763752871.643542,
+      "line": "The appointment of Bruce Swain as Interim President and CEO at Crawford & Company signals a strategic shift within the organization, potentially aimed at stabilizing leadership during a transitional period. This decision may reflect broader trends in corporate governance, where interim positions are becoming more common as companies navigate uncertain market conditions. Stakeholders will likely be keen to see how this leadership change influences company performance and investor confidence.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to corporate leadership changes, Crawford & Company has appointed Bruce Swain as Interim President and CEO.",
+      "block_type": "chip_transition",
+      "timestamp": 1763752872.445185,
+      "line": "Turning now to corporate leadership changes, Crawford & Company has appointed Bruce Swain as Interim President and CEO.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "neura",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

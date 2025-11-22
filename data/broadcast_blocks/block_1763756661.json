@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763756661.6603844,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of the Labour Codes and what this combative resistance means for workers.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763756658.0094
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation raises significant concerns about safety and stability in the region.",
+      "tag": "primary_reaction",
+      "timestamp": 1763756658.850753
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending confrontation over Labour Codes indicates a significant shift in labor relations, with unions gearing up for a strong response on November 26. This escalating tension may affect market dynamics, as stakeholders assess the potential implications for workforce stability and productivity. Additionally, the call for \"combative resistance\" suggests a deeper dissatisfaction among labor groups, which could influence negotiations moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763756661.2706876
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to growing tensions in the labour sector ahead of a significant date later this month.",
+      "tag": "chip_transition",
+      "timestamp": 1763756661.6603777
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of the Labour Codes and what this combative resistance means for workers.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763756658.0094037,
+      "line": "\"Chip, break down the implications of the Labour Codes and what this combative resistance means for workers.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation raises significant concerns about safety and stability in the region.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763756658.8507562,
+      "line": "The escalating situation raises significant concerns about safety and stability in the region.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending confrontation over Labour Codes indicates a significant shift in labor relations, with unions gearing up for a strong response on November 26. This escalating tension may affect market dynamics, as stakeholders assess the potential implications for workforce stability and productivity. Additionally, the call for \"combative resistance\" suggests a deeper dissatisfaction among labor groups, which could influence negotiations moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763756661.2706916,
+      "line": "The impending confrontation over Labour Codes indicates a significant shift in labor relations, with unions gearing up for a strong response on November 26. This escalating tension may affect market dynamics, as stakeholders assess the potential implications for workforce stability and productivity. Additionally, the call for \"combative resistance\" suggests a deeper dissatisfaction among labor groups, which could influence negotiations moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to growing tensions in the labour sector ahead of a significant date later this month.",
+      "block_type": "chip_transition",
+      "timestamp": 1763756661.660381,
+      "line": "Turning now to growing tensions in the labour sector ahead of a significant date later this month.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

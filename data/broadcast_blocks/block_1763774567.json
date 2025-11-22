@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763774567.8600554,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down how this combative stance could reshape the landscape for unions.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763774565.4654725
+    },
+    {
+      "speaker": "chip",
+      "text": "This development raises critical questions about accountability in the current climate.",
+      "tag": "primary_reaction",
+      "timestamp": 1763774566.0966585
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown due to the Labour Codes reflects growing tensions between unions and government policies, indicating a potential shift in labor dynamics. Such conflicts could influence market sentiment, particularly if they escalate into broader disruptions. Observers will be keen to see how this resistance impacts the workforce and economic stability.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763774567.3729322
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in the labor sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763774567.8600492
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down how this combative stance could reshape the landscape for unions.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763774565.465475,
+      "line": "\"Chip, break down how this combative stance could reshape the landscape for unions.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This development raises critical questions about accountability in the current climate.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763774566.0966618,
+      "line": "This development raises critical questions about accountability in the current climate.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown due to the Labour Codes reflects growing tensions between unions and government policies, indicating a potential shift in labor dynamics. Such conflicts could influence market sentiment, particularly if they escalate into broader disruptions. Observers will be keen to see how this resistance impacts the workforce and economic stability.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763774567.3729348,
+      "line": "The upcoming showdown due to the Labour Codes reflects growing tensions between unions and government policies, indicating a potential shift in labor dynamics. Such conflicts could influence market sentiment, particularly if they escalate into broader disruptions. Observers will be keen to see how this resistance impacts the workforce and economic stability.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in the labor sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763774567.860052,
+      "line": "Turning now to a significant development in the labor sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763757999.0113206,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down how the market is reacting to the Nvidia bubble talk.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763757996.4201841
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems like the retail world is bracing for a showdown that could change the shopping landscape forever.",
+      "tag": "primary_reaction",
+      "timestamp": 1763757997.352889
+    },
+    {
+      "speaker": "cash",
+      "text": "The headline suggests that while Nvidia's stock may be inflated, it reflects a larger trend in market perception. Investors are wary, hinting at a possible correction ahead. As market sentiment can shift like a mood ring, it's crucial to stay informed.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763757998.5237064
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "tag": "chip_transition",
+      "timestamp": 1763757999.0113118
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down how the market is reacting to the Nvidia bubble talk.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763757996.4201875,
+      "line": "\"Cash, break down how the market is reacting to the Nvidia bubble talk.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems like the retail world is bracing for a showdown that could change the shopping landscape forever.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763757997.3528929,
+      "line": "It seems like the retail world is bracing for a showdown that could change the shopping landscape forever.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The headline suggests that while Nvidia's stock may be inflated, it reflects a larger trend in market perception. Investors are wary, hinting at a possible correction ahead. As market sentiment can shift like a mood ring, it's crucial to stay informed.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763757998.5237105,
+      "line": "The headline suggests that while Nvidia's stock may be inflated, it reflects a larger trend in market perception. Investors are wary, hinting at a possible correction ahead. As market sentiment can shift like a mood ring, it's crucial to stay informed.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763757999.0113158,
+      "line": "Turning now to the technology sector, where recent discussions have centered on market valuations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

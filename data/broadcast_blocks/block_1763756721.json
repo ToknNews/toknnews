@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763756721.921449,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down the implications of this bubble for investors.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763756718.6585152
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the stakes in the retail world just got a bit higher\u2014time to see who can weather the storm!",
+      "tag": "primary_reaction",
+      "timestamp": 1763756719.6672
+    },
+    {
+      "speaker": "cash",
+      "text": "The assertion that there's a bubble surrounding Nvidia suggests a cautionary outlook amidst soaring stock valuations. It reflects concerns not just about the company, but also the ripple effects on the entire tech sector and investor psychology. Investors should tread carefully, as market sentiment can shift faster than a gamer can reset their console.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763756720.9735062
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent developments have sparked considerable discussion.",
+      "tag": "chip_transition",
+      "timestamp": 1763756721.9214423
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down the implications of this bubble for investors.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763756718.6585188,
+      "line": "\"Cash, break down the implications of this bubble for investors.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the stakes in the retail world just got a bit higher\u2014time to see who can weather the storm!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763756719.6672041,
+      "line": "It seems the stakes in the retail world just got a bit higher\u2014time to see who can weather the storm!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The assertion that there's a bubble surrounding Nvidia suggests a cautionary outlook amidst soaring stock valuations. It reflects concerns not just about the company, but also the ripple effects on the entire tech sector and investor psychology. Investors should tread carefully, as market sentiment can shift faster than a gamer can reset their console.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763756720.9735093,
+      "line": "The assertion that there's a bubble surrounding Nvidia suggests a cautionary outlook amidst soaring stock valuations. It reflects concerns not just about the company, but also the ripple effects on the entire tech sector and investor psychology. Investors should tread carefully, as market sentiment can shift faster than a gamer can reset their console.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent developments have sparked considerable discussion.",
+      "block_type": "chip_transition",
+      "timestamp": 1763756721.9214451,
+      "line": "Turning now to the technology sector, where recent developments have sparked considerable discussion.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

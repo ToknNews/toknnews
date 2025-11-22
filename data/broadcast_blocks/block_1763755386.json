@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763755386.8672745,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, what are the unions' strategies as they prepare for this combative showdown?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763755383.18842
+    },
+    {
+      "speaker": "chip",
+      "text": "That sounds like a situation that needs careful handling to avoid escalating tensions further.",
+      "tag": "primary_reaction",
+      "timestamp": 1763755383.9412358
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending confrontation between unions and the government highlights a significant shift in labor dynamics, potentially reshaping negotiations in various sectors. As unions prepare for a robust response, market stakeholders may need to brace for volatility. This situation not only reflects current economic sentiments but also raises questions about future labor relations.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763755386.0682724
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763755386.867266
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, what are the unions' strategies as they prepare for this combative showdown?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763755383.1884234,
+      "line": "\"Chip, what are the unions' strategies as they prepare for this combative showdown?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That sounds like a situation that needs careful handling to avoid escalating tensions further.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763755383.9412405,
+      "line": "That sounds like a situation that needs careful handling to avoid escalating tensions further.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending confrontation between unions and the government highlights a significant shift in labor dynamics, potentially reshaping negotiations in various sectors. As unions prepare for a robust response, market stakeholders may need to brace for volatility. This situation not only reflects current economic sentiments but also raises questions about future labor relations.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763755386.0682764,
+      "line": "The impending confrontation between unions and the government highlights a significant shift in labor dynamics, potentially reshaping negotiations in various sectors. As unions prepare for a robust response, market stakeholders may need to brace for volatility. This situation not only reflects current economic sentiments but also raises questions about future labor relations.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763755386.86727,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

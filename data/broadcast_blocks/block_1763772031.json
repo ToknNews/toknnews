@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763772031.1552796,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\u201cCash, let\u2019s dive into the best Quant-rated small- and mid-cap healthcare stocks while LLY hits that $1 trillion milestone.\u201d",
+      "tag": "chip_toss",
+      "timestamp": 1763772028.572341
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems like the retail world is tightrope-walking between innovation and disaster.",
+      "tag": "primary_reaction",
+      "timestamp": 1763772029.347154
+    },
+    {
+      "speaker": "cash",
+      "text": "The surge in Eli Lilly's market capitalization to $1 trillion highlights the growing investor confidence in the healthcare sector. Small- and mid-cap stocks in this industry are poised for potential growth as they often outperform larger companies in emerging trends. This dynamic reflects not only individual stock performance but also the broader enthusiasm for innovative healthcare solutions.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763772030.6422937
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the healthcare sector, where recent market movements have drawn attention.",
+      "tag": "chip_transition",
+      "timestamp": 1763772031.1552734
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\u201cCash, let\u2019s dive into the best Quant-rated small- and mid-cap healthcare stocks while LLY hits that $1 trillion milestone.\u201d",
+      "block_type": "chip_toss",
+      "timestamp": 1763772028.572344,
+      "line": "\u201cCash, let\u2019s dive into the best Quant-rated small- and mid-cap healthcare stocks while LLY hits that $1 trillion milestone.\u201d",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems like the retail world is tightrope-walking between innovation and disaster.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763772029.3471572,
+      "line": "It seems like the retail world is tightrope-walking between innovation and disaster.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The surge in Eli Lilly's market capitalization to $1 trillion highlights the growing investor confidence in the healthcare sector. Small- and mid-cap stocks in this industry are poised for potential growth as they often outperform larger companies in emerging trends. This dynamic reflects not only individual stock performance but also the broader enthusiasm for innovative healthcare solutions.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763772030.6422975,
+      "line": "The surge in Eli Lilly's market capitalization to $1 trillion highlights the growing investor confidence in the healthcare sector. Small- and mid-cap stocks in this industry are poised for potential growth as they often outperform larger companies in emerging trends. This dynamic reflects not only individual stock performance but also the broader enthusiasm for innovative healthcare solutions.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the healthcare sector, where recent market movements have drawn attention.",
+      "block_type": "chip_transition",
+      "timestamp": 1763772031.1552763,
+      "line": "Turning now to the healthcare sector, where recent market movements have drawn attention.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

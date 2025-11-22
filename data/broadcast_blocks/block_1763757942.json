@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763757942.2138648,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of these Labour Codes and the unions' response.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763757938.5620868
+    },
+    {
+      "speaker": "chip",
+      "text": "The clash between opposing views highlights the growing divide in public opinion.",
+      "tag": "primary_reaction",
+      "timestamp": 1763757939.4444518
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown over Labour Codes highlights the escalating tensions between unions and government authorities, indicating a significant shift in labor relations. As unions prepare for a combative stance on November 26, this conflict may reflect broader economic sentiments and labor market dynamics. Observers will be keen to see how this resistance impacts both policy and public opinion moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763757941.5764043
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labor relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763757942.2138572
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of these Labour Codes and the unions' response.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763757938.5620897,
+      "line": "\"Chip, break down the implications of these Labour Codes and the unions' response.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The clash between opposing views highlights the growing divide in public opinion.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763757939.444455,
+      "line": "The clash between opposing views highlights the growing divide in public opinion.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown over Labour Codes highlights the escalating tensions between unions and government authorities, indicating a significant shift in labor relations. As unions prepare for a combative stance on November 26, this conflict may reflect broader economic sentiments and labor market dynamics. Observers will be keen to see how this resistance impacts both policy and public opinion moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763757941.5764072,
+      "line": "The upcoming showdown over Labour Codes highlights the escalating tensions between unions and government authorities, indicating a significant shift in labor relations. As unions prepare for a combative stance on November 26, this conflict may reflect broader economic sentiments and labor market dynamics. Observers will be keen to see how this resistance impacts both policy and public opinion moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labor relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763757942.2138603,
+      "line": "Turning now to a significant development in labor relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

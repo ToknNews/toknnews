@@ -2,46 +2,59 @@
   "apps": [
     {
       "name": "toknnews-cycle",
-      "script": "/var/www/toknnews-live/backend/live/run_cycle.py",
+      "script": "sync_sets/v1.0/current/ingestion_brain/run_cycle.py",
       "interpreter": "/usr/bin/python3",
       "autorestart": true,
       "watch": false,
       "env": {
-        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "PYTHONPATH": "/opt/toknnews/backend/script_engine:/opt/toknnews/sync_sets/v1.0/current/ingestion_brain",
         "ENV": "production"
       }
     },
     {
       "name": "toknnews-heartbeat",
-      "script": "/var/www/toknnews-live/backend/live/heartbeat_updater.py",
+      "script": "sync_sets/v1.0/current/ingestion_brain/heartbeat_updater.py",
       "interpreter": "/usr/bin/python3",
       "autorestart": true,
       "watch": false,
       "env": {
-        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "PYTHONPATH": "/opt/toknnews/backend/script_engine:/opt/toknnews/sync_sets/v1.0/current/ingestion_brain",
         "ENV": "production"
       }
     },
     {
       "name": "toknnews-ingest",
-      "script": "/var/www/toknnews-live/backend/live/hybrid_ingestor.py",
+      "script": "sync_sets/v1.0/current/ingestion_brain/hybrid_ingestor.py",
       "interpreter": "/usr/bin/python3",
       "autorestart": true,
       "watch": false,
       "env": {
-        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "PYTHONPATH": "/opt/toknnews/backend/script_engine:/opt/toknnews/sync_sets/v1.0/current/ingestion_brain",
         "ENV": "production"
       }
     },
     {
       "name": "toknnews-rss",
-      "script": "/var/www/toknnews-live/backend/live/rss_ingestor.py",
+      "script": "sync_sets/v1.0/current/ingestion_brain/rss_ingestor.py",
       "interpreter": "/usr/bin/python3",
       "autorestart": true,
       "watch": false,
       "env": {
-        "PYTHONPATH": "/var/www/toknnews-live/backend",
+        "PYTHONPATH": "/opt/toknnews/backend/script_engine:/opt/toknnews/sync_sets/v1.0/current/ingestion_brain",
         "ENV": "production"
+      }
+    },
+    {
+      "name": "toknnews-live",
+      "script": "backend/broadcast/episode_loop.py",
+      "interpreter": "/usr/bin/python3",
+      "autorestart": true,
+      "watch": false,
+      "max_restarts": 5,
+      "env": {
+        "PYTHONPATH": "/opt/toknnews/backend/script_engine:/opt/toknnews/sync_sets/v1.0/current/ingestion_brain",
+        "ENV": "production",
+        "DISABLE_TTS": "true"
       }
     }
   ]

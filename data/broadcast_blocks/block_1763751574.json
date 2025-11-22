@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763751574.3094285,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of the unions' upcoming resistance on November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763751570.9626195
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating conflict demands urgent attention and resolution to prevent further escalation.",
+      "tag": "primary_reaction",
+      "timestamp": 1763751571.9311364
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown on November 26 highlights the escalating tensions between labor unions and regulatory bodies over the new Labour Codes. This combative resistance reflects broader market sentiments, as stakeholders are increasingly concerned about the implications for worker rights and economic stability. Observers will be watching closely to see how this confrontation unfolds and its potential impact on labor relations moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763751573.8422942
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to significant developments in the labor sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763751574.3094208
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of the unions' upcoming resistance on November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763751570.962623,
+      "line": "\"Chip, break down the implications of the unions' upcoming resistance on November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating conflict demands urgent attention and resolution to prevent further escalation.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763751571.9311402,
+      "line": "The escalating conflict demands urgent attention and resolution to prevent further escalation.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown on November 26 highlights the escalating tensions between labor unions and regulatory bodies over the new Labour Codes. This combative resistance reflects broader market sentiments, as stakeholders are increasingly concerned about the implications for worker rights and economic stability. Observers will be watching closely to see how this confrontation unfolds and its potential impact on labor relations moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763751573.8422985,
+      "line": "The upcoming showdown on November 26 highlights the escalating tensions between labor unions and regulatory bodies over the new Labour Codes. This combative resistance reflects broader market sentiments, as stakeholders are increasingly concerned about the implications for worker rights and economic stability. Observers will be watching closely to see how this confrontation unfolds and its potential impact on labor relations moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to significant developments in the labor sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763751574.3094242,
+      "line": "Turning now to significant developments in the labor sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

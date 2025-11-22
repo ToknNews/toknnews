@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763775811.9876869,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of this combative stance from the unions.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763775809.1169057
+    },
+    {
+      "speaker": "chip",
+      "text": "The unexpected twist in today\u2019s developments has left many questioning the implications for the future.",
+      "tag": "primary_reaction",
+      "timestamp": 1763775809.8322191
+    },
+    {
+      "speaker": "chip",
+      "text": "The Labour Codes have ignited significant tension, leading unions to prepare for a strong display of opposition on November 26. This confrontation reflects a deeper struggle within the labor market, as workers advocate for their rights amid evolving regulations. Observing this situation will be crucial, as it may influence overall market dynamics and public sentiment.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763775811.216556
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to significant developments in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763775811.9876797
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of this combative stance from the unions.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763775809.116909,
+      "line": "\"Chip, break down the implications of this combative stance from the unions.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The unexpected twist in today\u2019s developments has left many questioning the implications for the future.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763775809.832222,
+      "line": "The unexpected twist in today\u2019s developments has left many questioning the implications for the future.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The Labour Codes have ignited significant tension, leading unions to prepare for a strong display of opposition on November 26. This confrontation reflects a deeper struggle within the labor market, as workers advocate for their rights amid evolving regulations. Observing this situation will be crucial, as it may influence overall market dynamics and public sentiment.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763775811.2165608,
+      "line": "The Labour Codes have ignited significant tension, leading unions to prepare for a strong display of opposition on November 26. This confrontation reflects a deeper struggle within the labor market, as workers advocate for their rights amid evolving regulations. Observing this situation will be crucial, as it may influence overall market dynamics and public sentiment.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to significant developments in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763775811.987683,
+      "line": "Turning now to significant developments in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

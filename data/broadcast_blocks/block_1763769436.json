@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763769436.5693865,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down what this combative resistance means for workers and the future of these Labour Codes.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763769433.6674984
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises important questions that demand our attention.",
+      "tag": "primary_reaction",
+      "timestamp": 1763769434.494939
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending confrontation between unions and the Labour Codes reflects escalating tensions in the labor market. As collective action looms, it highlights the growing dissatisfaction among workers regarding their rights and protections. This situation could significantly influence market dynamics and public sentiment as stakeholders assess the potential impact on economic stability.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763769436.0558147
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to significant developments in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763769436.5693774
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down what this combative resistance means for workers and the future of these Labour Codes.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763769433.667502,
+      "line": "\"Chip, break down what this combative resistance means for workers and the future of these Labour Codes.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises important questions that demand our attention.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763769434.4949431,
+      "line": "That headline certainly raises important questions that demand our attention.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending confrontation between unions and the Labour Codes reflects escalating tensions in the labor market. As collective action looms, it highlights the growing dissatisfaction among workers regarding their rights and protections. This situation could significantly influence market dynamics and public sentiment as stakeholders assess the potential impact on economic stability.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763769436.055818,
+      "line": "The impending confrontation between unions and the Labour Codes reflects escalating tensions in the labor market. As collective action looms, it highlights the growing dissatisfaction among workers regarding their rights and protections. This situation could significantly influence market dynamics and public sentiment as stakeholders assess the potential impact on economic stability.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to significant developments in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763769436.5693815,
+      "line": "Turning now to significant developments in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

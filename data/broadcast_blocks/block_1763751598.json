@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763751598.5262644,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\u201cCash, what are the implications of this bubble for investors moving forward?\u201d",
+      "tag": "chip_toss",
+      "timestamp": 1763751595.7083495
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems retail is feeling the pressure to adapt faster than a cat on a hot tin roof!",
+      "tag": "primary_reaction",
+      "timestamp": 1763751596.5873759
+    },
+    {
+      "speaker": "cash",
+      "text": "The headline suggests a growing awareness among investors that Nvidia's valuation may be unsustainable, hinting at a potential market correction. This awareness reflects broader concerns about speculative trends in technology stocks. As market sentiment shifts, it could impact investment strategies across the sector.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763751598.1346617
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763751598.5262582
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\u201cCash, what are the implications of this bubble for investors moving forward?\u201d",
+      "block_type": "chip_toss",
+      "timestamp": 1763751595.7083533,
+      "line": "\u201cCash, what are the implications of this bubble for investors moving forward?\u201d",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems retail is feeling the pressure to adapt faster than a cat on a hot tin roof!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763751596.5873804,
+      "line": "It seems retail is feeling the pressure to adapt faster than a cat on a hot tin roof!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The headline suggests a growing awareness among investors that Nvidia's valuation may be unsustainable, hinting at a potential market correction. This awareness reflects broader concerns about speculative trends in technology stocks. As market sentiment shifts, it could impact investment strategies across the sector.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763751598.1346664,
+      "line": "The headline suggests a growing awareness among investors that Nvidia's valuation may be unsustainable, hinting at a potential market correction. This awareness reflects broader concerns about speculative trends in technology stocks. As market sentiment shifts, it could impact investment strategies across the sector.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763751598.526261,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

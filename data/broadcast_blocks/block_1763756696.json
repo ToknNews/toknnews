@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763756696.1561522,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\u201cChip, break down the implications of these Labour Codes and the unions' response.\u201d",
+      "tag": "chip_toss",
+      "timestamp": 1763756693.2857304
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation raises urgent questions about stability and safety in the region.",
+      "tag": "primary_reaction",
+      "timestamp": 1763756694.3612914
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending confrontation over Labour Codes highlights significant tensions between unions and government authorities. As workers prepare for a show of solidarity, the outcome could influence not only labor relations but also broader economic conditions. Observers will be keen to see how this event impacts market sentiment moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763756695.8154812
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763756696.1561453
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\u201cChip, break down the implications of these Labour Codes and the unions' response.\u201d",
+      "block_type": "chip_toss",
+      "timestamp": 1763756693.2857332,
+      "line": "\u201cChip, break down the implications of these Labour Codes and the unions' response.\u201d",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation raises urgent questions about stability and safety in the region.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763756694.3612943,
+      "line": "The escalating situation raises urgent questions about stability and safety in the region.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending confrontation over Labour Codes highlights significant tensions between unions and government authorities. As workers prepare for a show of solidarity, the outcome could influence not only labor relations but also broader economic conditions. Observers will be keen to see how this event impacts market sentiment moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763756695.8154852,
+      "line": "The impending confrontation over Labour Codes highlights significant tensions between unions and government authorities. As workers prepare for a show of solidarity, the outcome could influence not only labor relations but also broader economic conditions. Observers will be keen to see how this event impacts market sentiment moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763756696.1561482,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

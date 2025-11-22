@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763759237.5240123,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, delve into the top quant-rated small- and mid-cap healthcare stocks now that LLY has reached a monumental $1 trillion market cap.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763759234.4523847
+    },
+    {
+      "speaker": "chip",
+      "text": "Tensions are escalating as parties involved seem further from resolution than ever.",
+      "tag": "primary_reaction",
+      "timestamp": 1763759235.1014538
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights a significant milestone for Eli Lilly, suggesting increased investor confidence in the healthcare sector. Additionally, the focus on quant-rated small- and mid-cap stocks indicates a shift towards potentially undervalued assets within a booming industry. This trend reflects both market dynamics and evolving investor strategies.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763759236.8379061
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763759237.524006
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, delve into the top quant-rated small- and mid-cap healthcare stocks now that LLY has reached a monumental $1 trillion market cap.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763759234.4523873,
+      "line": "\"Chip, delve into the top quant-rated small- and mid-cap healthcare stocks now that LLY has reached a monumental $1 trillion market cap.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Tensions are escalating as parties involved seem further from resolution than ever.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763759235.1014569,
+      "line": "Tensions are escalating as parties involved seem further from resolution than ever.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights a significant milestone for Eli Lilly, suggesting increased investor confidence in the healthcare sector. Additionally, the focus on quant-rated small- and mid-cap stocks indicates a shift towards potentially undervalued assets within a booming industry. This trend reflects both market dynamics and evolving investor strategies.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763759236.8379095,
+      "line": "The headline highlights a significant milestone for Eli Lilly, suggesting increased investor confidence in the healthcare sector. Additionally, the focus on quant-rated small- and mid-cap stocks indicates a shift towards potentially undervalued assets within a booming industry. This trend reflects both market dynamics and evolving investor strategies.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763759237.524009,
+      "line": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763754161.3349802,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down the implications of Nvidia's position in this bubbling market.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763754159.165964
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the retail landscape is more unpredictable than a cat in a room full of laser pointers!",
+      "tag": "primary_reaction",
+      "timestamp": 1763754159.6311097
+    },
+    {
+      "speaker": "cash",
+      "text": "The acknowledgment of a bubble surrounding Nvidia suggests heightened awareness of market volatility and speculative trends. Investors may need to brace themselves for potential fluctuations as sentiment shifts. Keeping an eye on broader market movements will be crucial in navigating these waters.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763754160.745864
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763754161.3349717
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down the implications of Nvidia's position in this bubbling market.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763754159.165968,
+      "line": "\"Cash, break down the implications of Nvidia's position in this bubbling market.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the retail landscape is more unpredictable than a cat in a room full of laser pointers!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763754159.6311145,
+      "line": "It seems the retail landscape is more unpredictable than a cat in a room full of laser pointers!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The acknowledgment of a bubble surrounding Nvidia suggests heightened awareness of market volatility and speculative trends. Investors may need to brace themselves for potential fluctuations as sentiment shifts. Keeping an eye on broader market movements will be crucial in navigating these waters.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763754160.7458675,
+      "line": "The acknowledgment of a bubble surrounding Nvidia suggests heightened awareness of market volatility and speculative trends. Investors may need to brace themselves for potential fluctuations as sentiment shifts. Keeping an eye on broader market movements will be crucial in navigating these waters.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763754161.334976,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

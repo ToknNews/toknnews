@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763764335.805495,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down what this combative resistance means for workers and the future of these Labor Codes.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763764332.9958968
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises eyebrows and prompts further investigation.",
+      "tag": "primary_reaction",
+      "timestamp": 1763764333.5127144
+    },
+    {
+      "speaker": "chip",
+      "text": "The Labour Codes are igniting a significant confrontation between unions and the government, as demonstrated by the planned resistance on November 26. This development reflects underlying tensions in labor relations that could have ripple effects on market stability and workforce dynamics. Observers should monitor how this conflict influences public sentiment and economic indicators in the coming weeks.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763764335.2947166
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to unfolding developments in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763764335.8054886
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down what this combative resistance means for workers and the future of these Labor Codes.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763764332.9959002,
+      "line": "\"Chip, break down what this combative resistance means for workers and the future of these Labor Codes.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises eyebrows and prompts further investigation.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763764333.5127177,
+      "line": "That headline certainly raises eyebrows and prompts further investigation.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The Labour Codes are igniting a significant confrontation between unions and the government, as demonstrated by the planned resistance on November 26. This development reflects underlying tensions in labor relations that could have ripple effects on market stability and workforce dynamics. Observers should monitor how this conflict influences public sentiment and economic indicators in the coming weeks.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763764335.29472,
+      "line": "The Labour Codes are igniting a significant confrontation between unions and the government, as demonstrated by the planned resistance on November 26. This development reflects underlying tensions in labor relations that could have ripple effects on market stability and workforce dynamics. Observers should monitor how this conflict influences public sentiment and economic indicators in the coming weeks.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to unfolding developments in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763764335.8054917,
+      "line": "Turning now to unfolding developments in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

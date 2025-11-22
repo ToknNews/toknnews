@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763774558.1751616,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the bubble talk surrounding Nvidia and what it means for investors.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763774555.7114253
+    },
+    {
+      "speaker": "chip",
+      "text": "This unexpected turn of events has certainly left many questioning the implications for the future.",
+      "tag": "primary_reaction",
+      "timestamp": 1763774556.2043111
+    },
+    {
+      "speaker": "chip",
+      "text": "The assertion regarding Nvidia highlights concerns about potential overvaluation in tech stocks, reflecting anxiety among investors. Such sentiment can lead to volatility, impacting not only Nvidia but the entire tech sector. Monitoring market trends will be crucial for understanding the implications of this perceived bubble.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763774557.3736694
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have highlighted concerns surrounding Nvidia\u2019s market valuation.",
+      "tag": "chip_transition",
+      "timestamp": 1763774558.1751466
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the bubble talk surrounding Nvidia and what it means for investors.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763774555.7114289,
+      "line": "\"Chip, break down the bubble talk surrounding Nvidia and what it means for investors.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This unexpected turn of events has certainly left many questioning the implications for the future.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763774556.204314,
+      "line": "This unexpected turn of events has certainly left many questioning the implications for the future.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The assertion regarding Nvidia highlights concerns about potential overvaluation in tech stocks, reflecting anxiety among investors. Such sentiment can lead to volatility, impacting not only Nvidia but the entire tech sector. Monitoring market trends will be crucial for understanding the implications of this perceived bubble.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763774557.3736725,
+      "line": "The assertion regarding Nvidia highlights concerns about potential overvaluation in tech stocks, reflecting anxiety among investors. Such sentiment can lead to volatility, impacting not only Nvidia but the entire tech sector. Monitoring market trends will be crucial for understanding the implications of this perceived bubble.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have highlighted concerns surrounding Nvidia\u2019s market valuation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763774558.1751578,
+      "line": "Turning now to the technology sector, where recent discussions have highlighted concerns surrounding Nvidia\u2019s market valuation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

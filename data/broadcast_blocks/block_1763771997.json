@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763771997.4180584,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, highlight the standout small- and mid-cap healthcare stocks benefitting from LLY's milestone.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763771994.4767327
+    },
+    {
+      "speaker": "chip",
+      "text": "That conflict certainly raises questions about how we navigate differing perspectives in our society.",
+      "tag": "primary_reaction",
+      "timestamp": 1763771995.2409835
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights a significant milestone for LLY, indicating strong investor confidence in the healthcare sector. The focus on quant-rated small- and mid-cap stocks suggests a strategic shift toward potentially undervalued opportunities amidst the larger market movements. This trend may reflect a growing interest in diversification within the healthcare industry.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763771996.538921
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763771997.4180515
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, highlight the standout small- and mid-cap healthcare stocks benefitting from LLY's milestone.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763771994.4767363,
+      "line": "\"Chip, highlight the standout small- and mid-cap healthcare stocks benefitting from LLY's milestone.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That conflict certainly raises questions about how we navigate differing perspectives in our society.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763771995.240987,
+      "line": "That conflict certainly raises questions about how we navigate differing perspectives in our society.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights a significant milestone for LLY, indicating strong investor confidence in the healthcare sector. The focus on quant-rated small- and mid-cap stocks suggests a strategic shift toward potentially undervalued opportunities amidst the larger market movements. This trend may reflect a growing interest in diversification within the healthcare industry.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763771996.5389247,
+      "line": "The headline highlights a significant milestone for LLY, indicating strong investor confidence in the healthcare sector. The focus on quant-rated small- and mid-cap stocks suggests a strategic shift toward potentially undervalued opportunities amidst the larger market movements. This trend may reflect a growing interest in diversification within the healthcare industry.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763771997.4180548,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

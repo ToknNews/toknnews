@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763763079.3149276,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the standout quant-rated small- and mid-cap healthcare stocks as LLY crosses that monumental $1T market cap milestone.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763763076.446031
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating tensions signal a pivotal moment that could reshape the landscape dramatically.",
+      "tag": "primary_reaction",
+      "timestamp": 1763763077.0366771
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights a significant milestone for LLY, indicating strong investor confidence in the healthcare sector. Additionally, the focus on small- and mid-cap stocks suggests potential growth opportunities as larger companies reach new heights. Overall, this trend reflects a dynamic market environment that could influence investment strategies.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763763078.878642
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763763079.3149195
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the standout quant-rated small- and mid-cap healthcare stocks as LLY crosses that monumental $1T market cap milestone.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763763076.4460347,
+      "line": "\"Chip, dive into the standout quant-rated small- and mid-cap healthcare stocks as LLY crosses that monumental $1T market cap milestone.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating tensions signal a pivotal moment that could reshape the landscape dramatically.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763763077.0366802,
+      "line": "The escalating tensions signal a pivotal moment that could reshape the landscape dramatically.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights a significant milestone for LLY, indicating strong investor confidence in the healthcare sector. Additionally, the focus on small- and mid-cap stocks suggests potential growth opportunities as larger companies reach new heights. Overall, this trend reflects a dynamic market environment that could influence investment strategies.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763763078.8786464,
+      "line": "The headline highlights a significant milestone for LLY, indicating strong investor confidence in the healthcare sector. Additionally, the focus on small- and mid-cap stocks suggests potential growth opportunities as larger companies reach new heights. Overall, this trend reflects a dynamic market environment that could influence investment strategies.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763763079.314923,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

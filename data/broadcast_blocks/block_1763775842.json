@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763775842.2797816,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the unions' strategy as they prepare for this showdown on November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763775839.3346245
+    },
+    {
+      "speaker": "chip",
+      "text": "It's clear that this situation demands immediate attention and careful handling.",
+      "tag": "primary_reaction",
+      "timestamp": 1763775840.4452257
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline indicates a significant escalation in labor relations, with unions preparing for a strong pushback against the new codes. This could impact market dynamics, as worker unrest often leads to shifts in consumer confidence and productivity. Observers should monitor the situation closely for potential ramifications on economic stability.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763775841.7079773
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763775842.2797737
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the unions' strategy as they prepare for this showdown on November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763775839.3346276,
+      "line": "\"Chip, break down the unions' strategy as they prepare for this showdown on November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It's clear that this situation demands immediate attention and careful handling.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763775840.4452283,
+      "line": "It's clear that this situation demands immediate attention and careful handling.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline indicates a significant escalation in labor relations, with unions preparing for a strong pushback against the new codes. This could impact market dynamics, as worker unrest often leads to shifts in consumer confidence and productivity. Observers should monitor the situation closely for potential ramifications on economic stability.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763775841.7079809,
+      "line": "The headline indicates a significant escalation in labor relations, with unions preparing for a strong pushback against the new codes. This could impact market dynamics, as worker unrest often leads to shifts in consumer confidence and productivity. Observers should monitor the situation closely for potential ramifications on economic stability.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763775842.279777,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763779679.7147632,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the unions' battle cry and what this means for workers nationwide.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763779674.835728
+    },
+    {
+      "speaker": "chip",
+      "text": "That's a concerning development that could have significant implications for the community.",
+      "tag": "primary_reaction",
+      "timestamp": 1763779677.3967977
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming labor codes are set to ignite significant tensions, as unions prepare for a strong stand on November 26. This clash reflects a critical moment in labor relations and may influence market dynamics. Observers will be keen to see how this affects both worker sentiment and broader economic trends.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763779678.919634
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the labour sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763779679.7147539
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the unions' battle cry and what this means for workers nationwide.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763779674.8357315,
+      "line": "\"Chip, dive into the unions' battle cry and what this means for workers nationwide.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That's a concerning development that could have significant implications for the community.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763779677.3968015,
+      "line": "That's a concerning development that could have significant implications for the community.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming labor codes are set to ignite significant tensions, as unions prepare for a strong stand on November 26. This clash reflects a critical moment in labor relations and may influence market dynamics. Observers will be keen to see how this affects both worker sentiment and broader economic trends.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763779678.9196382,
+      "line": "The upcoming labor codes are set to ignite significant tensions, as unions prepare for a strong stand on November 26. This clash reflects a critical moment in labor relations and may influence market dynamics. Observers will be keen to see how this affects both worker sentiment and broader economic trends.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the labour sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763779679.714758,
+      "line": "Turning now to developments in the labour sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763780991.6589932,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down why some are calling this Nvidia bubble the one everyone's been waiting for.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763780988.7812622
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the retail landscape is facing a plot twist that could leave consumers on the edge of their shopping carts.",
+      "tag": "primary_reaction",
+      "timestamp": 1763780989.593289
+    },
+    {
+      "speaker": "cash",
+      "text": "As Nvidia's stock continues to soar, the acknowledgment of a bubble raises concerns about sustainability in the tech sector. Market sentiment often sways like a pendulum, and investors should remain cautious amid rising valuations. It seems the tech bubble might be more than just a trend\u2014it's a conversation starter!",
+      "tag": "anchor_analysis",
+      "timestamp": 1763780991.1479943
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763780991.6589828
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down why some are calling this Nvidia bubble the one everyone's been waiting for.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763780988.7812645,
+      "line": "\"Cash, break down why some are calling this Nvidia bubble the one everyone's been waiting for.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the retail landscape is facing a plot twist that could leave consumers on the edge of their shopping carts.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763780989.5932922,
+      "line": "It seems the retail landscape is facing a plot twist that could leave consumers on the edge of their shopping carts.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "As Nvidia's stock continues to soar, the acknowledgment of a bubble raises concerns about sustainability in the tech sector. Market sentiment often sways like a pendulum, and investors should remain cautious amid rising valuations. It seems the tech bubble might be more than just a trend\u2014it's a conversation starter!",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763780991.147999,
+      "line": "As Nvidia's stock continues to soar, the acknowledgment of a bubble raises concerns about sustainability in the tech sector. Market sentiment often sways like a pendulum, and investors should remain cautious amid rising valuations. It seems the tech bubble might be more than just a trend\u2014it's a conversation starter!",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763780991.6589873,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763759254.2124262,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of the unions' combative resistance on November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763759250.8279614
+    },
+    {
+      "speaker": "chip",
+      "text": "This development certainly adds an unexpected twist to the ongoing situation.",
+      "tag": "primary_reaction",
+      "timestamp": 1763759251.4726648
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown on November 26 reflects deepening tensions between labor unions and government policies, highlighting the stakes involved in the Labour Codes. This situation may influence not only labor relations but also broader market dynamics as stakeholders gauge the potential impact on economic stability. Observers will be keen to see how these developments shape public sentiment and political discourse moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763759253.405925
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to significant developments in the labour sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763759254.2124197
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of the unions' combative resistance on November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763759250.8279653,
+      "line": "\"Chip, break down the implications of the unions' combative resistance on November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This development certainly adds an unexpected twist to the ongoing situation.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763759251.4726684,
+      "line": "This development certainly adds an unexpected twist to the ongoing situation.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown on November 26 reflects deepening tensions between labor unions and government policies, highlighting the stakes involved in the Labour Codes. This situation may influence not only labor relations but also broader market dynamics as stakeholders gauge the potential impact on economic stability. Observers will be keen to see how these developments shape public sentiment and political discourse moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763759253.4059289,
+      "line": "The upcoming showdown on November 26 reflects deepening tensions between labor unions and government policies, highlighting the stakes involved in the Labour Codes. This situation may influence not only labor relations but also broader market dynamics as stakeholders gauge the potential impact on economic stability. Observers will be keen to see how these developments shape public sentiment and political discourse moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to significant developments in the labour sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763759254.2124228,
+      "line": "Turning now to significant developments in the labour sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

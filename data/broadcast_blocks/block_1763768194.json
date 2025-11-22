@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763768194.709909,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the unions' strategy as the Labour Codes heat up the battlefront.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763768191.3116944
+    },
+    {
+      "speaker": "chip",
+      "text": "This situation certainly raises eyebrows and leaves us eager for more clarity.",
+      "tag": "primary_reaction",
+      "timestamp": 1763768191.7066448
+    },
+    {
+      "speaker": "chip",
+      "text": "The looming confrontation over the Labour Codes highlights the growing tensions between unions and government authorities. As workers mobilize for a significant protest, the outcome could have far-reaching implications for labor rights and economic policies. This situation clearly reflects the current climate of unrest and the push for reform in the workforce.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763768194.279926
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763768194.7099028
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the unions' strategy as the Labour Codes heat up the battlefront.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763768191.311698,
+      "line": "\"Chip, break down the unions' strategy as the Labour Codes heat up the battlefront.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This situation certainly raises eyebrows and leaves us eager for more clarity.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763768191.706648,
+      "line": "This situation certainly raises eyebrows and leaves us eager for more clarity.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The looming confrontation over the Labour Codes highlights the growing tensions between unions and government authorities. As workers mobilize for a significant protest, the outcome could have far-reaching implications for labor rights and economic policies. This situation clearly reflects the current climate of unrest and the push for reform in the workforce.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763768194.2799294,
+      "line": "The looming confrontation over the Labour Codes highlights the growing tensions between unions and government authorities. As workers mobilize for a significant protest, the outcome could have far-reaching implications for labor rights and economic policies. This situation clearly reflects the current climate of unrest and the push for reform in the workforce.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763768194.7099056,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

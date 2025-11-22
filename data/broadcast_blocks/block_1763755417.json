@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763755417.797565,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of the Labour Codes and the unions' response as we approach November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763755414.7012615
+    },
+    {
+      "speaker": "chip",
+      "text": "This development raises serious questions about accountability and transparency in our systems.",
+      "tag": "primary_reaction",
+      "timestamp": 1763755415.6878777
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming confrontation initiated by labor unions on November 26 highlights the escalating tensions surrounding the new labor codes. This event may significantly influence market dynamics, as investors closely monitor potential disruptions and responses from various stakeholders. Overall, the situation reflects a growing sentiment of resistance within the workforce, which could have implications for economic stability.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763755417.2337468
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in labour relations as unions prepare for significant action later this month.",
+      "tag": "chip_transition",
+      "timestamp": 1763755417.7975585
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of the Labour Codes and the unions' response as we approach November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763755414.7012653,
+      "line": "\"Chip, break down the implications of the Labour Codes and the unions' response as we approach November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This development raises serious questions about accountability and transparency in our systems.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763755415.687881,
+      "line": "This development raises serious questions about accountability and transparency in our systems.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming confrontation initiated by labor unions on November 26 highlights the escalating tensions surrounding the new labor codes. This event may significantly influence market dynamics, as investors closely monitor potential disruptions and responses from various stakeholders. Overall, the situation reflects a growing sentiment of resistance within the workforce, which could have implications for economic stability.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763755417.2337503,
+      "line": "The upcoming confrontation initiated by labor unions on November 26 highlights the escalating tensions surrounding the new labor codes. This event may significantly influence market dynamics, as investors closely monitor potential disruptions and responses from various stakeholders. Overall, the situation reflects a growing sentiment of resistance within the workforce, which could have implications for economic stability.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in labour relations as unions prepare for significant action later this month.",
+      "block_type": "chip_transition",
+      "timestamp": 1763755417.7975614,
+      "line": "Turning now to developments in labour relations as unions prepare for significant action later this month.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763774553.9971383,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the top Quant-rated small- and mid-cap healthcare stocks now that LLY has reached a whopping $1 trillion market cap.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763774551.3581223
+    },
+    {
+      "speaker": "chip",
+      "text": "The stakes have never been higher as the situation unfolds.",
+      "tag": "primary_reaction",
+      "timestamp": 1763774551.6677158
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights the significance of LLY reaching a $1 trillion market valuation, which could influence investor confidence in small- and mid-cap healthcare stocks. As larger companies achieve massive milestones, it often creates a ripple effect, prompting interest in related sectors. This trend suggests a potential bullish sentiment towards healthcare investments overall.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763774552.9210644
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763774553.9971292
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the top Quant-rated small- and mid-cap healthcare stocks now that LLY has reached a whopping $1 trillion market cap.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763774551.3581252,
+      "line": "\"Chip, dive into the top Quant-rated small- and mid-cap healthcare stocks now that LLY has reached a whopping $1 trillion market cap.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The stakes have never been higher as the situation unfolds.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763774551.6677186,
+      "line": "The stakes have never been higher as the situation unfolds.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights the significance of LLY reaching a $1 trillion market valuation, which could influence investor confidence in small- and mid-cap healthcare stocks. As larger companies achieve massive milestones, it often creates a ripple effect, prompting interest in related sectors. This trend suggests a potential bullish sentiment towards healthcare investments overall.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763774552.921068,
+      "line": "The headline highlights the significance of LLY reaching a $1 trillion market valuation, which could influence investor confidence in small- and mid-cap healthcare stocks. As larger companies achieve massive milestones, it often creates a ripple effect, prompting interest in related sectors. This trend suggests a potential bullish sentiment towards healthcare investments overall.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763774553.9971328,
+      "line": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

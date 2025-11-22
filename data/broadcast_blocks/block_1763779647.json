@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763779647.6994607,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the union's battle plan as they gear up for November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763779644.961631
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises some critical concerns that demand our attention.",
+      "tag": "primary_reaction",
+      "timestamp": 1763779645.6161106
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming clash over Labour Codes illustrates the deepening tensions between unions and government policies. This situation not only highlights the contentious nature of labor relations but also reflects broader economic sentiments that could impact market stability. Stakeholders will be closely monitoring developments as they could influence labor market dynamics and investor confidence.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763779646.8810542
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in labour relations ahead of the upcoming nationwide actions.",
+      "tag": "chip_transition",
+      "timestamp": 1763779647.6994526
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the union's battle plan as they gear up for November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763779644.9616337,
+      "line": "\"Chip, break down the union's battle plan as they gear up for November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises some critical concerns that demand our attention.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763779645.6161158,
+      "line": "That headline certainly raises some critical concerns that demand our attention.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming clash over Labour Codes illustrates the deepening tensions between unions and government policies. This situation not only highlights the contentious nature of labor relations but also reflects broader economic sentiments that could impact market stability. Stakeholders will be closely monitoring developments as they could influence labor market dynamics and investor confidence.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763779646.881058,
+      "line": "The upcoming clash over Labour Codes illustrates the deepening tensions between unions and government policies. This situation not only highlights the contentious nature of labor relations but also reflects broader economic sentiments that could impact market stability. Stakeholders will be closely monitoring developments as they could influence labor market dynamics and investor confidence.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in labour relations ahead of the upcoming nationwide actions.",
+      "block_type": "chip_transition",
+      "timestamp": 1763779647.6994562,
+      "line": "Turning now to developments in labour relations ahead of the upcoming nationwide actions.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

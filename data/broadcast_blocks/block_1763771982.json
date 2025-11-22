@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763771982.8248513,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the unions' battle cry and what it means for the workforce this November.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763771979.3546064
+    },
+    {
+      "speaker": "chip",
+      "text": "Tension mounts as communities grapple with the unfolding implications of this headline.",
+      "tag": "primary_reaction",
+      "timestamp": 1763771980.353466
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown over Labour Codes reflects escalating tensions between unions and the government, highlighting deep-rooted concerns about worker rights. The call for \"combative resistance\" suggests a significant mobilization that could impact labor relations moving forward. This situation is likely to influence market dynamics as stakeholders assess the implications for economic stability and workforce morale.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763771982.161561
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763771982.824845
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the unions' battle cry and what it means for the workforce this November.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763771979.3546093,
+      "line": "\"Chip, dive into the unions' battle cry and what it means for the workforce this November.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Tension mounts as communities grapple with the unfolding implications of this headline.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763771980.353469,
+      "line": "Tension mounts as communities grapple with the unfolding implications of this headline.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown over Labour Codes reflects escalating tensions between unions and the government, highlighting deep-rooted concerns about worker rights. The call for \"combative resistance\" suggests a significant mobilization that could impact labor relations moving forward. This situation is likely to influence market dynamics as stakeholders assess the implications for economic stability and workforce morale.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763771982.1615663,
+      "line": "The upcoming showdown over Labour Codes reflects escalating tensions between unions and the government, highlighting deep-rooted concerns about worker rights. The call for \"combative resistance\" suggests a significant mobilization that could impact labor relations moving forward. This situation is likely to influence market dynamics as stakeholders assess the implications for economic stability and workforce morale.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763771982.824848,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

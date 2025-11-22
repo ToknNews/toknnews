@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763760501.2728512,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of the unions' combative stance ahead of the November 26 showdown.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763760497.1471145
+    },
+    {
+      "speaker": "chip",
+      "text": "It\u2019s a precarious situation that could lead to significant consequences for all involved.",
+      "tag": "primary_reaction",
+      "timestamp": 1763760498.3941715
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown over Labour Codes indicates a significant escalation in labor tensions, as unions prepare for a strong response. This event could influence broader market dynamics, reflecting the growing unrest and potential shifts in workforce policies. Observers will be keen to see how businesses and policymakers react in the wake of such mobilization.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763760500.3348632
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to ongoing developments in labour relations across the country.",
+      "tag": "chip_transition",
+      "timestamp": 1763760501.2728443
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of the unions' combative stance ahead of the November 26 showdown.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763760497.1471186,
+      "line": "\"Chip, break down the implications of the unions' combative stance ahead of the November 26 showdown.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It\u2019s a precarious situation that could lead to significant consequences for all involved.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763760498.3941758,
+      "line": "It\u2019s a precarious situation that could lead to significant consequences for all involved.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown over Labour Codes indicates a significant escalation in labor tensions, as unions prepare for a strong response. This event could influence broader market dynamics, reflecting the growing unrest and potential shifts in workforce policies. Observers will be keen to see how businesses and policymakers react in the wake of such mobilization.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763760500.334867,
+      "line": "The upcoming showdown over Labour Codes indicates a significant escalation in labor tensions, as unions prepare for a strong response. This event could influence broader market dynamics, reflecting the growing unrest and potential shifts in workforce policies. Observers will be keen to see how businesses and policymakers react in the wake of such mobilization.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to ongoing developments in labour relations across the country.",
+      "block_type": "chip_transition",
+      "timestamp": 1763760501.2728477,
+      "line": "Turning now to ongoing developments in labour relations across the country.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

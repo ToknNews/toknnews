@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763766942.948887,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, what\u2019s the latest buzz on Nvidia and that bubbling market?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763766939.866734
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems like the retail world is in for a rollercoaster ride as tensions rise, but let's hope the only thing that takes a hit is the price tag!",
+      "tag": "primary_reaction",
+      "timestamp": 1763766941.1412072
+    },
+    {
+      "speaker": "cash",
+      "text": "Nvidia's valuation may be inflated, leading to speculation about an impending correction. This situation reflects investor sentiment and could signal broader market vulnerabilities. Keeping an eye on the tech sector will be crucial as we navigate these economic fluctuations.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763766942.4770901
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where concerns about market valuation are drawing attention.",
+      "tag": "chip_transition",
+      "timestamp": 1763766942.9488788
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, what\u2019s the latest buzz on Nvidia and that bubbling market?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763766939.8667371,
+      "line": "\"Cash, what\u2019s the latest buzz on Nvidia and that bubbling market?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems like the retail world is in for a rollercoaster ride as tensions rise, but let's hope the only thing that takes a hit is the price tag!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763766941.141212,
+      "line": "It seems like the retail world is in for a rollercoaster ride as tensions rise, but let's hope the only thing that takes a hit is the price tag!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Nvidia's valuation may be inflated, leading to speculation about an impending correction. This situation reflects investor sentiment and could signal broader market vulnerabilities. Keeping an eye on the tech sector will be crucial as we navigate these economic fluctuations.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763766942.4770932,
+      "line": "Nvidia's valuation may be inflated, leading to speculation about an impending correction. This situation reflects investor sentiment and could signal broader market vulnerabilities. Keeping an eye on the tech sector will be crucial as we navigate these economic fluctuations.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where concerns about market valuation are drawing attention.",
+      "block_type": "chip_transition",
+      "timestamp": 1763766942.9488823,
+      "line": "Turning now to the technology sector, where concerns about market valuation are drawing attention.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

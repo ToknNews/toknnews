@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763756690.1008563,
+  "headline": "Matthews International: Excellent Deal On Warehouse Automation Sale (NASDAQ:MATW)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\u201cChip, break down the implications of Matthews International's warehouse automation sale for investors.\u201d",
+      "tag": "chip_toss",
+      "timestamp": 1763756687.0585556
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation demands immediate attention and careful consideration from all parties involved.",
+      "tag": "primary_reaction",
+      "timestamp": 1763756687.9678571
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline suggests that Matthews International has successfully engaged in a beneficial transaction related to warehouse automation, indicating potential growth opportunities. This development may reflect positive market trends and investor confidence surrounding automation technologies. Observers should monitor how this sale impacts the company's overall performance and market positioning.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763756689.7205036
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to corporate developments, Matthews International has announced a significant transaction in warehouse automation.",
+      "tag": "chip_transition",
+      "timestamp": 1763756690.1008492
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\u201cChip, break down the implications of Matthews International's warehouse automation sale for investors.\u201d",
+      "block_type": "chip_toss",
+      "timestamp": 1763756687.058559,
+      "line": "\u201cChip, break down the implications of Matthews International's warehouse automation sale for investors.\u201d",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation demands immediate attention and careful consideration from all parties involved.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763756687.967861,
+      "line": "The escalating situation demands immediate attention and careful consideration from all parties involved.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline suggests that Matthews International has successfully engaged in a beneficial transaction related to warehouse automation, indicating potential growth opportunities. This development may reflect positive market trends and investor confidence surrounding automation technologies. Observers should monitor how this sale impacts the company's overall performance and market positioning.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763756689.7205074,
+      "line": "The headline suggests that Matthews International has successfully engaged in a beneficial transaction related to warehouse automation, indicating potential growth opportunities. This development may reflect positive market trends and investor confidence surrounding automation technologies. Observers should monitor how this sale impacts the company's overall performance and market positioning.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to corporate developments, Matthews International has announced a significant transaction in warehouse automation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763756690.1008527,
+      "line": "Turning now to corporate developments, Matthews International has announced a significant transaction in warehouse automation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

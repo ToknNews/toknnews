@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763765613.0179734,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the unions' battle plan for November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763765609.9179475
+    },
+    {
+      "speaker": "chip",
+      "text": "This situation raises serious questions about accountability and the potential ramifications for those involved.",
+      "tag": "primary_reaction",
+      "timestamp": 1763765610.8427856
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming confrontation prompted by the Labour Codes highlights the intensifying friction between unions and government policies. Such resistance could significantly impact labor market dynamics and worker rights discussions. As sentiments shift, stakeholders will be closely monitoring the outcome of this showdown.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763765612.3965075
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763765613.017966
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the unions' battle plan for November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763765609.9179516,
+      "line": "\"Chip, break down the unions' battle plan for November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This situation raises serious questions about accountability and the potential ramifications for those involved.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763765610.8427887,
+      "line": "This situation raises serious questions about accountability and the potential ramifications for those involved.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming confrontation prompted by the Labour Codes highlights the intensifying friction between unions and government policies. Such resistance could significantly impact labor market dynamics and worker rights discussions. As sentiments shift, stakeholders will be closely monitoring the outcome of this showdown.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763765612.396511,
+      "line": "The upcoming confrontation prompted by the Labour Codes highlights the intensifying friction between unions and government policies. Such resistance could significantly impact labor market dynamics and worker rights discussions. As sentiments shift, stakeholders will be closely monitoring the outcome of this showdown.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763765613.0179696,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

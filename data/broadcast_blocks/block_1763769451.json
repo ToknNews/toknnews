@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763769451.898029,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, let's explore the standout small- and mid-cap healthcare stocks that are shaping the market as LLY crosses that $1 trillion milestone.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763769449.524313
+    },
+    {
+      "speaker": "chip",
+      "text": "That unexpected twist certainly raises more questions than answers.",
+      "tag": "primary_reaction",
+      "timestamp": 1763769450.0412078
+    },
+    {
+      "speaker": "chip",
+      "text": "The rise of LLY to a $1 trillion market cap highlights investor confidence in the healthcare sector, particularly among smaller companies. As large firms gain traction, it often positively influences mid-cap and small-cap stocks, creating potential opportunities. This trend suggests a robust market outlook for healthcare investments moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763769451.475639
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763769451.898022
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, let's explore the standout small- and mid-cap healthcare stocks that are shaping the market as LLY crosses that $1 trillion milestone.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763769449.5243175,
+      "line": "\"Chip, let's explore the standout small- and mid-cap healthcare stocks that are shaping the market as LLY crosses that $1 trillion milestone.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That unexpected twist certainly raises more questions than answers.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763769450.0412107,
+      "line": "That unexpected twist certainly raises more questions than answers.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The rise of LLY to a $1 trillion market cap highlights investor confidence in the healthcare sector, particularly among smaller companies. As large firms gain traction, it often positively influences mid-cap and small-cap stocks, creating potential opportunities. This trend suggests a robust market outlook for healthcare investments moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763769451.4756427,
+      "line": "The rise of LLY to a $1 trillion market cap highlights investor confidence in the healthcare sector, particularly among smaller companies. As large firms gain traction, it often positively influences mid-cap and small-cap stocks, creating potential opportunities. This trend suggests a robust market outlook for healthcare investments moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763769451.8980253,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

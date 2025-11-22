@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763773293.0996256,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the unions' battle cry as they gear up for November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763773289.9681296
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises eyebrows and invites a deeper investigation into the underlying issues.",
+      "tag": "primary_reaction",
+      "timestamp": 1763773290.5468338
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline indicates a significant escalation in labor relations, suggesting that unions are gearing up for a substantial confrontation. This combative stance reflects underlying tensions in the workforce, potentially impacting market dynamics. Observers should monitor how this situation evolves, as it could influence both economic sentiment and regulatory responses.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763773292.637133
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in labour relations ahead of a significant planned protest.",
+      "tag": "chip_transition",
+      "timestamp": 1763773293.0996194
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the unions' battle cry as they gear up for November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763773289.9681325,
+      "line": "\"Chip, dive into the unions' battle cry as they gear up for November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises eyebrows and invites a deeper investigation into the underlying issues.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763773290.5468369,
+      "line": "That headline certainly raises eyebrows and invites a deeper investigation into the underlying issues.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline indicates a significant escalation in labor relations, suggesting that unions are gearing up for a substantial confrontation. This combative stance reflects underlying tensions in the workforce, potentially impacting market dynamics. Observers should monitor how this situation evolves, as it could influence both economic sentiment and regulatory responses.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763773292.6371372,
+      "line": "The headline indicates a significant escalation in labor relations, suggesting that unions are gearing up for a substantial confrontation. This combative stance reflects underlying tensions in the workforce, potentially impacting market dynamics. Observers should monitor how this situation evolves, as it could influence both economic sentiment and regulatory responses.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in labour relations ahead of a significant planned protest.",
+      "block_type": "chip_transition",
+      "timestamp": 1763773293.0996225,
+      "line": "Turning now to developments in labour relations ahead of a significant planned protest.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763757963.9662638,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of Nvidia's bubble talk for investors.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763757960.6379404
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation demands immediate attention to prevent further complications.",
+      "tag": "primary_reaction",
+      "timestamp": 1763757961.4554734
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline suggests a growing awareness of inflated valuations surrounding Nvidia stock, reflecting broader concerns in the tech sector. It indicates that investors may be questioning the sustainability of recent gains, signaling potential shifts in market sentiment. This bubble mentality could lead to increased volatility as stakeholders reassess their positions.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763757963.309143
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the tech sector, Nvidia has recently made notable remarks regarding current market conditions.",
+      "tag": "chip_transition",
+      "timestamp": 1763757963.9662569
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of Nvidia's bubble talk for investors.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763757960.637945,
+      "line": "\"Chip, break down the implications of Nvidia's bubble talk for investors.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation demands immediate attention to prevent further complications.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763757961.4554775,
+      "line": "The escalating situation demands immediate attention to prevent further complications.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline suggests a growing awareness of inflated valuations surrounding Nvidia stock, reflecting broader concerns in the tech sector. It indicates that investors may be questioning the sustainability of recent gains, signaling potential shifts in market sentiment. This bubble mentality could lead to increased volatility as stakeholders reassess their positions.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763757963.309147,
+      "line": "The headline suggests a growing awareness of inflated valuations surrounding Nvidia stock, reflecting broader concerns in the tech sector. It indicates that investors may be questioning the sustainability of recent gains, signaling potential shifts in market sentiment. This bubble mentality could lead to increased volatility as stakeholders reassess their positions.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the tech sector, Nvidia has recently made notable remarks regarding current market conditions.",
+      "block_type": "chip_transition",
+      "timestamp": 1763757963.9662604,
+      "line": "Turning now to developments in the tech sector, Nvidia has recently made notable remarks regarding current market conditions.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

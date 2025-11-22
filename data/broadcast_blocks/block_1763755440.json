@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763755440.0764825,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down the implications of Nvidia's bubble talk for investors.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763755437.7748163
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems like the stakes are high, and consumers are in for a wild ride!",
+      "tag": "primary_reaction",
+      "timestamp": 1763755438.2591567
+    },
+    {
+      "speaker": "cash",
+      "text": "Nvidia's recent acknowledgment of a potential bubble highlights the growing skepticism surrounding tech stocks, particularly as they soar to unprecedented heights. This sentiment reflects a larger trend where investors are increasingly cautious, valuing profit stability over speculative growth. As market dynamics shift, it will be intriguing to see how this impacts investor confidence moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763755439.648355
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763755440.0764742
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down the implications of Nvidia's bubble talk for investors.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763755437.7748199,
+      "line": "\"Cash, break down the implications of Nvidia's bubble talk for investors.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems like the stakes are high, and consumers are in for a wild ride!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763755438.2591605,
+      "line": "It seems like the stakes are high, and consumers are in for a wild ride!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Nvidia's recent acknowledgment of a potential bubble highlights the growing skepticism surrounding tech stocks, particularly as they soar to unprecedented heights. This sentiment reflects a larger trend where investors are increasingly cautious, valuing profit stability over speculative growth. As market dynamics shift, it will be intriguing to see how this impacts investor confidence moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763755439.6483595,
+      "line": "Nvidia's recent acknowledgment of a potential bubble highlights the growing skepticism surrounding tech stocks, particularly as they soar to unprecedented heights. This sentiment reflects a larger trend where investors are increasingly cautious, valuing profit stability over speculative growth. As market dynamics shift, it will be intriguing to see how this impacts investor confidence moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763755440.0764782,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

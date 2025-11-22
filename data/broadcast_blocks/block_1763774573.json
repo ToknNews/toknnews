@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763774573.9229684,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "bond",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Reef, dive into the impact of the EU's bold investment on Africa's renewable energy future.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763774571.452061
+    },
+    {
+      "speaker": "reef",
+      "text": "That escalating conflict certainly raises questions about the future stability of decentralized finance!",
+      "tag": "primary_reaction",
+      "timestamp": 1763774571.966085
+    },
+    {
+      "speaker": "reef",
+      "text": "The EU's \u20ac7 billion investment in African renewable energy highlights a strategic shift towards sustainable development on the continent. This commitment not only aims to bolster energy independence but also aligns with global efforts to combat climate change. Ultimately, it reflects a growing market sentiment favoring green initiatives and international cooperation.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763774573.5121386
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition",
+      "timestamp": 1763774573.92296
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Reef, dive into the impact of the EU's bold investment on Africa's renewable energy future.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763774571.4520645,
+      "line": "\"Reef, dive into the impact of the EU's bold investment on Africa's renewable energy future.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "That escalating conflict certainly raises questions about the future stability of decentralized finance!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763774571.9660876,
+      "line": "That escalating conflict certainly raises questions about the future stability of decentralized finance!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "The EU's \u20ac7 billion investment in African renewable energy highlights a strategic shift towards sustainable development on the continent. This commitment not only aims to bolster energy independence but also aligns with global efforts to combat climate change. Ultimately, it reflects a growing market sentiment favoring green initiatives and international cooperation.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763774573.5121412,
+      "line": "The EU's \u20ac7 billion investment in African renewable energy highlights a strategic shift towards sustainable development on the continent. This commitment not only aims to bolster energy independence but also aligns with global efforts to combat climate change. Ultimately, it reflects a growing market sentiment favoring green initiatives and international cooperation.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international efforts in sustainable development.",
+      "block_type": "chip_transition",
+      "timestamp": 1763774573.9229636,
+      "line": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "reef",
+    "duo": "lawson",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763766888.295375,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the brewing storm as unions prepare for a showdown on Labour Codes this November.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763766884.7394075
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation has left many wondering how it will unfold in the coming days.",
+      "tag": "primary_reaction",
+      "timestamp": 1763766885.554141
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown on November 26 highlights the escalating tension between unions and the government's new labour codes. This confrontation not only underscores the unions' commitment to worker rights but also reflects broader market sentiments regarding economic stability. Observers will be keenly watching how this clash influences public opinion and policy direction.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763766887.4356883
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning to developments in labour relations, tensions are rising ahead of a planned nationwide action.",
+      "tag": "chip_transition",
+      "timestamp": 1763766888.2953675
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the brewing storm as unions prepare for a showdown on Labour Codes this November.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763766884.739411,
+      "line": "\"Chip, dive into the brewing storm as unions prepare for a showdown on Labour Codes this November.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation has left many wondering how it will unfold in the coming days.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763766885.5541446,
+      "line": "The escalating situation has left many wondering how it will unfold in the coming days.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown on November 26 highlights the escalating tension between unions and the government's new labour codes. This confrontation not only underscores the unions' commitment to worker rights but also reflects broader market sentiments regarding economic stability. Observers will be keenly watching how this clash influences public opinion and policy direction.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763766887.4356914,
+      "line": "The upcoming showdown on November 26 highlights the escalating tension between unions and the government's new labour codes. This confrontation not only underscores the unions' commitment to worker rights but also reflects broader market sentiments regarding economic stability. Observers will be keenly watching how this clash influences public opinion and policy direction.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning to developments in labour relations, tensions are rising ahead of a planned nationwide action.",
+      "block_type": "chip_transition",
+      "timestamp": 1763766888.2953708,
+      "line": "Turning to developments in labour relations, tensions are rising ahead of a planned nationwide action.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

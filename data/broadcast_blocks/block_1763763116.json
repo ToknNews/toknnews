@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763763116.2765954,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, what\u2019s the scoop on this Nvidia bubble everyone's buzzing about?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763763113.3992183
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the stakes are higher than a sale on Black Friday!",
+      "tag": "primary_reaction",
+      "timestamp": 1763763113.8336952
+    },
+    {
+      "speaker": "cash",
+      "text": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock, which could lead to increased caution. Coupled with broader market sentiment, this could signal a shift in how tech stocks are perceived. Analysts may need to assess whether this awareness will curb speculative investments or fuel a market correction.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763763115.4561675
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763763116.276587
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, what\u2019s the scoop on this Nvidia bubble everyone's buzzing about?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763763113.399222,
+      "line": "\"Cash, what\u2019s the scoop on this Nvidia bubble everyone's buzzing about?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the stakes are higher than a sale on Black Friday!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763763113.8336987,
+      "line": "It seems the stakes are higher than a sale on Black Friday!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock, which could lead to increased caution. Coupled with broader market sentiment, this could signal a shift in how tech stocks are perceived. Analysts may need to assess whether this awareness will curb speculative investments or fuel a market correction.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763763115.4561718,
+      "line": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock, which could lead to increased caution. Coupled with broader market sentiment, this could signal a shift in how tech stocks are perceived. Analysts may need to assess whether this awareness will curb speculative investments or fuel a market correction.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763763116.2765906,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}
