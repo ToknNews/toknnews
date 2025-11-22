@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763764380.5402193,
+  "headline": "Crawford & Company names Bruce Swain as Interim President & CEO",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, let\u2019s dive into what Bruce Swain's leadership means for Crawford & Company moving forward.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763764377.7760522
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating conflict raises urgent questions about diplomatic solutions and humanitarian consequences.",
+      "tag": "primary_reaction",
+      "timestamp": 1763764378.4437015
+    },
+    {
+      "speaker": "chip",
+      "text": "The appointment of Bruce Swain as Interim President and CEO of Crawford & Company reflects a strategic response to current market dynamics. This change in leadership could indicate an effort to stabilize the organization amidst evolving industry trends. Observers will be keen to see how this transition impacts both internal culture and external perceptions.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763764379.7189705
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to leadership changes in the corporate sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763764380.540213
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, let\u2019s dive into what Bruce Swain's leadership means for Crawford & Company moving forward.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763764377.776056,
+      "line": "\"Chip, let\u2019s dive into what Bruce Swain's leadership means for Crawford & Company moving forward.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating conflict raises urgent questions about diplomatic solutions and humanitarian consequences.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763764378.443705,
+      "line": "The escalating conflict raises urgent questions about diplomatic solutions and humanitarian consequences.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The appointment of Bruce Swain as Interim President and CEO of Crawford & Company reflects a strategic response to current market dynamics. This change in leadership could indicate an effort to stabilize the organization amidst evolving industry trends. Observers will be keen to see how this transition impacts both internal culture and external perceptions.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763764379.718974,
+      "line": "The appointment of Bruce Swain as Interim President and CEO of Crawford & Company reflects a strategic response to current market dynamics. This change in leadership could indicate an effort to stabilize the organization amidst evolving industry trends. Observers will be keen to see how this transition impacts both internal culture and external perceptions.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to leadership changes in the corporate sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763764380.5402157,
+      "line": "Turning now to leadership changes in the corporate sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "neura",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

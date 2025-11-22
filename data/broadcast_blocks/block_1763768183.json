@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763768183.9566977,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down why so many believe Nvidia is sitting on a bubble.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763768180.6200895
+    },
+    {
+      "speaker": "chip",
+      "text": "It seems the unfolding situation could lead to significant consequences for all involved.",
+      "tag": "primary_reaction",
+      "timestamp": 1763768181.6790924
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline suggests a growing awareness around the potential overvaluation of Nvidia's stock amidst broader market trends. A bubble typically indicates unsustainable price levels driven by speculation rather than fundamentals. This sentiment may impact investor behavior and market dynamics moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763768183.0035536
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, we examine recent perspectives on Nvidia\u2019s market valuation.",
+      "tag": "chip_transition",
+      "timestamp": 1763768183.9566917
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down why so many believe Nvidia is sitting on a bubble.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763768180.6200924,
+      "line": "\"Chip, break down why so many believe Nvidia is sitting on a bubble.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It seems the unfolding situation could lead to significant consequences for all involved.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763768181.679096,
+      "line": "It seems the unfolding situation could lead to significant consequences for all involved.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline suggests a growing awareness around the potential overvaluation of Nvidia's stock amidst broader market trends. A bubble typically indicates unsustainable price levels driven by speculation rather than fundamentals. This sentiment may impact investor behavior and market dynamics moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763768183.0035572,
+      "line": "The headline suggests a growing awareness around the potential overvaluation of Nvidia's stock amidst broader market trends. A bubble typically indicates unsustainable price levels driven by speculation rather than fundamentals. This sentiment may impact investor behavior and market dynamics moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, we examine recent perspectives on Nvidia\u2019s market valuation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763768183.9566946,
+      "line": "Turning now to the technology sector, we examine recent perspectives on Nvidia\u2019s market valuation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,409 +1,132 @@
 #!/usr/bin/env python3
 """
-TOKNNews — Timeline Builder (PD-Integrated Build, Revised Intro Logic)
-Module C-8
+TOKNNews — Timeline Builder (Clean GPT-Driven, Rebuild Stack Edition)
+
+Sequence:
+  - Vega booth intro
+  - Chip greeting (daypart + awareness)
+  - Chip rundown (GPT-refined)
+  - Anchor reaction → duo exchange → analysis
+  - Bitsy / Vega inserts (per PD)
+  - Transitions
+
+All lines GPT-authored where applicable.
 """
-import random
+
 import time
-
-# Patch imports (Chip follow-up + RKG)
-from script_engine.rolling_brain import get_brain_snapshot
-from script_engine.openai_writer import gpt_analysis, gpt_reaction, gpt_duo_line, persona_prompt, _gpt
-
-# ------------------------------------------------------------
-# Imports (Package Mode; tests run via `python -m script_engine.run_test`)
-# ------------------------------------------------------------
-from script_engine.persona.line_builder import (
-    apply_tone_shift,
-    build_analysis_line,
-    build_transition_line,
-    build_vega_line,
-    build_bitsy_interrupt,
-    build_reaction_line,
-    build_anchor_react
+from script_engine.persona.voice_map import VOICE_MAP
+from script_engine.openai_writer import (
+    gpt_analysis,
+    gpt_transition,
+    gpt_duo_line,
+    gpt_chip_followup,
+    gpt_chip_toss,
+    gpt_story_transition,
+    gpt_reaction,
 )
-from script_engine.character_brain.persona_loader import get_voice, get_domain
+from script_engine.persona.chip_open_engine import chip_open_line
 
-# ------------------------------------------------------------
-# Global writer toggle import (Package vs Local)
-# ------------------------------------------------------------
-try:
-    from script_engine.engine_settings import USE_OPENAI_WRITER
-except ImportError:
-    from engine_settings import USE_OPENAI_WRITER
+# === Helpers ===
 
-# ------------------------------------------------------------
-# Primary Anchor Selection (Chip delegates based on domain)
-# ------------------------------------------------------------
-def select_primary_anchor(headline: str, brain: dict):
-    """
-    Choose the best anchor for this headline (domain + memory weight).
-    """
-    headline_l = headline.lower()
-    # Simple domain detection
-    if any(x in headline_l for x in ["eth", "ethereum", "rollup", "l2", "altcoin"]):
-        domain = "altcoin"
-    elif any(x in headline_l for x in ["btc", "bitcoin", "halving", "mining"]):
-        domain = "bitcoin"
-    elif any(x in headline_l for x in ["defi", "liquidity", "protocol", "amm", "yield"]):
-        domain = "defi"
-    elif any(x in headline_l for x in ["hacker", "exploit", "bridge", "hack", "drain"]):
-        domain = "security"
-    else:
-        domain = "general"
-    # Score anchors by domain match + brain memory weight
-    scores = {}
-    for anchor, data in brain["anchors"].items():
-        specialty = data.get("domain", [])
-        score = 0
-        if domain in specialty:
-            score += 10   # direct specialty alignment
-        score += data.get("weight", 0)  # rolling memory weight
-        scores[anchor] = score
-    primary = max(scores, key=scores.get)
-    primary_domain = domain
-    return primary, primary_domain
-
-# ---------------------------------------------------------
-# Utility blocks
-# ---------------------------------------------------------
-def _block(text, character, block_type):
+def _block(text: str, speaker: str, tag: str):
     return {
-        "type": block_type,
-        "character": character,
-        "voice_id": get_voice(character),
+        "speaker": speaker,
         "text": text,
-        "timestamp": time.time()
+        "tag": tag,
+        "timestamp": time.time(),
     }
 
-def _audio_block(text, character, block_type):
+def _audio_block(text: str, speaker: str, tag: str):
     return {
-        "character": character,
-        "voice_id": get_voice(character),
-        "block_type": block_type,
+        "speaker": speaker,
+        "voice_id": VOICE_MAP.get(speaker, "chip"),
         "text": text,
-        "content": text,
-        "timestamp": time.time()
+        "block_type": tag,
+        "timestamp": time.time(),
+        "line": text,
+        "tag": tag,
     }
 
-# ---------------------------------------------------------
-# Intro Helpers — Vega Ident & Chip Opening (Static fallback)
-# ---------------------------------------------------------
-def _vega_ident_line():
-    """Static fallback for Vega’s intro (used only if GPT unavailable)."""
-    return "Good morning, and welcome to TOKN News."
+# === Main ===
 
-def _chip_opening_line():
-    """Static fallback for Chip’s greeting (used only if GPT unavailable)."""
-    hour = time.localtime().tm_hour
-    if 5 <= hour < 12:
-        greeting = "Good morning"
-    elif 12 <= hour < 18:
-        greeting = "Good afternoon"
-    else:
-        greeting = "Good evening"
-    return f"{greeting}, I’m Chip. Let’s get straight into today’s top story."
-
-# ============================================================
-# Main — Build timeline based on PD instructions (Step 3-G)
-# ============================================================
-def build_timeline(
-    headline: str,
-    synthesis: str = "",
-    article_context: str = "",
-    cluster_articles=None,
-    anchors=None,
-    allow_bitsy=False,
-    allow_vega=False,
-    show_intro=False,
-    segment_type="headline",
-    tone_shift=None
-):
+def build_timeline(character, headline, synthesis, article_context, anchors,
+                   allow_bitsy, allow_vega, show_intro, segment_type, pd_config=None):
+    
     timeline = []
     audio_blocks = []
 
-    # Snapshot the rolling brain state for context
-    brain = get_brain_snapshot()
+    pd_flags = pd_config if pd_config else {}
+    show_mode = "LATENIGHT" if pd_flags.get("daypart") == "latenight" else "NEWS"
+    brain = {"headline": headline, "synthesis": synthesis}
 
-    # 1. Select primary anchor (Chip decides who leads this story)
-    primary_anchor, primary_domain = select_primary_anchor(headline, brain)
-    duo_anchor = None  # PD may assign a secondary anchor (duo) based on context
-    speaker = primary_anchor  # primary speaker for this segment
+    primary = anchors[0] if anchors else "chip"
+    duo = anchors[1] if len(anchors) > 1 else None
 
-    # --------------------------------------------------------
-    # SHOW INTRO SEQUENCE — Vega ident (booth voice) + Chip greeting
-    # --------------------------------------------------------
+    # === 1. VEGA BOOTH INTRO ===
+    vega_line = "You're watching Token News — where clarity meets crypto chaos."
+    timeline.append(_block(vega_line, "vega", "vega_intro"))
+    audio_blocks.append(_audio_block(vega_line, "vega", "vega_intro"))
+
+    # === 2. CHIP INTRO (time-aware) ===
     if show_intro:
-        # Vega opens the show
-        vega_line = None
-        chip_line = None
-        if USE_OPENAI_WRITER:
-            try:
-                # Vega's GPT-generated welcome (one-liner, vibe only)
-                persona_v = persona_prompt("vega", brain, mode="news", allow_multi=False)
-                vega_prompt = (
-                    f"{persona_v.strip()}\n\n"
-                    "You are Vega Watt, the booth announcer. "
-                    "In one sentence, warmly welcome the audience to TOKN News to kick off the show."
-                )
-                vega_line = _gpt(vega_prompt)
-            except Exception as e:
-                print("[TimelineBuilder] Vega intro generation error:", e)
-                vega_line = None
-            try:
-                # Chip's GPT-generated greeting and rundown (2-3 sentences)
-                tm = time.localtime()
-                hour = tm.tm_hour
-                if 5 <= hour < 12:
-                    part_of_day = "morning"
-                elif 12 <= hour < 18:
-                    part_of_day = "afternoon"
-                else:
-                    part_of_day = "evening"
-                day_name = time.strftime("%A", tm)
-                date_str = time.strftime("%B %d, %Y", tm)
-                # Basic holiday awareness (extendable)
-                holiday = None
-                if tm.tm_mon == 1 and tm.tm_mday == 1:
-                    holiday = "New Year's Day"
-                elif tm.tm_mon == 7 and tm.tm_mday == 4:
-                    holiday = "Independence Day"
-                elif tm.tm_mon == 10 and tm.tm_mday == 31:
-                    holiday = "Halloween"
-                elif tm.tm_mon == 12 and tm.tm_mday == 25:
-                    holiday = "Christmas"
-                elif tm.tm_mon == 11 and tm.tm_wday == 3 and 22 <= tm.tm_mday <= 28:
-                    holiday = "Thanksgiving"
-                persona_c = persona_prompt("chip", brain, mode="news", allow_multi=True)
-                chip_prompt = (
-                    f"{persona_c.strip()}\n\n"
-                    f"You are Chip, the host. It's {part_of_day} on {day_name}, {date_str}."
-                )
-                if holiday:
-                    chip_prompt += f" Today is {holiday},"
-                chip_prompt += (
-                    " welcome the audience and introduce the top stories of the day.\n"
-                    f"Main Headline: \"{headline}\"\n"
-                )
-                if cluster_articles:
-                    chip_prompt += "Other Top Headlines:\n"
-                    for h in cluster_articles:
-                        chip_prompt += f"- {h}\n"
-                chip_prompt += (
-                    "\nGuidelines:\n"
-                    "- Start with a friendly greeting (reflect time of day"
-                    + (", and mention the holiday)" if holiday else ")")
-                    + ".\n- Transition into the main headline and briefly tease upcoming stories.\n"
-                    "- Keep it concise (max 3 sentences) and engaging."
-                )
-                chip_line = _gpt(chip_prompt)
-            except Exception as e:
-                print("[TimelineBuilder] Chip greeting generation error:", e)
-                chip_line = None
-
-        # Fallback to static lines if GPT was not used or failed
-        if not vega_line:
-            vega_line = _vega_ident_line()
-        if not chip_line:
-            chip_line = _chip_opening_line()
-
-        # Append Vega ident first (booth voice over intro music)
-        timeline.append({
-            "type": "vega_ident",
-            "speaker": "vega",
-            "text": vega_line,
-            "tone_shift": None
-        })
-        # Append Chip’s greeting + rundown second (on-camera lead anchor)
-        timeline.append({
-            "type": "chip_open",
-            "speaker": "chip",
-            "text": chip_line,
-            "tone_shift": tone_shift
-        })
-
-        # If Chip is **not** the primary anchor for the story, have Chip toss to the anchor
-        if primary_anchor != "chip":
-            toss_line = None
-            if USE_OPENAI_WRITER:
-                from script_engine.openai_writer import gpt_chip_toss
-                try:
-                    toss_line = gpt_chip_toss(
-                        next_anchor=primary_anchor,
-                        headline=headline,
-                        brain=brain,
-                        show_mode="news",
-                        pd_flags={}
-                    )
-                except Exception as e:
-                    print("[TimelineBuilder] Chip toss generation error:", e)
-                    toss_line = None
-            if toss_line:
-                timeline.append({
-                    "type": "chip_toss",
-                    "speaker": "chip",
-                    "text": toss_line,
-                    "tone_shift": tone_shift
-                })
-    else:
-        # No show intro (mid-show segment) — Chip directly tosses to the primary anchor if needed
-        if primary_anchor != "chip":
-            toss_line = None
-            if USE_OPENAI_WRITER:
-                from script_engine.openai_writer import gpt_chip_toss
-                try:
-                    toss_line = gpt_chip_toss(
-                        next_anchor=primary_anchor,
-                        headline=headline,
-                        brain=brain,
-                        show_mode="news",
-                        pd_flags={}
-                    )
-                except Exception as e:
-                    print("[TimelineBuilder] Chip toss generation error:", e)
-                    toss_line = None
-            if toss_line:
-                timeline.append({
-                    "type": "chip_toss",
-                    "speaker": "chip",
-                    "text": toss_line,
-                    "tone_shift": tone_shift
-                })
-        else:
-            # If Chip is the primary anchor and there's no intro, he can start with a quick remark on the headline
-            if USE_OPENAI_WRITER:
-                try:
-                    chip_remark = gpt_reaction("chip", headline, brain)
-                except Exception as e:
-                    chip_remark = None
-                    print("[TimelineBuilder] Chip self-intro remark error:", e)
-            else:
-                chip_remark = None
-            if chip_remark:
-                timeline.append({
-                    "type": "chip_open",
-                    "speaker": "chip",
-                    "text": chip_remark,
-                    "tone_shift": tone_shift
-                })
-
-    # --------------------------------------------------------
-    # Primary Anchor's Reaction Line
-    # --------------------------------------------------------
-    reaction_text = build_reaction_line(speaker, headline, tone_shift=tone_shift)
-    timeline.append({
-        "type": "reaction",
-        "speaker": speaker,
-        "text": reaction_text,
-        "tone_shift": tone_shift
-    })
-
-    # --------------------------------------------------------
-    # Primary Anchor's Analysis Line
-    # --------------------------------------------------------
-    analysis_text = build_analysis_line(speaker, headline, synthesis, article_context, tone_shift=tone_shift)
-    timeline.append({
-        "type": "analysis",
-        "speaker": speaker,
-        "text": analysis_text,
-        "tone_shift": tone_shift
-    })
-
-    # --------------------------------------------------------
-    # Transition Line (anchors)
-    # --------------------------------------------------------
-    transition_text = build_transition_line(speaker, target_group="anchor", tone_shift=tone_shift)
-    timeline.append({
-        "type": "transition",
-        "speaker": speaker,
-        "text": transition_text,
-        "tone_shift": tone_shift
-    })
-
-    # --------------------------------------------------------
-    # Quick React (primary anchor follow-up)
-    # --------------------------------------------------------
-    react_text = build_anchor_react(speaker, headline, tone_shift=tone_shift)
-    timeline.append({
-        "type": "quick_react",
-        "speaker": speaker,
-        "text": react_text,
-        "tone_shift": tone_shift
-    })
-
-    # ------------------------------------------------------------
-    # Duo Logic — Round 1 (if a secondary anchor is present)
-    # ------------------------------------------------------------
-    if duo_anchor:
-        last_solo_speaker = timeline[-1]["speaker"] if timeline else None
-        duo_blocks = _build_duo_crosstalk(
-            primary_anchor,
-            duo_anchor,
-            headline,
-            synthesis,
-            tone_shift,
-            last_solo_speaker
+        intro_line = chip_open_line(time_of_day=pd_flags.get("daypart", "evening"))
+        chip_greet = gpt_chip_followup(
+            headline, synthesis, primary, duo, intro_line,
+            pd_flags, show_mode, brain, "general"
         )
-        timeline.extend(duo_blocks)
+        timeline.append(_block(chip_greet, "chip", "chip_intro"))
+        audio_blocks.append(_audio_block(chip_greet, "chip", "chip_intro"))
 
-    # ============================================================
-    # Chip Follow-Up (Patch 7) — Chip reacts after anchors finish
-    # ============================================================
-    if primary_anchor != "chip":
-        from script_engine.openai_writer import gpt_chip_followup, gpt_chip_toss
-        chip_domain = get_domain("chip")
-        chip_follow = None
+    # === 3. CHIP RUNDOWN REACTION ===
+    chip_react = gpt_reaction("chip", headline, brain)
+    timeline.append(_block(chip_react, "chip", "chip_rundown"))
+    audio_blocks.append(_audio_block(chip_react, "chip", "chip_rundown"))
+
+    # === 4. CHIP → PRIMARY TOSS ===
+    chip_toss = gpt_chip_toss(primary, headline, brain, show_mode, pd_flags)
+    timeline.append(_block(chip_toss, "chip", "chip_toss"))
+    audio_blocks.append(_audio_block(chip_toss, "chip", "chip_toss"))
+
+    # === 5. ANCHOR REACT ===
+    anchor_react = gpt_reaction(primary, headline, brain)
+    timeline.append(_block(anchor_react, primary, "primary_reaction"))
+    audio_blocks.append(_audio_block(anchor_react, primary, "primary_reaction"))
+
+    # === 6. DUO CROSSTALK (Optional) ===
+    if duo:
         try:
-            chip_follow = gpt_chip_followup(
-                headline=headline,
-                synthesis=synthesis,
-                primary=primary_anchor,
-                duo=duo_anchor,
-                last_line=timeline[-1]["text"] if timeline else "",
-                pd_flags={},
-                show_mode="news",
-                brain=brain,
-                chip_domain=chip_domain
-            )
+            l1 = gpt_duo_line(duo, primary, headline, "", show_mode, anchor_react, brain)
+            l2 = gpt_duo_line(primary, duo, headline, "", show_mode, l1, brain)
+            timeline.append(_block(l1, duo, "duo_crosstalk"))
+            timeline.append(_block(l2, primary, "duo_followup"))
+            audio_blocks.append(_audio_block(l1, duo, "duo_crosstalk"))
+            audio_blocks.append(_audio_block(l2, primary, "duo_followup"))
         except Exception as e:
-            print("[TimelineBuilder] Chip follow-up error:", e)
-            chip_follow = None
-        if chip_follow:
-            timeline.append({
-                "type": "chip_followup",
-                "speaker": "chip",
-                "text": chip_follow,
-                "tone_shift": tone_shift
-            })
-            # Chip smart-toss to next anchor (determine who speaks next)
-            next_anchor = primary_anchor  # default to primary anchor (no PD flags used here for brevity)
-            toss_line = None
-            try:
-                toss_line = gpt_chip_toss(
-                    next_anchor=next_anchor,
-                    headline=headline,
-                    brain=brain,
-                    show_mode="news",
-                    pd_flags={}
-                )
-            except Exception as e:
-                toss_line = None
-                print("[TimelineBuilder] Next-segment toss error:", e)
-            if toss_line:
-                timeline.append({
-                    "type": "chip_toss",
-                    "speaker": "chip",
-                    "text": toss_line,
-                    "tone_shift": tone_shift
-                })
-            # Removed the placeholder segment_reset line to avoid static script text
-            # (Next anchor will continue in the following segment without a spoken cue)
+            print("[TimelineBuilder] Duo crosstalk error:", e)
 
-    # (Patch 3+ additional follow-up question, round2 duo, Bitsy/Vega cameos, montage insertion omitted for brevity)
+    # === 7. ANCHOR ANALYSIS ===
+    analysis = gpt_analysis(primary, headline, synthesis, brain)
+    timeline.append(_block(analysis, primary, "anchor_analysis"))
+    audio_blocks.append(_audio_block(analysis, primary, "anchor_analysis"))
 
-    # Return timeline and audio_blocks (audio will be rendered separately)
+    # === 8. OPTIONAL INSERTS ===
+    if allow_vega:
+        vega_color = "With volatility rising, let’s keep the signal clean."  # or GPT-driven in future
+        timeline.append(_block(vega_color, "vega", "vega_block"))
+        audio_blocks.append(_audio_block(vega_color, "vega", "vega_block"))
+
+    if allow_bitsy:
+        bitsy = "Wait what? I was not ready for that headline."  # Replace with gpt_bitsy_interrupt() if desired
+        timeline.append(_block(bitsy, "bitsy", "bitsy_interrupt"))
+        audio_blocks.append(_audio_block(bitsy, "bitsy", "bitsy_interrupt"))
+
+    # === 9. CHIP OUTRO TRANSITION ===
+    if segment_type != "closing":
+        chip_next = gpt_story_transition(headline, brain)
+        timeline.append(_block(chip_next, "chip", "chip_transition"))
+        audio_blocks.append(_audio_block(chip_next, "chip", "chip_transition"))
+
     return {
         "timeline": timeline,
-        "audio_blocks": audio_blocks,
-        "unreal": {}
+        "audio_blocks": audio_blocks
     }

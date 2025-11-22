@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763757975.7575676,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of this combative resistance from unions.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763757972.549851
+    },
+    {
+      "speaker": "chip",
+      "text": "That's a concerning development that could have significant implications for those involved.",
+      "tag": "primary_reaction",
+      "timestamp": 1763757973.391758
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown over Labour Codes highlights a significant conflict between unions and government policies, potentially impacting labor rights and economic stability. As unions prepare for a combative response, the situation reflects broader market concerns regarding worker protections and regulatory changes. Observers will be closely monitoring the outcome, as it could influence future labor relations and economic sentiment.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763757975.455096
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763757975.7575598
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of this combative resistance from unions.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763757972.5498543,
+      "line": "\"Chip, break down the implications of this combative resistance from unions.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That's a concerning development that could have significant implications for those involved.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763757973.3917623,
+      "line": "That's a concerning development that could have significant implications for those involved.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown over Labour Codes highlights a significant conflict between unions and government policies, potentially impacting labor rights and economic stability. As unions prepare for a combative response, the situation reflects broader market concerns regarding worker protections and regulatory changes. Observers will be closely monitoring the outcome, as it could influence future labor relations and economic sentiment.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763757975.4551,
+      "line": "The upcoming showdown over Labour Codes highlights a significant conflict between unions and government policies, potentially impacting labor rights and economic stability. As unions prepare for a combative response, the situation reflects broader market concerns regarding worker protections and regulatory changes. Observers will be closely monitoring the outcome, as it could influence future labor relations and economic sentiment.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763757975.7575634,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

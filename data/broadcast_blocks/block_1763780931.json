@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763780931.5119574,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down how this \u20ac7 billion pledge is set to transform renewable energy in Africa.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763780924.999647
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises eyebrows and begs for a deeper investigation into the underlying issues.",
+      "tag": "primary_reaction",
+      "timestamp": 1763780929.126901
+    },
+    {
+      "speaker": "chip",
+      "text": "The European Union's commitment of \u20ac7 billion to renewable energy initiatives in Africa reflects a significant investment in sustainable development. This move not only addresses pressing energy needs but also aligns with global trends favoring green technology. As the market shifts towards sustainability, such pledges may enhance international cooperation and economic growth.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763780930.8797214
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition",
+      "timestamp": 1763780931.5119498
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down how this \u20ac7 billion pledge is set to transform renewable energy in Africa.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763780924.99965,
+      "line": "\"Chip, break down how this \u20ac7 billion pledge is set to transform renewable energy in Africa.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises eyebrows and begs for a deeper investigation into the underlying issues.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763780929.1269035,
+      "line": "That headline certainly raises eyebrows and begs for a deeper investigation into the underlying issues.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The European Union's commitment of \u20ac7 billion to renewable energy initiatives in Africa reflects a significant investment in sustainable development. This move not only addresses pressing energy needs but also aligns with global trends favoring green technology. As the market shifts towards sustainability, such pledges may enhance international cooperation and economic growth.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763780930.8797252,
+      "line": "The European Union's commitment of \u20ac7 billion to renewable energy initiatives in Africa reflects a significant investment in sustainable development. This move not only addresses pressing energy needs but also aligns with global trends favoring green technology. As the market shifts towards sustainability, such pledges may enhance international cooperation and economic growth.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international efforts in sustainable development.",
+      "block_type": "chip_transition",
+      "timestamp": 1763780931.511953,
+      "line": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

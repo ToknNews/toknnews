@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763773260.2400248,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the implications of this showdown and what it means for the unions.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763773256.9021492
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation certainly raises concerns about the potential repercussions on global stability.",
+      "tag": "primary_reaction",
+      "timestamp": 1763773257.6131907
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown related to Labour Codes highlights the escalating tensions between unions and government authorities. With a significant mobilization scheduled for November 26, this event could influence market stability and labor relations. Observers should monitor how these developments might impact broader economic sentiment moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763773259.5676467
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763773260.2400186
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the implications of this showdown and what it means for the unions.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763773256.902153,
+      "line": "\"Chip, break down the implications of this showdown and what it means for the unions.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation certainly raises concerns about the potential repercussions on global stability.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763773257.6131935,
+      "line": "The escalating situation certainly raises concerns about the potential repercussions on global stability.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown related to Labour Codes highlights the escalating tensions between unions and government authorities. With a significant mobilization scheduled for November 26, this event could influence market stability and labor relations. Observers should monitor how these developments might impact broader economic sentiment moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763773259.56765,
+      "line": "The upcoming showdown related to Labour Codes highlights the escalating tensions between unions and government authorities. With a significant mobilization scheduled for November 26, this event could influence market stability and labor relations. Observers should monitor how these developments might impact broader economic sentiment moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763773260.2400217,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

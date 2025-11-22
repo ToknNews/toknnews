@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763777119.644862,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down how the Labour Codes are sparking a fierce showdown with unions gearing up for a combative resistance.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763777116.3433225
+    },
+    {
+      "speaker": "chip",
+      "text": "It's crucial to stay informed as this situation develops, given its potential impact on many lives.",
+      "tag": "primary_reaction",
+      "timestamp": 1763777116.96935
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming confrontation on November 26 highlights the escalating tensions between labor unions and employers in response to recent changes in labor regulations. This situation reflects a significant shift in worker activism and could influence market conditions and economic sentiment. Observers will be keen to see how this resistance impacts future negotiations and workforce dynamics.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763777119.1558487
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning to another significant issue on the national agenda, we now focus on the ongoing labour dispute.",
+      "tag": "chip_transition",
+      "timestamp": 1763777119.6448545
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down how the Labour Codes are sparking a fierce showdown with unions gearing up for a combative resistance.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763777116.3433254,
+      "line": "\"Chip, break down how the Labour Codes are sparking a fierce showdown with unions gearing up for a combative resistance.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It's crucial to stay informed as this situation develops, given its potential impact on many lives.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763777116.9693549,
+      "line": "It's crucial to stay informed as this situation develops, given its potential impact on many lives.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming confrontation on November 26 highlights the escalating tensions between labor unions and employers in response to recent changes in labor regulations. This situation reflects a significant shift in worker activism and could influence market conditions and economic sentiment. Observers will be keen to see how this resistance impacts future negotiations and workforce dynamics.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763777119.1558514,
+      "line": "The upcoming confrontation on November 26 highlights the escalating tensions between labor unions and employers in response to recent changes in labor regulations. This situation reflects a significant shift in worker activism and could influence market conditions and economic sentiment. Observers will be keen to see how this resistance impacts future negotiations and workforce dynamics.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning to another significant issue on the national agenda, we now focus on the ongoing labour dispute.",
+      "block_type": "chip_transition",
+      "timestamp": 1763777119.644858,
+      "line": "Turning to another significant issue on the national agenda, we now focus on the ongoing labour dispute.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

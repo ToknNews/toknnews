@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763775861.9208524,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, let\u2019s dive into the top-rated small- and mid-cap healthcare stocks as LLY crosses that $1 trillion milestone.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763775856.4276052
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the stakes are as high as the prices shoppers are facing this season.",
+      "tag": "primary_reaction",
+      "timestamp": 1763775857.762108
+    },
+    {
+      "speaker": "cash",
+      "text": "The surge of LLY to a $1 trillion market cap underscores the growing investor confidence in the healthcare sector, particularly among smaller firms. As attention shifts to quant-rated stocks, it suggests that data-driven strategies are becoming increasingly pivotal in navigating market trends. This development could signal a shift in investment focus, as smaller players may soon capture greater interest.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763775861.5124698
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763775861.9208438
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, let\u2019s dive into the top-rated small- and mid-cap healthcare stocks as LLY crosses that $1 trillion milestone.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763775856.4276087,
+      "line": "\"Cash, let\u2019s dive into the top-rated small- and mid-cap healthcare stocks as LLY crosses that $1 trillion milestone.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the stakes are as high as the prices shoppers are facing this season.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763775857.7621121,
+      "line": "It seems the stakes are as high as the prices shoppers are facing this season.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The surge of LLY to a $1 trillion market cap underscores the growing investor confidence in the healthcare sector, particularly among smaller firms. As attention shifts to quant-rated stocks, it suggests that data-driven strategies are becoming increasingly pivotal in navigating market trends. This development could signal a shift in investment focus, as smaller players may soon capture greater interest.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763775861.5124733,
+      "line": "The surge of LLY to a $1 trillion market cap underscores the growing investor confidence in the healthcare sector, particularly among smaller firms. As attention shifts to quant-rated stocks, it suggests that data-driven strategies are becoming increasingly pivotal in navigating market trends. This development could signal a shift in investment focus, as smaller players may soon capture greater interest.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763775861.9208474,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763768178.7036412,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, what are the top quant-rated small- and mid-cap healthcare stocks making waves with LLY's milestone?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763768175.348097
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises more questions than it answers, leaving many eager for clarity.",
+      "tag": "primary_reaction",
+      "timestamp": 1763768176.3096166
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights the intersection of strong performance in smaller healthcare stocks with Eli Lilly achieving a significant market milestone. This reflects broader investor confidence in the healthcare sector, particularly among companies that may have strong growth potential. Additionally, it suggests that the momentum from large-cap successes can positively impact smaller players in the industry.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763768178.1858666
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector and market valuations.",
+      "tag": "chip_transition",
+      "timestamp": 1763768178.7036345
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, what are the top quant-rated small- and mid-cap healthcare stocks making waves with LLY's milestone?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763768175.3481007,
+      "line": "\"Chip, what are the top quant-rated small- and mid-cap healthcare stocks making waves with LLY's milestone?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises more questions than it answers, leaving many eager for clarity.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763768176.3096194,
+      "line": "That headline certainly raises more questions than it answers, leaving many eager for clarity.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights the intersection of strong performance in smaller healthcare stocks with Eli Lilly achieving a significant market milestone. This reflects broader investor confidence in the healthcare sector, particularly among companies that may have strong growth potential. Additionally, it suggests that the momentum from large-cap successes can positively impact smaller players in the industry.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763768178.1858704,
+      "line": "The headline highlights the intersection of strong performance in smaller healthcare stocks with Eli Lilly achieving a significant market milestone. This reflects broader investor confidence in the healthcare sector, particularly among companies that may have strong growth potential. Additionally, it suggests that the momentum from large-cap successes can positively impact smaller players in the industry.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector and market valuations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763768178.7036378,
+      "line": "Turning now to developments in the healthcare sector and market valuations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

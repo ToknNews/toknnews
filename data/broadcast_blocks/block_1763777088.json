@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763777088.7110825,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the unions' battle cry and what it means for workers come November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763777085.3183525
+    },
+    {
+      "speaker": "chip",
+      "text": "That tension could lead to significant developments in the coming days.",
+      "tag": "primary_reaction",
+      "timestamp": 1763777086.481694
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline signals a significant clash between unions and government authorities, with the potential for widespread implications on labor relations. The scheduled resistance indicates a growing discontent among workers, reflecting broader economic anxieties. This situation could influence market dynamics and investor confidence as it unfolds.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763777088.0853446
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763777088.7110753
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the unions' battle cry and what it means for workers come November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763777085.318355,
+      "line": "\"Chip, dive into the unions' battle cry and what it means for workers come November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That tension could lead to significant developments in the coming days.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763777086.481697,
+      "line": "That tension could lead to significant developments in the coming days.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline signals a significant clash between unions and government authorities, with the potential for widespread implications on labor relations. The scheduled resistance indicates a growing discontent among workers, reflecting broader economic anxieties. This situation could influence market dynamics and investor confidence as it unfolds.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763777088.0853481,
+      "line": "The headline signals a significant clash between unions and government authorities, with the potential for widespread implications on labor relations. The scheduled resistance indicates a growing discontent among workers, reflecting broader economic anxieties. This situation could influence market dynamics and investor confidence as it unfolds.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763777088.7110782,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763759218.1106458,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, outline the implications of the unions' upcoming actions on November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763759214.7323196
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating conflict raises urgent questions about regional stability and international response.",
+      "tag": "primary_reaction",
+      "timestamp": 1763759215.9100976
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming confrontation on November 26 highlights the escalating tensions between labor unions and employers, revealing deep-seated frustrations over the new Labour Codes. This situation not only signals a pivotal moment in labor relations but also reflects broader market reactions to regulatory changes. As unions prepare for a combative stance, it remains to be seen how this will impact worker solidarity and economic stability.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763759217.7191422
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labor relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763759218.1106381
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, outline the implications of the unions' upcoming actions on November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763759214.7323222,
+      "line": "\"Chip, outline the implications of the unions' upcoming actions on November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating conflict raises urgent questions about regional stability and international response.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763759215.910101,
+      "line": "The escalating conflict raises urgent questions about regional stability and international response.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming confrontation on November 26 highlights the escalating tensions between labor unions and employers, revealing deep-seated frustrations over the new Labour Codes. This situation not only signals a pivotal moment in labor relations but also reflects broader market reactions to regulatory changes. As unions prepare for a combative stance, it remains to be seen how this will impact worker solidarity and economic stability.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763759217.7191455,
+      "line": "The upcoming confrontation on November 26 highlights the escalating tensions between labor unions and employers, revealing deep-seated frustrations over the new Labour Codes. This situation not only signals a pivotal moment in labor relations but also reflects broader market reactions to regulatory changes. As unions prepare for a combative stance, it remains to be seen how this will impact worker solidarity and economic stability.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labor relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763759218.110642,
+      "line": "Turning now to a significant development in labor relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

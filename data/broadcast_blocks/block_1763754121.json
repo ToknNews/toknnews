@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763754121.9545434,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\u201cChip, break down the top quant-rated small- and mid-cap healthcare stocks as LLY soars past that $1 trillion market cap.\u201d",
+      "tag": "chip_toss",
+      "timestamp": 1763754119.1499982
+    },
+    {
+      "speaker": "chip",
+      "text": "The mounting uncertainty surrounding the latest developments is leaving many on edge.",
+      "tag": "primary_reaction",
+      "timestamp": 1763754119.5954125
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights a significant milestone for Eli Lilly, reaching a $1 trillion market cap, which underscores the growing investor confidence in the healthcare sector. It also suggests that quant ratings are increasingly influencing investment decisions in small- and mid-cap stocks, potentially shifting focus from larger firms. This trend reflects broader market movements, as smaller companies may benefit from the optimism surrounding industry leaders.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763754121.3958735
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763754121.9545364
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\u201cChip, break down the top quant-rated small- and mid-cap healthcare stocks as LLY soars past that $1 trillion market cap.\u201d",
+      "block_type": "chip_toss",
+      "timestamp": 1763754119.150001,
+      "line": "\u201cChip, break down the top quant-rated small- and mid-cap healthcare stocks as LLY soars past that $1 trillion market cap.\u201d",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The mounting uncertainty surrounding the latest developments is leaving many on edge.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763754119.595416,
+      "line": "The mounting uncertainty surrounding the latest developments is leaving many on edge.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights a significant milestone for Eli Lilly, reaching a $1 trillion market cap, which underscores the growing investor confidence in the healthcare sector. It also suggests that quant ratings are increasingly influencing investment decisions in small- and mid-cap stocks, potentially shifting focus from larger firms. This trend reflects broader market movements, as smaller companies may benefit from the optimism surrounding industry leaders.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763754121.3958786,
+      "line": "The headline highlights a significant milestone for Eli Lilly, reaching a $1 trillion market cap, which underscores the growing investor confidence in the healthcare sector. It also suggests that quant ratings are increasingly influencing investment decisions in small- and mid-cap stocks, potentially shifting focus from larger firms. This trend reflects broader market movements, as smaller companies may benefit from the optimism surrounding industry leaders.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the latest movements in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763754121.9545395,
+      "line": "Turning now to the latest movements in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

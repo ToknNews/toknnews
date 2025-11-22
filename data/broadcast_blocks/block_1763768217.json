@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763768217.4215598,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, let\u2019s dive into the bubble brewing around Nvidia and what it means for investors.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763768214.9878678
+    },
+    {
+      "speaker": "cash",
+      "text": "It's a classic case of retail's tug-of-war, where every dollar counts and strategy reigns supreme!",
+      "tag": "primary_reaction",
+      "timestamp": 1763768215.7591884
+    },
+    {
+      "speaker": "cash",
+      "text": "The mention of a bubble suggests heightened volatility and speculation surrounding Nvidia's stock. It reflects a growing market awareness that investor enthusiasm may be outpacing the company's fundamentals. Such sentiment can lead to quick gains, but also risks significant downturns if reality sets in.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763768217.0079815
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763768217.421553
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, let\u2019s dive into the bubble brewing around Nvidia and what it means for investors.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763768214.9878726,
+      "line": "\"Cash, let\u2019s dive into the bubble brewing around Nvidia and what it means for investors.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It's a classic case of retail's tug-of-war, where every dollar counts and strategy reigns supreme!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763768215.759192,
+      "line": "It's a classic case of retail's tug-of-war, where every dollar counts and strategy reigns supreme!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The mention of a bubble suggests heightened volatility and speculation surrounding Nvidia's stock. It reflects a growing market awareness that investor enthusiasm may be outpacing the company's fundamentals. Such sentiment can lead to quick gains, but also risks significant downturns if reality sets in.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763768217.0079856,
+      "line": "The mention of a bubble suggests heightened volatility and speculation surrounding Nvidia's stock. It reflects a growing market awareness that investor enthusiasm may be outpacing the company's fundamentals. Such sentiment can lead to quick gains, but also risks significant downturns if reality sets in.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763768217.421556,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

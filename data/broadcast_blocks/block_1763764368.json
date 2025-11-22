@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763764368.4040003,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the labor landscape as unions gear up for a showdown on November 26.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763764365.7661662
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises eyebrows and invites deeper investigation.",
+      "tag": "primary_reaction",
+      "timestamp": 1763764366.3239267
+    },
+    {
+      "speaker": "chip",
+      "text": "The upcoming showdown prompted by the Labour Codes reflects the growing tension between unions and government, highlighting a pivotal moment in labor relations. With unions preparing for a \"combative resistance,\" the event could significantly impact market dynamics and public sentiment. This scenario underscores the importance of monitoring labor developments as they may influence economic stability and workforce morale.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763764367.7241392
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition",
+      "timestamp": 1763764368.4039946
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the labor landscape as unions gear up for a showdown on November 26.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763764365.7661703,
+      "line": "\"Chip, break down the labor landscape as unions gear up for a showdown on November 26.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises eyebrows and invites deeper investigation.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763764366.3239298,
+      "line": "That headline certainly raises eyebrows and invites deeper investigation.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The upcoming showdown prompted by the Labour Codes reflects the growing tension between unions and government, highlighting a pivotal moment in labor relations. With unions preparing for a \"combative resistance,\" the event could significantly impact market dynamics and public sentiment. This scenario underscores the importance of monitoring labor developments as they may influence economic stability and workforce morale.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763764367.7241433,
+      "line": "The upcoming showdown prompted by the Labour Codes reflects the growing tension between unions and government, highlighting a pivotal moment in labor relations. With unions preparing for a \"combative resistance,\" the event could significantly impact market dynamics and public sentiment. This scenario underscores the importance of monitoring labor developments as they may influence economic stability and workforce morale.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a significant development in labour relations.",
+      "block_type": "chip_transition",
+      "timestamp": 1763764368.4039974,
+      "line": "Turning now to a significant development in labour relations.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

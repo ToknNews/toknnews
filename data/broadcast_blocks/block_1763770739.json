@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763770739.3060117,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down how these Labour Codes are igniting such fierce union pushback.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763770737.01667
+    },
+    {
+      "speaker": "chip",
+      "text": "That situation certainly raises eyebrows and demands closer scrutiny.",
+      "tag": "primary_reaction",
+      "timestamp": 1763770737.6711066
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending labor confrontation highlights the growing tensions between unions and employers, reflecting a shift in labor dynamics. As workers rally for better conditions, this push could signal a significant change in market attitudes. Observers will be keen to assess how this showdown influences economic stability and employee relations moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763770738.9259014
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to a developing labour dispute that is drawing significant attention.",
+      "tag": "chip_transition",
+      "timestamp": 1763770739.3060043
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down how these Labour Codes are igniting such fierce union pushback.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763770737.0166736,
+      "line": "\"Chip, break down how these Labour Codes are igniting such fierce union pushback.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That situation certainly raises eyebrows and demands closer scrutiny.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763770737.6711102,
+      "line": "That situation certainly raises eyebrows and demands closer scrutiny.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending labor confrontation highlights the growing tensions between unions and employers, reflecting a shift in labor dynamics. As workers rally for better conditions, this push could signal a significant change in market attitudes. Observers will be keen to assess how this showdown influences economic stability and employee relations moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763770738.925905,
+      "line": "The impending labor confrontation highlights the growing tensions between unions and employers, reflecting a shift in labor dynamics. As workers rally for better conditions, this push could signal a significant change in market attitudes. Observers will be keen to assess how this showdown influences economic stability and employee relations moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to a developing labour dispute that is drawing significant attention.",
+      "block_type": "chip_transition",
+      "timestamp": 1763770739.3060076,
+      "line": "Turning now to a developing labour dispute that is drawing significant attention.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

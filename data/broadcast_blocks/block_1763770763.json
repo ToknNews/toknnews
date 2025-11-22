@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763770763.2199647,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, let\u2019s dive into why everyone\u2019s buzzing about that Nvidia bubble.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763770758.197262
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the situation is heating up faster than a clearance sale on winter coats!",
+      "tag": "primary_reaction",
+      "timestamp": 1763770758.8007977
+    },
+    {
+      "speaker": "cash",
+      "text": "The headline suggests a growing awareness among investors regarding the inflated valuation of Nvidia's stock. This sentiment reflects broader market dynamics, where caution may be replacing blind optimism. Navigating such bubbles is crucial for potential investors looking to avoid pitfalls.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763770759.5038137
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia's market position.",
+      "tag": "chip_transition",
+      "timestamp": 1763770763.2199583
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, let\u2019s dive into why everyone\u2019s buzzing about that Nvidia bubble.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763770758.197266,
+      "line": "\"Cash, let\u2019s dive into why everyone\u2019s buzzing about that Nvidia bubble.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the situation is heating up faster than a clearance sale on winter coats!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763770758.8008008,
+      "line": "It seems the situation is heating up faster than a clearance sale on winter coats!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The headline suggests a growing awareness among investors regarding the inflated valuation of Nvidia's stock. This sentiment reflects broader market dynamics, where caution may be replacing blind optimism. Navigating such bubbles is crucial for potential investors looking to avoid pitfalls.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763770759.5038178,
+      "line": "The headline suggests a growing awareness among investors regarding the inflated valuation of Nvidia's stock. This sentiment reflects broader market dynamics, where caution may be replacing blind optimism. Navigating such bubbles is crucial for potential investors looking to avoid pitfalls.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia's market position.",
+      "block_type": "chip_transition",
+      "timestamp": 1763770763.2199612,
+      "line": "Turning now to the technology sector, where recent discussions have centered on Nvidia's market position.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763752883.87182,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down the implications of this bubble for investors.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763752881.3393054
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the stakes are rising faster than the price tags on those trendy sneakers!",
+      "tag": "primary_reaction",
+      "timestamp": 1763752881.9329176
+    },
+    {
+      "speaker": "cash",
+      "text": "Nvidia's acknowledgment of a potential bubble reflects a growing unease in the tech sector, highlighting the delicate balance between innovation and valuation. As market dynamics shift, investors may need to reassess their strategies to navigate the volatility. It's a classic case of \"what goes up must come down,\" but let's hope it's a gentle landing!",
+      "tag": "anchor_analysis",
+      "timestamp": 1763752883.4930208
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763752883.8718126
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down the implications of this bubble for investors.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763752881.3393092,
+      "line": "\"Cash, break down the implications of this bubble for investors.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the stakes are rising faster than the price tags on those trendy sneakers!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763752881.9329216,
+      "line": "It seems the stakes are rising faster than the price tags on those trendy sneakers!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Nvidia's acknowledgment of a potential bubble reflects a growing unease in the tech sector, highlighting the delicate balance between innovation and valuation. As market dynamics shift, investors may need to reassess their strategies to navigate the volatility. It's a classic case of \"what goes up must come down,\" but let's hope it's a gentle landing!",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763752883.4930234,
+      "line": "Nvidia's acknowledgment of a potential bubble reflects a growing unease in the tech sector, highlighting the delicate balance between innovation and valuation. As market dynamics shift, investors may need to reassess their strategies to navigate the volatility. It's a classic case of \"what goes up must come down,\" but let's hope it's a gentle landing!",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763752883.871816,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

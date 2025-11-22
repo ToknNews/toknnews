@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763764357.4262793,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into why everyone is buzzing about that Nvidia bubble.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763764354.2771013
+    },
+    {
+      "speaker": "chip",
+      "text": "Tension mounts as conflicting reports emerge, leaving the public eager for clarity amidst the chaos.",
+      "tag": "primary_reaction",
+      "timestamp": 1763764354.9419043
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock. This acknowledgment could reflect broader economic concerns, as market sentiment often shifts rapidly based on perceived risks. Such dynamics may lead to increased volatility for both Nvidia and the tech sector as a whole.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763764356.3898222
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the tech sector, where Nvidia\u2019s current market status has drawn significant attention.",
+      "tag": "chip_transition",
+      "timestamp": 1763764357.4262733
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into why everyone is buzzing about that Nvidia bubble.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763764354.277105,
+      "line": "\"Chip, dive into why everyone is buzzing about that Nvidia bubble.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Tension mounts as conflicting reports emerge, leaving the public eager for clarity amidst the chaos.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763764354.9419072,
+      "line": "Tension mounts as conflicting reports emerge, leaving the public eager for clarity amidst the chaos.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock. This acknowledgment could reflect broader economic concerns, as market sentiment often shifts rapidly based on perceived risks. Such dynamics may lead to increased volatility for both Nvidia and the tech sector as a whole.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763764356.3898256,
+      "line": "The headline suggests a growing awareness among investors regarding potential overvaluation in Nvidia's stock. This acknowledgment could reflect broader economic concerns, as market sentiment often shifts rapidly based on perceived risks. Such dynamics may lead to increased volatility for both Nvidia and the tech sector as a whole.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the tech sector, where Nvidia\u2019s current market status has drawn significant attention.",
+      "block_type": "chip_transition",
+      "timestamp": 1763764357.4262764,
+      "line": "Turning now to developments in the tech sector, where Nvidia\u2019s current market status has drawn significant attention.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

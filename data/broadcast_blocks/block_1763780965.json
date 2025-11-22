@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763780965.5394487,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "bond",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Reef, break down how this \u20ac7 billion pledge will reshape Africa's renewable energy landscape.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763780962.7546268
+    },
+    {
+      "speaker": "reef",
+      "text": "What a rollercoaster\u2014let's dive deeper into what this means for the future!",
+      "tag": "primary_reaction",
+      "timestamp": 1763780963.307862
+    },
+    {
+      "speaker": "reef",
+      "text": "The European Union's commitment of \u20ac7 billion to renewable energy initiatives in Africa highlights a strategic shift towards sustainable investment. This funding not only boosts green projects but also fosters economic growth and energy independence on the continent. The move aligns with broader market trends that emphasize environmental responsibility, signaling a potential paradigm shift in international cooperation.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763780965.2001212
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition",
+      "timestamp": 1763780965.5394409
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Reef, break down how this \u20ac7 billion pledge will reshape Africa's renewable energy landscape.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763780962.7546296,
+      "line": "\"Reef, break down how this \u20ac7 billion pledge will reshape Africa's renewable energy landscape.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "What a rollercoaster\u2014let's dive deeper into what this means for the future!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763780963.3078654,
+      "line": "What a rollercoaster\u2014let's dive deeper into what this means for the future!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "The European Union's commitment of \u20ac7 billion to renewable energy initiatives in Africa highlights a strategic shift towards sustainable investment. This funding not only boosts green projects but also fosters economic growth and energy independence on the continent. The move aligns with broader market trends that emphasize environmental responsibility, signaling a potential paradigm shift in international cooperation.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763780965.200125,
+      "line": "The European Union's commitment of \u20ac7 billion to renewable energy initiatives in Africa highlights a strategic shift towards sustainable investment. This funding not only boosts green projects but also fosters economic growth and energy independence on the continent. The move aligns with broader market trends that emphasize environmental responsibility, signaling a potential paradigm shift in international cooperation.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international efforts in sustainable development.",
+      "block_type": "chip_transition",
+      "timestamp": 1763780965.5394442,
+      "line": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "reef",
+    "duo": "lawson",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

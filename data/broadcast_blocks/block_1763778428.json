@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763778428.8224463,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, what's the buzz around Nvidia's bubble and how are investors reacting?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763778425.5784903
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems like the retail landscape is experiencing some serious growing pains\u2014let's see how this unfolds.",
+      "tag": "primary_reaction",
+      "timestamp": 1763778426.036189
+    },
+    {
+      "speaker": "cash",
+      "text": "The assertion that Nvidia is in a bubble suggests heightened speculation around its stock, which often accompanies investor enthusiasm. This scenario reflects broader market trends, where optimism may outpace economic fundamentals. Investors should approach with caution, balancing potential gains against the risks of a market correction.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763778428.204913
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763778428.8224401
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, what's the buzz around Nvidia's bubble and how are investors reacting?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763778425.5784926,
+      "line": "\"Cash, what's the buzz around Nvidia's bubble and how are investors reacting?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems like the retail landscape is experiencing some serious growing pains\u2014let's see how this unfolds.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763778426.0361927,
+      "line": "It seems like the retail landscape is experiencing some serious growing pains\u2014let's see how this unfolds.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The assertion that Nvidia is in a bubble suggests heightened speculation around its stock, which often accompanies investor enthusiasm. This scenario reflects broader market trends, where optimism may outpace economic fundamentals. Investors should approach with caution, balancing potential gains against the risks of a market correction.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763778428.2049177,
+      "line": "The assertion that Nvidia is in a bubble suggests heightened speculation around its stock, which often accompanies investor enthusiasm. This scenario reflects broader market trends, where optimism may outpace economic fundamentals. Investors should approach with caution, balancing potential gains against the risks of a market correction.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763778428.822443,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

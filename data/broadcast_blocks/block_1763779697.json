@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763779697.4717872,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, what are the standout small- and mid-cap healthcare stocks riding the wave with LLY's big milestone?\"",
+      "tag": "chip_toss",
+      "timestamp": 1763779694.908063
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the retail landscape is getting more competitive than a Black Friday sale at dawn!",
+      "tag": "primary_reaction",
+      "timestamp": 1763779695.820174
+    },
+    {
+      "speaker": "cash",
+      "text": "The surge of LLY to a trillion-dollar valuation underscores investor confidence in the healthcare sector, particularly among smaller and mid-cap stocks. As quantitative ratings highlight potential opportunities, this trend could draw more attention to lesser-known players in the industry. With a rising tide lifting all boats, savvy investors might want to keep their eyes peeled for hidden gems.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763779697.118716
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763779697.4717772
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, what are the standout small- and mid-cap healthcare stocks riding the wave with LLY's big milestone?\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763779694.9080656,
+      "line": "\"Cash, what are the standout small- and mid-cap healthcare stocks riding the wave with LLY's big milestone?\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the retail landscape is getting more competitive than a Black Friday sale at dawn!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763779695.8201783,
+      "line": "It seems the retail landscape is getting more competitive than a Black Friday sale at dawn!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The surge of LLY to a trillion-dollar valuation underscores investor confidence in the healthcare sector, particularly among smaller and mid-cap stocks. As quantitative ratings highlight potential opportunities, this trend could draw more attention to lesser-known players in the industry. With a rising tide lifting all boats, savvy investors might want to keep their eyes peeled for hidden gems.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763779697.1187198,
+      "line": "The surge of LLY to a trillion-dollar valuation underscores investor confidence in the healthcare sector, particularly among smaller and mid-cap stocks. As quantitative ratings highlight potential opportunities, this trend could draw more attention to lesser-known players in the industry. With a rising tide lifting all boats, savvy investors might want to keep their eyes peeled for hidden gems.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763779697.471782,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

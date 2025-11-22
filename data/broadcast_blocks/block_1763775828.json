@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763775828.1581275,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the best Quant-rated small- and mid-cap healthcare stocks now that LLY has hit that impressive $1 trillion market cap!\"",
+      "tag": "chip_toss",
+      "timestamp": 1763775825.3743234
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises eyebrows and prompts deeper investigation into the underlying issues at play.",
+      "tag": "primary_reaction",
+      "timestamp": 1763775825.972543
+    },
+    {
+      "speaker": "chip",
+      "text": "The achievement of Eli Lilly reaching a $1 trillion market cap underscores the increasing confidence in the healthcare sector, particularly among smaller and mid-cap stocks. Investors may be looking for growth opportunities in these segments as larger companies like LLY gain traction. This trend reflects an overall positive sentiment in the market, suggesting potential for further expansion in healthcare investments.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763775827.6923108
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763775828.1581185
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the best Quant-rated small- and mid-cap healthcare stocks now that LLY has hit that impressive $1 trillion market cap!\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763775825.374326,
+      "line": "\"Chip, dive into the best Quant-rated small- and mid-cap healthcare stocks now that LLY has hit that impressive $1 trillion market cap!\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises eyebrows and prompts deeper investigation into the underlying issues at play.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763775825.9725459,
+      "line": "That headline certainly raises eyebrows and prompts deeper investigation into the underlying issues at play.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The achievement of Eli Lilly reaching a $1 trillion market cap underscores the increasing confidence in the healthcare sector, particularly among smaller and mid-cap stocks. Investors may be looking for growth opportunities in these segments as larger companies like LLY gain traction. This trend reflects an overall positive sentiment in the market, suggesting potential for further expansion in healthcare investments.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763775827.6923144,
+      "line": "The achievement of Eli Lilly reaching a $1 trillion market cap underscores the increasing confidence in the healthcare sector, particularly among smaller and mid-cap stocks. Investors may be looking for growth opportunities in these segments as larger companies like LLY gain traction. This trend reflects an overall positive sentiment in the market, suggesting potential for further expansion in healthcare investments.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763775828.1581225,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

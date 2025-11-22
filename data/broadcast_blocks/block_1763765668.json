@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763765668.6938705,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down what this bubble means for investors and the tech landscape.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763765665.6937017
+    },
+    {
+      "speaker": "cash",
+      "text": "That\u2019s one way to make shopping a real nail-biter!",
+      "tag": "primary_reaction",
+      "timestamp": 1763765666.303089
+    },
+    {
+      "speaker": "cash",
+      "text": "Nvidia's acknowledgment of a bubble reflects a growing unease in tech markets, as investors weigh valuations against economic realities. This sentiment suggests that even powerhouse stocks are not immune to market corrections. It\u2019s a classic case of the tech sector riding high while keeping an eye on the ground below.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763765668.242481
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763765668.6938643
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down what this bubble means for investors and the tech landscape.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763765665.6937046,
+      "line": "\"Cash, break down what this bubble means for investors and the tech landscape.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "That\u2019s one way to make shopping a real nail-biter!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763765666.3030925,
+      "line": "That\u2019s one way to make shopping a real nail-biter!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "Nvidia's acknowledgment of a bubble reflects a growing unease in tech markets, as investors weigh valuations against economic realities. This sentiment suggests that even powerhouse stocks are not immune to market corrections. It\u2019s a classic case of the tech sector riding high while keeping an eye on the ground below.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763765668.2424853,
+      "line": "Nvidia's acknowledgment of a bubble reflects a growing unease in tech markets, as investors weigh valuations against economic realities. This sentiment suggests that even powerhouse stocks are not immune to market corrections. It\u2019s a classic case of the tech sector riding high while keeping an eye on the ground below.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763765668.6938672,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

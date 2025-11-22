@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763777093.590756,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down how this \u20ac7 billion pledge could reshape Africa's renewable energy landscape.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763777090.492817
+    },
+    {
+      "speaker": "chip",
+      "text": "The conflict continues to escalate, leaving many concerned about the potential for further unrest.",
+      "tag": "primary_reaction",
+      "timestamp": 1763777091.0921915
+    },
+    {
+      "speaker": "chip",
+      "text": "The European Union's commitment of \u20ac7 billion for renewable energy in Africa highlights a significant investment in sustainable development. This initiative reflects a growing recognition of the importance of green energy in global markets. It also signals a shift in international collaboration aimed at addressing climate change and energy access challenges.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763777092.831849
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international efforts, the European Union has announced a significant financial commitment toward renewable energy projects in Africa.",
+      "tag": "chip_transition",
+      "timestamp": 1763777093.59075
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down how this \u20ac7 billion pledge could reshape Africa's renewable energy landscape.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763777090.4928198,
+      "line": "\"Chip, break down how this \u20ac7 billion pledge could reshape Africa's renewable energy landscape.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The conflict continues to escalate, leaving many concerned about the potential for further unrest.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763777091.0921955,
+      "line": "The conflict continues to escalate, leaving many concerned about the potential for further unrest.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The European Union's commitment of \u20ac7 billion for renewable energy in Africa highlights a significant investment in sustainable development. This initiative reflects a growing recognition of the importance of green energy in global markets. It also signals a shift in international collaboration aimed at addressing climate change and energy access challenges.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763777092.8318532,
+      "line": "The European Union's commitment of \u20ac7 billion for renewable energy in Africa highlights a significant investment in sustainable development. This initiative reflects a growing recognition of the importance of green energy in global markets. It also signals a shift in international collaboration aimed at addressing climate change and energy access challenges.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international efforts, the European Union has announced a significant financial commitment toward renewable energy projects in Africa.",
+      "block_type": "chip_transition",
+      "timestamp": 1763777093.5907526,
+      "line": "Turning now to international efforts, the European Union has announced a significant financial commitment toward renewable energy projects in Africa.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

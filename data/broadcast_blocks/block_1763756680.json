@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763756680.3903909,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches this historic milestone.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763756676.5765402
+    },
+    {
+      "speaker": "chip",
+      "text": "The escalating situation demands our immediate attention as implications could ripple far beyond the initial conflict.",
+      "tag": "primary_reaction",
+      "timestamp": 1763756677.3320224
+    },
+    {
+      "speaker": "chip",
+      "text": "The achievement of LLY reaching a $1 trillion market cap highlights robust investor confidence in the healthcare sector. This milestone could signal an upward trend for small- and mid-cap stocks, as they often benefit from the positive momentum of larger companies. Additionally, the focus on quant ratings suggests a data-driven approach to identifying potential growth opportunities within this niche.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763756679.6862948
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to market insights, we examine the leading quant-rated small- and mid-cap healthcare stocks as LLY reaches a $1 trillion market capitalization.",
+      "tag": "chip_transition",
+      "timestamp": 1763756680.3903825
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches this historic milestone.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763756676.576544,
+      "line": "\"Chip, break down the top Quant-rated small- and mid-cap healthcare stocks as LLY reaches this historic milestone.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The escalating situation demands our immediate attention as implications could ripple far beyond the initial conflict.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763756677.332026,
+      "line": "The escalating situation demands our immediate attention as implications could ripple far beyond the initial conflict.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The achievement of LLY reaching a $1 trillion market cap highlights robust investor confidence in the healthcare sector. This milestone could signal an upward trend for small- and mid-cap stocks, as they often benefit from the positive momentum of larger companies. Additionally, the focus on quant ratings suggests a data-driven approach to identifying potential growth opportunities within this niche.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763756679.6862984,
+      "line": "The achievement of LLY reaching a $1 trillion market cap highlights robust investor confidence in the healthcare sector. This milestone could signal an upward trend for small- and mid-cap stocks, as they often benefit from the positive momentum of larger companies. Additionally, the focus on quant ratings suggests a data-driven approach to identifying potential growth opportunities within this niche.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to market insights, we examine the leading quant-rated small- and mid-cap healthcare stocks as LLY reaches a $1 trillion market capitalization.",
+      "block_type": "chip_transition",
+      "timestamp": 1763756680.3903863,
+      "line": "Turning now to market insights, we examine the leading quant-rated small- and mid-cap healthcare stocks as LLY reaches a $1 trillion market capitalization.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

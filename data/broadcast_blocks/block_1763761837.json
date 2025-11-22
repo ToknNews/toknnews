@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763761837.4896202,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\u201cCash, what are the top quant-rated small- and mid-cap healthcare stocks to watch as LLY reaches a milestone?\u201d",
+      "tag": "chip_toss",
+      "timestamp": 1763761834.2630656
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the retail sector is holding its breath, waiting to see if consumers will keep their wallets closed or open them wide.",
+      "tag": "primary_reaction",
+      "timestamp": 1763761834.9560335
+    },
+    {
+      "speaker": "cash",
+      "text": "The surge of Eli Lilly to a $1 trillion market cap underscores growing investor confidence in the healthcare sector. As small- and mid-cap stocks gain attention, it's clear that the market is favoring nimble players over giants. Investors should keep an eye on these quant-rated picks as they could potentially offer significant returns in a shifting landscape.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763761836.6361144
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763761837.4896116
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\u201cCash, what are the top quant-rated small- and mid-cap healthcare stocks to watch as LLY reaches a milestone?\u201d",
+      "block_type": "chip_toss",
+      "timestamp": 1763761834.2630687,
+      "line": "\u201cCash, what are the top quant-rated small- and mid-cap healthcare stocks to watch as LLY reaches a milestone?\u201d",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the retail sector is holding its breath, waiting to see if consumers will keep their wallets closed or open them wide.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763761834.9560375,
+      "line": "It seems the retail sector is holding its breath, waiting to see if consumers will keep their wallets closed or open them wide.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The surge of Eli Lilly to a $1 trillion market cap underscores growing investor confidence in the healthcare sector. As small- and mid-cap stocks gain attention, it's clear that the market is favoring nimble players over giants. Investors should keep an eye on these quant-rated picks as they could potentially offer significant returns in a shifting landscape.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763761836.6361172,
+      "line": "The surge of Eli Lilly to a $1 trillion market cap underscores growing investor confidence in the healthcare sector. As small- and mid-cap stocks gain attention, it's clear that the market is favoring nimble players over giants. Investors should keep an eye on these quant-rated picks as they could potentially offer significant returns in a shifting landscape.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the healthcare sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763761837.4896154,
+      "line": "Turning now to developments in the healthcare sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

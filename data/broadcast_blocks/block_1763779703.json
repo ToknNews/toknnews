@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763779703.9062724,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down how this bubble could impact investors in the long run.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763779700.8642514
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the retail landscape is as unpredictable as a cat on a hot tin roof!",
+      "tag": "primary_reaction",
+      "timestamp": 1763779701.4832802
+    },
+    {
+      "speaker": "cash",
+      "text": "The assertion of a bubble surrounding Nvidia suggests a critical examination of market valuations, raising questions about sustainability. As investor enthusiasm surges, the potential for volatility looms large, impacting broader market sentiment. This could signal caution for stakeholders, urging a reassessment of risk versus reward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763779703.05595
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763779703.9062655
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down how this bubble could impact investors in the long run.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763779700.8642552,
+      "line": "\"Cash, break down how this bubble could impact investors in the long run.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the retail landscape is as unpredictable as a cat on a hot tin roof!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763779701.4832835,
+      "line": "It seems the retail landscape is as unpredictable as a cat on a hot tin roof!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The assertion of a bubble surrounding Nvidia suggests a critical examination of market valuations, raising questions about sustainability. As investor enthusiasm surges, the potential for volatility looms large, impacting broader market sentiment. This could signal caution for stakeholders, urging a reassessment of risk versus reward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763779703.055954,
+      "line": "The assertion of a bubble surrounding Nvidia suggests a critical examination of market valuations, raising questions about sustainability. As investor enthusiasm surges, the potential for volatility looms large, impacting broader market sentiment. This could signal caution for stakeholders, urging a reassessment of risk versus reward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the technology sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763779703.9062684,
+      "line": "Turning now to developments in the technology sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

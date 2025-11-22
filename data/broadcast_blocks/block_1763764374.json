@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763764374.8823025,
+  "headline": "EU Pledges \u20ac7 Billion Toward Renewable Energy in Africa",
+  "character": "bond",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Reef, let\u2019s dive into how this \u20ac7 billion pledge could reshape Africa's energy landscape.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763764371.7996
+    },
+    {
+      "speaker": "reef",
+      "text": "The escalating uncertainty in the decentralized finance landscape seems poised to redefine investment strategies overnight.",
+      "tag": "primary_reaction",
+      "timestamp": 1763764372.8646019
+    },
+    {
+      "speaker": "reef",
+      "text": "The European Union's commitment of \u20ac7 billion for renewable energy in Africa underscores a significant shift towards sustainable investments on the continent. This initiative reflects a growing market sentiment that prioritizes green technology and international collaboration. As nations increasingly focus on climate resilience, such funding could catalyze economic growth and innovation in Africa's energy sector.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763764374.4918706
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition",
+      "timestamp": 1763764374.8822956
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Reef, let\u2019s dive into how this \u20ac7 billion pledge could reshape Africa's energy landscape.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763764371.7996037,
+      "line": "\"Reef, let\u2019s dive into how this \u20ac7 billion pledge could reshape Africa's energy landscape.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "The escalating uncertainty in the decentralized finance landscape seems poised to redefine investment strategies overnight.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763764372.864605,
+      "line": "The escalating uncertainty in the decentralized finance landscape seems poised to redefine investment strategies overnight.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "reef",
+      "voice_id": "7pLXpsTZ3rOalpNWmYqI",
+      "text": "The European Union's commitment of \u20ac7 billion for renewable energy in Africa underscores a significant shift towards sustainable investments on the continent. This initiative reflects a growing market sentiment that prioritizes green technology and international collaboration. As nations increasingly focus on climate resilience, such funding could catalyze economic growth and innovation in Africa's energy sector.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763764374.4918754,
+      "line": "The European Union's commitment of \u20ac7 billion for renewable energy in Africa underscores a significant shift towards sustainable investments on the continent. This initiative reflects a growing market sentiment that prioritizes green technology and international collaboration. As nations increasingly focus on climate resilience, such funding could catalyze economic growth and innovation in Africa's energy sector.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to international efforts in sustainable development.",
+      "block_type": "chip_transition",
+      "timestamp": 1763764374.8822987,
+      "line": "Turning now to international efforts in sustainable development.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "reef",
+    "duo": "lawson",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

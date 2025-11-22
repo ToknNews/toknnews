@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763763084.4894664,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down why everyone's buzzing about Nvidia's bubble.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763763081.0982215
+    },
+    {
+      "speaker": "chip",
+      "text": "It's fascinating how tension can sometimes lead to unexpected resolutions in challenging situations.",
+      "tag": "primary_reaction",
+      "timestamp": 1763763082.2382274
+    },
+    {
+      "speaker": "chip",
+      "text": "The statement from Nvidia highlights a growing awareness of market conditions, suggesting that investors are increasingly cautious about valuations. As sentiment shifts, this could lead to more volatility in tech stocks, particularly in the semiconductor sector. Observers will likely be watching closely to see how this bubble talk influences trading behavior.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763763084.0491796
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent developments have sparked significant discussion.",
+      "tag": "chip_transition",
+      "timestamp": 1763763084.4894567
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down why everyone's buzzing about Nvidia's bubble.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763763081.0982249,
+      "line": "\"Chip, break down why everyone's buzzing about Nvidia's bubble.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It's fascinating how tension can sometimes lead to unexpected resolutions in challenging situations.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763763082.238233,
+      "line": "It's fascinating how tension can sometimes lead to unexpected resolutions in challenging situations.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The statement from Nvidia highlights a growing awareness of market conditions, suggesting that investors are increasingly cautious about valuations. As sentiment shifts, this could lead to more volatility in tech stocks, particularly in the semiconductor sector. Observers will likely be watching closely to see how this bubble talk influences trading behavior.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763763084.0491824,
+      "line": "The statement from Nvidia highlights a growing awareness of market conditions, suggesting that investors are increasingly cautious about valuations. As sentiment shifts, this could lead to more volatility in tech stocks, particularly in the semiconductor sector. Observers will likely be watching closely to see how this bubble talk influences trading behavior.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent developments have sparked significant discussion.",
+      "block_type": "chip_transition",
+      "timestamp": 1763763084.4894607,
+      "line": "Turning now to the technology sector, where recent developments have sparked significant discussion.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

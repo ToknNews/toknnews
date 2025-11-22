@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763760518.6943054,
+  "headline": "Best Quant-rated small- and mid-cap healthcare stocks as LLY hits $1T in market cap",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, shed light on the top Quant-rated small- and mid-cap healthcare stocks now that LLY has reached a $1 trillion market cap.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763760515.2444136
+    },
+    {
+      "speaker": "chip",
+      "text": "This situation certainly raises critical questions about accountability and the consequences of such actions.",
+      "tag": "primary_reaction",
+      "timestamp": 1763760516.221579
+    },
+    {
+      "speaker": "chip",
+      "text": "The achievement of LLY reaching a $1 trillion market cap highlights the growing investor confidence in the healthcare sector, particularly among smaller and mid-sized companies. This trend may signal increased interest in innovative therapies and technologies as markets evolve. Investors should closely monitor these quant-rated stocks for potential opportunities amidst shifting market dynamics.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763760518.0319438
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the healthcare sector, where recent market movements have drawn considerable attention.",
+      "tag": "chip_transition",
+      "timestamp": 1763760518.6942978
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, shed light on the top Quant-rated small- and mid-cap healthcare stocks now that LLY has reached a $1 trillion market cap.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763760515.2444167,
+      "line": "\"Chip, shed light on the top Quant-rated small- and mid-cap healthcare stocks now that LLY has reached a $1 trillion market cap.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "This situation certainly raises critical questions about accountability and the consequences of such actions.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763760516.221582,
+      "line": "This situation certainly raises critical questions about accountability and the consequences of such actions.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The achievement of LLY reaching a $1 trillion market cap highlights the growing investor confidence in the healthcare sector, particularly among smaller and mid-sized companies. This trend may signal increased interest in innovative therapies and technologies as markets evolve. Investors should closely monitor these quant-rated stocks for potential opportunities amidst shifting market dynamics.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763760518.0319476,
+      "line": "The achievement of LLY reaching a $1 trillion market cap highlights the growing investor confidence in the healthcare sector, particularly among smaller and mid-sized companies. This trend may signal increased interest in innovative therapies and technologies as markets evolve. Investors should closely monitor these quant-rated stocks for potential opportunities amidst shifting market dynamics.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the healthcare sector, where recent market movements have drawn considerable attention.",
+      "block_type": "chip_transition",
+      "timestamp": 1763760518.6943011,
+      "line": "Turning now to the healthcare sector, where recent market movements have drawn considerable attention.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "bond",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763759280.5688212,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down why many believe Nvidia is sitting on a bubble.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763759277.5611632
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the retail world is on edge, bracing for a potential shake-up that could leave many scrambling for stability.",
+      "tag": "primary_reaction",
+      "timestamp": 1763759278.6800663
+    },
+    {
+      "speaker": "cash",
+      "text": "The headline suggests a growing skepticism about Nvidia's stock valuation amid market volatility. If investors are aware of a potential bubble, it raises questions about the sustainability of current prices. This sentiment could lead to a reassessment of investments in the tech sector as a whole.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763759280.0617452
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where concerns about market valuation are drawing attention.",
+      "tag": "chip_transition",
+      "timestamp": 1763759280.5688105
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down why many believe Nvidia is sitting on a bubble.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763759277.5611675,
+      "line": "\"Cash, break down why many believe Nvidia is sitting on a bubble.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the retail world is on edge, bracing for a potential shake-up that could leave many scrambling for stability.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763759278.6800694,
+      "line": "It seems the retail world is on edge, bracing for a potential shake-up that could leave many scrambling for stability.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The headline suggests a growing skepticism about Nvidia's stock valuation amid market volatility. If investors are aware of a potential bubble, it raises questions about the sustainability of current prices. This sentiment could lead to a reassessment of investments in the tech sector as a whole.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763759280.0617497,
+      "line": "The headline suggests a growing skepticism about Nvidia's stock valuation amid market volatility. If investors are aware of a potential bubble, it raises questions about the sustainability of current prices. This sentiment could lead to a reassessment of investments in the tech sector as a whole.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where concerns about market valuation are drawing attention.",
+      "block_type": "chip_transition",
+      "timestamp": 1763759280.5688155,
+      "line": "Turning now to the technology sector, where concerns about market valuation are drawing attention.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "evening"
+  }
+}

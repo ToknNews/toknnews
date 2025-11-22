@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763775868.1765232,
+  "headline": "Nvidia: Everyone Knows There's A Bubble (NASDAQ:NVDA)",
+  "character": "cash",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Cash, break down how this bubble is impacting investors and what we can expect next.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763775864.7073562
+    },
+    {
+      "speaker": "cash",
+      "text": "It seems the retail landscape is in for a bumpy ride\u2014hold onto your shopping carts!",
+      "tag": "primary_reaction",
+      "timestamp": 1763775865.379298
+    },
+    {
+      "speaker": "cash",
+      "text": "The headline suggests a growing awareness among investors about potential overvaluation in Nvidia's stock. It reflects a sentiment that extends beyond the tech sector, hinting at a wider apprehension regarding market sustainability. As speculation swirls, it raises the question: is it time for a reality check or just a momentary blip?",
+      "tag": "anchor_analysis",
+      "timestamp": 1763775867.6549537
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia's market valuation.",
+      "tag": "chip_transition",
+      "timestamp": 1763775868.176518
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Cash, break down how this bubble is impacting investors and what we can expect next.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763775864.7073593,
+      "line": "\"Cash, break down how this bubble is impacting investors and what we can expect next.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "It seems the retail landscape is in for a bumpy ride\u2014hold onto your shopping carts!",
+      "block_type": "primary_reaction",
+      "timestamp": 1763775865.379301,
+      "line": "It seems the retail landscape is in for a bumpy ride\u2014hold onto your shopping carts!",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "cash",
+      "voice_id": "b2zP5WtU6zW1RDLwR1VL",
+      "text": "The headline suggests a growing awareness among investors about potential overvaluation in Nvidia's stock. It reflects a sentiment that extends beyond the tech sector, hinting at a wider apprehension regarding market sustainability. As speculation swirls, it raises the question: is it time for a reality check or just a momentary blip?",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763775867.6549566,
+      "line": "The headline suggests a growing awareness among investors about potential overvaluation in Nvidia's stock. It reflects a sentiment that extends beyond the tech sector, hinting at a wider apprehension regarding market sustainability. As speculation swirls, it raises the question: is it time for a reality check or just a momentary blip?",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to the technology sector, where recent discussions have centered on Nvidia's market valuation.",
+      "block_type": "chip_transition",
+      "timestamp": 1763775868.17652,
+      "line": "Turning now to the technology sector, where recent discussions have centered on Nvidia's market valuation.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "cash",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

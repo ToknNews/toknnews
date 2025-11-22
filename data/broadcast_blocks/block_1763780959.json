@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763780959.0139604,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, dive into the unions' bold stance as they prepare for a showdown on the Labour Codes.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763780956.2567585
+    },
+    {
+      "speaker": "chip",
+      "text": "It seems that the stakes have never been higher in this unfolding situation.",
+      "tag": "primary_reaction",
+      "timestamp": 1763780956.812579
+    },
+    {
+      "speaker": "chip",
+      "text": "The headline highlights escalating tensions between labor unions and government policies, suggesting a significant confrontation is on the horizon. Such resistance could impact workforce dynamics and economic stability, potentially influencing market reactions. Observers will be keen to see how this conflict unfolds on November 26 and its implications for both workers and employers.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763780958.468058
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in labour relations, where tensions are escalating ahead of a planned union response.",
+      "tag": "chip_transition",
+      "timestamp": 1763780959.0139494
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, dive into the unions' bold stance as they prepare for a showdown on the Labour Codes.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763780956.2567623,
+      "line": "\"Chip, dive into the unions' bold stance as they prepare for a showdown on the Labour Codes.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It seems that the stakes have never been higher in this unfolding situation.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763780956.8125832,
+      "line": "It seems that the stakes have never been higher in this unfolding situation.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The headline highlights escalating tensions between labor unions and government policies, suggesting a significant confrontation is on the horizon. Such resistance could impact workforce dynamics and economic stability, potentially influencing market reactions. Observers will be keen to see how this conflict unfolds on November 26 and its implications for both workers and employers.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763780958.4680614,
+      "line": "The headline highlights escalating tensions between labor unions and government policies, suggesting a significant confrontation is on the horizon. Such resistance could impact workforce dynamics and economic stability, potentially influencing market reactions. Observers will be keen to see how this conflict unfolds on November 26 and its implications for both workers and employers.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in labour relations, where tensions are escalating ahead of a planned union response.",
+      "block_type": "chip_transition",
+      "timestamp": 1763780959.0139542,
+      "line": "Turning now to developments in labour relations, where tensions are escalating ahead of a planned union response.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

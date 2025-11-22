@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763772014.4974372,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down the union's strategy for this impending showdown.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763772012.5015445
+    },
+    {
+      "speaker": "chip",
+      "text": "That headline certainly raises some eyebrows and invites deeper discussion.",
+      "tag": "primary_reaction",
+      "timestamp": 1763772013.0446756
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending showdown over the Labour Codes highlights an escalating tension between unions and government authorities. With unions advocating for \u201ccombative resistance,\u201d this conflict could significantly influence labor relations and economic stability. Observers should monitor how this unrest interacts with market dynamics and overall public sentiment in the coming weeks.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763772014.1587842
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to an unfolding dispute in the labour sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763772014.4974277
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down the union's strategy for this impending showdown.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763772012.5015476,
+      "line": "\"Chip, break down the union's strategy for this impending showdown.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "That headline certainly raises some eyebrows and invites deeper discussion.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763772013.0446787,
+      "line": "That headline certainly raises some eyebrows and invites deeper discussion.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending showdown over the Labour Codes highlights an escalating tension between unions and government authorities. With unions advocating for \u201ccombative resistance,\u201d this conflict could significantly influence labor relations and economic stability. Observers should monitor how this unrest interacts with market dynamics and overall public sentiment in the coming weeks.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763772014.1587873,
+      "line": "The impending showdown over the Labour Codes highlights an escalating tension between unions and government authorities. With unions advocating for \u201ccombative resistance,\u201d this conflict could significantly influence labor relations and economic stability. Observers should monitor how this unrest interacts with market dynamics and overall public sentiment in the coming weeks.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to an unfolding dispute in the labour sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763772014.4974322,
+      "line": "Turning now to an unfolding dispute in the labour sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}

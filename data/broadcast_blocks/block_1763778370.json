@@ -1,0 +1,77 @@
+{
+  "timestamp": 1763778370.165566,
+  "headline": "Labour Codes trigger showdown, Unions call \u2018combative resistance\u2019 on Nov 26",
+  "character": "chip",
+  "segment_type": "headline",
+  "synthesis": "This ties into broader market movement and sentiment.",
+  "timeline": [
+    {
+      "speaker": "chip",
+      "text": "\"Chip, break down what this \u2018combative resistance\u2019 means for workers and the future of these Labour Codes.\"",
+      "tag": "chip_toss",
+      "timestamp": 1763778365.7581437
+    },
+    {
+      "speaker": "chip",
+      "text": "It seems the stakes have just risen dramatically in this unfolding situation.",
+      "tag": "primary_reaction",
+      "timestamp": 1763778366.7075906
+    },
+    {
+      "speaker": "chip",
+      "text": "The impending confrontation on November 26 highlights the escalating tensions between labor unions and management in response to the new Labour Codes. This development reflects not only local grievances but also broader economic sentiments, potentially impacting market stability. Stakeholders will be keenly observing how this standoff unfolds, as it could set significant precedents for labor relations moving forward.",
+      "tag": "anchor_analysis",
+      "timestamp": 1763778369.5077722
+    },
+    {
+      "speaker": "chip",
+      "text": "Turning now to developments in the labour sector.",
+      "tag": "chip_transition",
+      "timestamp": 1763778370.165559
+    }
+  ],
+  "audio_blocks": [
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "\"Chip, break down what this \u2018combative resistance\u2019 means for workers and the future of these Labour Codes.\"",
+      "block_type": "chip_toss",
+      "timestamp": 1763778365.758148,
+      "line": "\"Chip, break down what this \u2018combative resistance\u2019 means for workers and the future of these Labour Codes.\"",
+      "tag": "chip_toss"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "It seems the stakes have just risen dramatically in this unfolding situation.",
+      "block_type": "primary_reaction",
+      "timestamp": 1763778366.7075953,
+      "line": "It seems the stakes have just risen dramatically in this unfolding situation.",
+      "tag": "primary_reaction"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "The impending confrontation on November 26 highlights the escalating tensions between labor unions and management in response to the new Labour Codes. This development reflects not only local grievances but also broader economic sentiments, potentially impacting market stability. Stakeholders will be keenly observing how this standoff unfolds, as it could set significant precedents for labor relations moving forward.",
+      "block_type": "anchor_analysis",
+      "timestamp": 1763778369.507777,
+      "line": "The impending confrontation on November 26 highlights the escalating tensions between labor unions and management in response to the new Labour Codes. This development reflects not only local grievances but also broader economic sentiments, potentially impacting market stability. Stakeholders will be keenly observing how this standoff unfolds, as it could set significant precedents for labor relations moving forward.",
+      "tag": "anchor_analysis"
+    },
+    {
+      "speaker": "chip",
+      "voice_id": "teAyVVX8spybXkITa1A0",
+      "text": "Turning now to developments in the labour sector.",
+      "block_type": "chip_transition",
+      "timestamp": 1763778370.1655624,
+      "line": "Turning now to developments in the labour sector.",
+      "tag": "chip_transition"
+    }
+  ],
+  "unreal": {
+    "primary": "chip",
+    "duo": "reef",
+    "segment_type": "headline",
+    "daypart": "latenight"
+  }
+}
